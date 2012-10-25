@@ -1,0 +1,49 @@
+#include <Read.H>
+#include <string.h>
+
+using namespace std;
+
+
+
+double read_some(double X) {
+ifstream myfile;
+int i;
+string line;
+string name;
+string value_s;
+float value;
+char item[20];
+myfile.open ("green.in");
+  if (myfile.is_open())
+  {
+    if( myfile.is_open() )
+    { 
+      
+      /*while(! myfile.eof()) 
+      {
+       getline(myfile, name, '=');
+       myfile >>  value;
+       myfile.ignore(2);
+       cout << "name is   "<<name<<endl; 
+       cout << "value is   "<<value<<endl;
+       continue;
+       }*/
+       while(!getline(myfile,name,'=').eof())
+       {
+         cout<<"name is "<<name<<endl;
+         getline(myfile,value_s);
+         cout<<"vlaueis ";
+         cout<<atof(value_s.c_str())<<endl;
+        }
+     }
+    myfile.close();
+  }
+
+  else cout << "Unable to open file"; 
+
+  return 0;
+
+
+
+
+}

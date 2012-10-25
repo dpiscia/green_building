@@ -1,0 +1,10 @@
+#include <Radiation.H>
+
+using namespace std;
+
+//Radiation(){};
+
+vector<double> Radiation::qradiation(){
+cout<<"Area calculation "<<endl;
+return Area;
+};

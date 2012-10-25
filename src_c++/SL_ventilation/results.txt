@@ -1,0 +1,4 @@
+Temperature cover=-276.453382
+Temperature inside=-276.237847
+RH inside=-0.863770538
+cond_rate=-0

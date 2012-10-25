@@ -1,0 +1,102 @@
+#include <Function.H>
+
+using namespace std;
+
+
+
+double convective_coef_forced(double X,double v) {
+double Pr =0.7;
+double rho = 1.2;
+double viscosity = 1.8*pow(10,-5);
+double Re =(X*rho*v)/viscosity;
+cout<<"reynold is "<<Re<<endl;
+double Nu;
+Nu = 0.037*pow(Re,0.8)*pow(Pr,0.3333);
+cout<<"Nusselt is "<<Nu<<endl;
+double k=0.024;
+double coef;
+coef = k*Nu/X;
+cout<<"coef "<<coef<<endl;
+return coef;
+};
+
+
+double convective_coef_natural(double X,double T_wall,double T_fluid){
+double k=0.024;
+double Pr=0.7;
+double rho = 1.2;
+double viscosity = 1.8*pow(10,-5);
+double g = 9.8;
+double Gr;
+double T_ref = 283;
+double beta = 1/T_ref;
+double deltaT = fabs(T_wall-T_fluid);
+Gr = g*beta*pow(rho,2)*deltaT*pow(X,3)/(pow(viscosity,2));
+cout<<"Gr "<<Gr<<endl;
+double  C,n,K;
+C = 0.068;
+n = 0.3333;
+K = pow(Pr,-0.3333);
+double Nu = C*pow((Gr*Pr),n)*K;
+cout<<"Nu is "<<Nu<<endl;
+double coef = k*Nu/X;
+cout<<"coef "<<coef<<endl;
+//two horizontal parallel plates cold plate upper most
+return coef;
+};
+
+double convective_coef_natural_2(double X,double T_wall,double T_fluid){
+double k=0.024;
+double Pr=0.7;
+double rho = 1.2;
+double viscosity = 1.8*pow(10,-5);
+double g = 9.8;
+double Gr;
+double T_ref = 283;
+double beta = 1/T_ref;
+double deltaT = fabs(T_wall-T_fluid);
+Gr = g*beta*pow(rho,2)*deltaT*pow(X,3)/(pow(viscosity,2));
+cout<<"Gr "<<Gr<<endl;
+double  C,n,K;
+C = 0.14;
+n = 0.3333;
+K = 1;
+double Nu = C*pow((Gr*Pr),n)*K;
+cout<<"Nu is "<<Nu<<endl;
+double coef = k*Nu/X;
+cout<<"coef "<<coef<<endl;
+//two horizontal parallel plates cold plate upper most
+return coef;
+};
+
+
+void print_result(vector<double> Temp_solid,vector<double> Temp_fluid,vector<double> Pressure, vector<double> velocity, int size)
+
+{
+int place;
+place = size;
+/*int iter = 1;
+string s;
+stringstream out;
+out << iter;
+s = out.str();*/
+
+ofstream ofs;
+//myfile.open ("example.bin", ios::out | ios::app | ios::binary); 	
+if ((size-1)==0) ofs.open("Solid_Temperature_distribution.txt");
+ofs.open("Solid_Temperature_distribution.txt", ios::out | ios::app | ios::binary); 
+if (ofs.fail()) { cout<<"error ofs.open"<<endl;
+                  exit(-1);  }
+for ( place=0; place<=size; place++) { 
+ofs<<"prova"<<endl;
+ofs<<" Temperature solid "<<Temp_solid[place]<<"temperature fluid "<<Temp_fluid[place]<<" pressure "<<Pressure[place]<<" minute time "<<place <<endl;
+ }
+ofs.close();
+}
+
+double pressure_sat(double T) {
+double pressure;
+pressure = (exp((77.3450+0.0057*T-7.235/T)))/pow(T,8.2);
+return pressure;
+};
+

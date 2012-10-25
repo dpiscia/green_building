@@ -1,0 +1,12 @@
+#ifndef Convection_H
+#define Convection_H
+
+using namespace std;
+
+class Convection {
+public:
+
+Convection(){};
+~Convection(){};
+
+};

@@ -1,0 +1,112 @@
+import os
+import csv
+import glob
+import pylab
+import sys
+from math import *
+def green_function(tra_input,emi_input):
+ source_dir = "./"
+ print "source_dir" ,source_dir
+ target_dir="./"
+ source_files = [fname for fname in glob.glob(os.path.join(source_dir,"template_green_in"))]      
+   
+
+ for source_file in source_files:
+       target_file = os.path.join(target_dir,os.path.basename("")+"green_in")
+       print "target_file" ,target_file
+       with open(source_file,'r') as sfile:
+          with open(target_file,'w') as tfile:
+              lines = sfile.readlines()
+              lines[14] = 'emi_cover_out='+str(tra_input)+"\n" #total
+              lines[15] = 'tra_cover_out='+str(emi_input)+"\n" #total
+              lines[16] = 'emi_cover_in='+str(tra_input)+"\n" #total
+              lines[17] = 'tra_cover_in='+str(emi_input)+"\n" #total
+              lines[18] = 'emi_sidewall_out='+str(tra_input)+"\n" #total
+              lines[19] = 'tra_sidewall_out='+str(emi_input)+"\n" #total
+              lines[20] = 'emi_sidewall_in='+str(tra_input)+"\n" #total
+              lines[21] = 'tra_sidewall_in='+str(emi_input)+"\n" #total
+              tfile.writelines(lines)
+ os.system("./a.out ./green_in >/dev/null") #input file
+ sim_temp_inside = []
+ sim_temp_cover = []
+ sim_RH = []
+ sim_cond = []
+ sim_hum_ratio = []
+
+ fileReader = csv.reader(open('./results_ES.txt', 'rb'), delimiter=' ', quotechar='|')
+ for row in fileReader:
+    lista =  row[0].split(',')
+ sim_temp_inside.append(float(lista[1]))
+ sim_temp_cover.append(float(lista[0]))
+ sim_RH.append(float(lista[2]))
+ sim_cond.append(float(lista[4]))
+ sim_hum_ratio.append(float(lista[3]))
+ return sim_RH[-1], sim_temp_inside[-1]
+
+def green_function_2(T_sky,SHF):
+ source_dir = "./"
+ print "source_dir" ,source_dir
+ target_dir="./"
+ source_files = [fname for fname in glob.glob(os.path.join(source_dir,"template_green_in"))]      
+   
+
+ for source_file in source_files:
+       target_file = os.path.join(target_dir,os.path.basename("")+"green_in")
+       print "target_file" ,target_file
+       with open(source_file,'r') as sfile:
+          with open(target_file,'w') as tfile:
+              lines = sfile.readlines()
+              lines[10] = 'sky_temp='+str(T_sky)+"\n" #total
+              lines[11] = 'heat_Flux='+str(SHF)+"\n" #total
+
+              tfile.writelines(lines)
+ os.system("./a.out ./green_in >/dev/null") #input file
+ sim_temp_inside = []
+ sim_temp_cover = []
+ sim_RH = []
+ sim_cond = []
+ sim_hum_ratio = []
+
+ fileReader = csv.reader(open('./results_ES.txt', 'rb'), delimiter=' ', quotechar='|')
+ for row in fileReader:
+    lista =  row[0].split(',')
+ sim_temp_inside.append(float(lista[1]))
+ sim_temp_cover.append(float(lista[0]))
+ sim_RH.append(float(lista[2]))
+ sim_cond.append(float(lista[4]))
+ sim_hum_ratio.append(float(lista[3]))
+ return sim_RH[-1], sim_temp_inside[-1]
+
+def green_function_3_opt(T_sky,SHF):
+ source_dir = "./"
+ print "source_dir" ,source_dir
+ target_dir="./"
+ source_files = [fname for fname in glob.glob(os.path.join(source_dir,"template_opt_green_in"))]      
+   
+
+ for source_file in source_files:
+       target_file = os.path.join(target_dir,os.path.basename("")+"green_in")
+       print "target_file" ,target_file
+       with open(source_file,'r') as sfile:
+          with open(target_file,'w') as tfile:
+              lines = sfile.readlines()
+              lines[10] = 'sky_temp='+str(T_sky)+"\n" #total
+              lines[11] = 'heat_Flux='+str(SHF)+"\n" #total
+
+              tfile.writelines(lines)
+ os.system("./a.out ./green_in >/dev/null") #input file
+ sim_temp_inside = []
+ sim_temp_cover = []
+ sim_RH = []
+ sim_cond = []
+ sim_hum_ratio = []
+
+ fileReader = csv.reader(open('./results_ES.txt', 'rb'), delimiter=' ', quotechar='|')
+ for row in fileReader:
+    lista =  row[0].split(',')
+ sim_temp_inside.append(float(lista[1]))
+ sim_temp_cover.append(float(lista[0]))
+ sim_RH.append(float(lista[2]))
+ sim_cond.append(float(lista[4]))
+ sim_hum_ratio.append(float(lista[3]))
+ return sim_RH[-1], sim_temp_inside[-1]

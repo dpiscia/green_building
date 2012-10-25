@@ -1,0 +1,2 @@
+c++ ./test.cpp -I ./include
+./a.out

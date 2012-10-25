@@ -1,0 +1,4690 @@
+argc2File Name green_in
+AB 50 QR 119.8BC 4RS 44Dd 2Bb 4.95
+CD 3.18208
+BN 19.8
+CN 20.2
+F_soil_sidewall 0.181818
+F_soil_cover 0.818182
+A[4] 25.4566A[5] 8A[6] 19.8
+F_soil_sidewall 0.45
+F_side_side 0.1
+F_cover_soil 0.636376
+F_cover_sidewall 0.141417
+F_cover_cover 0.222207
+AS 6
+Area1 207.8
+AC 50.1597
+F[2][3] 0.0384026
+F[3][2] 0.480032
+BS 50.3587
+CS 50.04
+F37 0.0598093
+F[3][1] 0.460159
+BD 6.49043
+AD 52.8169
+F[2][0] -0.00166736
+azzerato
+F[2][7] 0.0564129
+F[2][1] 0.905185
+F[7][2] 0.470107
+F[7][3] 0.0398728
+DS 52.475
+F[7][0] 0.0185122
+F[7][1] 0.471508
+F[0][7] 0.00872644
+F[0][2] 0
+F[1][1] 0.423484
+F[1][2] 0.435604
+F[1][3] 0.0177155
+F[1][7] 0.0272286
+F[1][0] 0.0959681
+area[1] 207.8area0 25.4566area2 100area1 207.8
+F[0][1] 0.783379
+F[0][0] 0.207895
+Area calculation 
+reynold is 6.66667e+06
+Nusselt is 9455.84
+coef 4.5388
+reynold is 6.66667e+06
+Nusselt is 9455.84
+coef 4.5388
+reynold is 1.06667e+06
+Nusselt is 2182.71
+coef 6.54813
+RH cover0.7135
+transpriatio0.01482
+humidity_ratio_next0.00317861
+RH 0.52047
+condensation0
+time is0
+cover outer -7.21301 rad 37.0719 area 25.4566 temp 275.309 alpha 10.444
+cover inner -13.7541 rad -16.1048 area 25.4566 temp 275.309 alpha 3.05569
+side outer 0.180769 rad 14.5574 area 8 temp 276.028 alpha 6.54813
+side inner -7.31182 rad -7.42635 area 8 temp 276.028 alpha 1.93286
+soil 1.29372 rad 23.7063 area 19.8 temp 280.572 alpha 1.69978
+RH cover0.735391
+transpriatio0.01482
+humidity_ratio_next0.00326496
+RH 0.541193
+condensation0
+time is1
+cover outer -7.73249 rad 36.9528 area 25.4566 temp 275.26 alpha 10.444
+cover inner -13.2284 rad -15.9918 area 25.4566 temp 275.26 alpha 3.02629
+side outer -0.131775 rad 14.4295 area 8 temp 275.98 alpha 6.54813
+side inner -6.97451 rad -7.32322 area 8 temp 275.98 alpha 1.91034
+soil 1.48061 rad 23.5194 area 19.8 temp 280.473 alpha 1.75764
+RH cover0.757492
+transpriatio0.01482
+humidity_ratio_next0.00335229
+RH 0.56216
+condensation0
+time is2
+cover outer -8.22324 rad 36.8398 area 25.4566 temp 275.213 alpha 10.444
+cover inner -12.7338 rad -15.8827 area 25.4566 temp 275.213 alpha 2.99781
+side outer -0.42689 rad 14.3083 area 8 temp 275.935 alpha 6.54813
+side inner -6.65776 rad -7.22369 area 8 temp 275.935 alpha 1.88844
+soil 1.6611 rad 23.3389 area 19.8 temp 280.379 alpha 1.80853
+RH cover0.7798
+transpriatio0.01482
+humidity_ratio_next0.00344056
+RH 0.583361
+condensation0
+time is3
+cover outer -8.6869 rad 36.7327 area 25.4566 temp 275.168 alpha 10.444
+cover inner -12.2682 rad -15.7776 area 25.4566 temp 275.168 alpha 2.97023
+side outer -0.705546 rad 14.1936 area 8 temp 275.892 alpha 6.54813
+side inner -6.36017 rad -7.12785 area 8 temp 275.892 alpha 1.86713
+soil 1.83499 rad 23.165 area 19.8 temp 280.289 alpha 1.85376
+RH cover0.802309
+transpriatio0.01482
+humidity_ratio_next0.00352978
+RH 0.604786
+condensation0
+time is4
+cover outer -9.125 rad 36.6312 area 25.4566 temp 275.126 alpha 10.444
+cover inner -11.8297 rad -15.6765 area 25.4566 temp 275.126 alpha 2.94353
+side outer -0.968679 rad 14.0849 area 8 temp 275.852 alpha 6.54813
+side inner -6.08047 rad -7.03571 area 8 temp 275.852 alpha 1.84641
+soil 2.00221 rad 22.9978 area 19.8 temp 280.202 alpha 1.89431
+RH cover0.825017
+transpriatio0.01482
+humidity_ratio_next0.00361992
+RH 0.626426
+condensation0
+time is5
+cover outer -9.53902 rad 36.535 area 25.4566 temp 275.087 alpha 10.444
+cover inner -11.4166 rad -15.5794 area 25.4566 temp 275.087 alpha 2.91768
+side outer -1.21718 rad 13.9819 area 8 temp 275.814 alpha 6.54813
+side inner -5.81749 rad -6.94726 area 8 temp 275.814 alpha 1.82627
+soil 2.16279 rad 22.8372 area 19.8 temp 280.12 alpha 1.93092
+RH cover0.847918
+transpriatio0.01482
+humidity_ratio_next0.00371098
+RH 0.648273
+condensation0
+time is6
+cover outer -9.93037 rad 36.4439 area 25.4566 temp 275.049 alpha 10.444
+cover inner -11.0273 rad -15.4862 area 25.4566 temp 275.049 alpha 2.89267
+side outer -1.4519 rad 13.8845 area 8 temp 275.778 alpha 6.54813
+side inner -5.57012 rad -6.86244 area 8 temp 275.778 alpha 1.80668
+soil 2.31682 rad 22.6832 area 19.8 temp 280.041 alpha 1.96417
+RH cover0.87101
+transpriatio0.01482
+humidity_ratio_next0.00380295
+RH 0.670318
+condensation0
+time is7
+cover outer -10.3004 rad 36.3575 area 25.4566 temp 275.014 alpha 10.444
+cover inner -10.6602 rad -15.397 area 25.4566 temp 275.014 alpha 2.86847
+side outer -1.67364 rad 13.7922 area 8 temp 275.744 alpha 6.54813
+side inner -5.33735 rad -6.78116 area 8 temp 275.744 alpha 1.78765
+soil 2.46443 rad 22.5356 area 19.8 temp 279.966 alpha 1.9945
+RH cover0.894287
+transpriatio0.01482
+humidity_ratio_next0.0038958
+RH 0.692553
+condensation0
+time is8
+cover outer -10.6502 rad 36.2757 area 25.4566 temp 274.98 alpha 10.444
+cover inner -10.3139 rad -15.3115 area 25.4566 temp 274.98 alpha 2.84507
+side outer -1.88316 rad 13.7047 area 8 temp 275.712 alpha 6.54813
+side inner -5.11825 rad -6.70333 area 8 temp 275.712 alpha 1.76915
+soil 2.60579 rad 22.3942 area 19.8 temp 279.894 alpha 2.02229
+RH cover0.917746
+transpriatio0.01482
+humidity_ratio_next0.00398953
+RH 0.714969
+condensation0
+time is9
+cover outer -10.9812 rad 36.1981 area 25.4566 temp 274.949 alpha 10.444
+cover inner -9.98723 rad -15.2297 area 25.4566 temp 274.949 alpha 2.82243
+side outer -2.08118 rad 13.6219 area 8 temp 275.682 alpha 6.54813
+side inner -4.91192 rad -6.62884 area 8 temp 275.682 alpha 1.75118
+soil 2.74107 rad 22.2589 area 19.8 temp 279.826 alpha 2.04785
+RH cover0.941382
+transpriatio0.01482
+humidity_ratio_next0.00408412
+RH 0.73756
+condensation0
+time is10
+cover outer -11.2943 rad 36.1245 area 25.4566 temp 274.919 alpha 10.444
+cover inner -9.67883 rad -15.1514 area 25.4566 temp 274.919 alpha 2.80055
+side outer -2.26837 rad 13.5435 area 8 temp 275.654 alpha 6.54813
+side inner -4.71756 rad -6.55758 area 8 temp 275.654 alpha 1.73373
+soil 2.8705 rad 22.1295 area 19.8 temp 279.76 alpha 2.07143
+RH cover0.965193
+transpriatio0.01482
+humidity_ratio_next0.00417955
+RH 0.760318
+condensation0
+time is11
+cover outer -11.5906 rad 36.0548 area 25.4566 temp 274.89 alpha 10.444
+cover inner -9.38762 rad -15.0766 area 25.4566 temp 274.89 alpha 2.77941
+side outer -2.44535 rad 13.4692 area 8 temp 275.627 alpha 6.54813
+side inner -4.5344 rad -6.48944 area 8 temp 275.627 alpha 1.71678
+soil 2.99425 rad 22.0057 area 19.8 temp 279.698 alpha 2.09324
+RH cover0.989174
+transpriatio0.01482
+humidity_ratio_next0.00427582
+RH 0.783235
+condensation0
+time is12
+cover outer -11.871 rad 35.9886 area 25.4566 temp 274.863 alpha 10.444
+cover inner -9.11255 rad -15.005 area 25.4566 temp 274.863 alpha 2.75897
+side outer -2.61274 rad 13.3988 area 8 temp 275.601 alpha 6.54813
+side inner -4.36175 rad -6.42429 area 8 temp 275.601 alpha 1.70032
+soil 3.11255 rad 21.8874 area 19.8 temp 279.639 alpha 2.11346
+RH cover0.999996
+transpriatio0.01482
+humidity_ratio_next0.004315
+RH 0.795702
+condensation0.00687804
+time is13
+cover outer -12.1366 rad 35.9259 area 25.4566 temp 274.838 alpha 10.444
+cover inner -8.85262 rad -14.9366 area 25.4566 temp 274.838 alpha 2.73923
+side outer -2.77108 rad 13.332 area 8 temp 275.577 alpha 6.54813
+side inner -4.19893 rad -6.36203 area 8 temp 275.577 alpha 1.68435
+soil 3.22561 rad 21.7744 area 19.8 temp 279.583 alpha 2.13225
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.00430749
+RH 0.799433
+condensation0.0125616
+time is14
+cover outer -12.3881 rad 35.8664 area 25.4566 temp 274.814 alpha 10.444
+cover inner -8.60693 rad -14.8713 area 25.4566 temp 274.814 alpha 2.72017
+side outer -2.9209 rad 13.2688 area 8 temp 275.554 alpha 6.54813
+side inner -4.04535 rad -6.30253 area 8 temp 275.554 alpha 1.66885
+soil 3.33363 rad 21.6664 area 19.8 temp 279.529 alpha 2.14975
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.00430041
+RH 0.803007
+condensation0.0126764
+time is15
+cover outer -12.6264 rad 35.8099 area 25.4566 temp 274.791 alpha 10.444
+cover inner -8.37461 rad -14.8089 area 25.4566 temp 274.791 alpha 2.70176
+side outer -3.0627 rad 13.2088 area 8 temp 275.532 alpha 6.54813
+side inner -3.90042 rad -6.24569 area 8 temp 275.532 alpha 1.65381
+soil 3.43683 rad 21.5632 area 19.8 temp 279.477 alpha 2.16607
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.0042937
+RH 0.806428
+condensation0.0127867
+time is16
+cover outer -12.8521 rad 35.7563 area 25.4566 temp 274.769 alpha 10.444
+cover inner -8.15486 rad -14.7493 area 25.4566 temp 274.769 alpha 2.684
+side outer -3.19693 rad 13.1519 area 8 temp 275.512 alpha 6.54813
+side inner -3.76362 rad -6.19139 area 8 temp 275.512 alpha 1.63922
+soil 3.53539 rad 21.4646 area 19.8 temp 279.429 alpha 2.18132
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.00428736
+RH 0.809702
+condensation0.0128914
+time is17
+cover outer -13.0661 rad 35.7054 area 25.4566 temp 274.749 alpha 10.444
+cover inner -7.94695 rad -14.6924 area 25.4566 temp 274.749 alpha 2.66685
+side outer -3.32403 rad 13.098 area 8 temp 275.492 alpha 6.54813
+side inner -3.63444 rad -6.13952 area 8 temp 275.492 alpha 1.62508
+soil 3.62952 rad 21.3705 area 19.8 temp 279.382 alpha 2.19559
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.00428135
+RH 0.812836
+condensation0.0129908
+time is18
+cover outer -13.2689 rad 35.6572 area 25.4566 temp 274.73 alpha 10.444
+cover inner -7.75016 rad -14.6381 area 25.4566 temp 274.73 alpha 2.65031
+side outer -3.44442 rad 13.0468 area 8 temp 275.474 alpha 6.54813
+side inner -3.51242 rad -6.08998 area 8 temp 275.474 alpha 1.61137
+soil 3.7194 rad 21.2806 area 19.8 temp 279.338 alpha 2.20896
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.00427566
+RH 0.815835
+condensation0.0130851
+time is19
+cover outer -13.4613 rad 35.6113 area 25.4566 temp 274.711 alpha 10.444
+cover inner -7.56384 rad -14.5862 area 25.4566 temp 274.711 alpha 2.63436
+side outer -3.55846 rad 12.9983 area 8 temp 275.457 alpha 6.54813
+side inner -3.39714 rad -6.04267 area 8 temp 275.457 alpha 1.59808
+soil 3.80523 rad 21.1948 area 19.8 temp 279.295 alpha 2.2215
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.00427027
+RH 0.818704
+condensation0.0131746
+time is20
+cover outer -13.6437 rad 35.5678 area 25.4566 temp 274.694 alpha 10.444
+cover inner -7.38739 rad -14.5366 area 25.4566 temp 274.694 alpha 2.61898
+side outer -3.66653 rad 12.9522 area 8 temp 275.44 alpha 6.54813
+side inner -3.28817 rad -5.99749 area 8 temp 275.44 alpha 1.5852
+soil 3.88717 rad 21.1128 area 19.8 temp 279.255 alpha 2.23327
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.00426516
+RH 0.821449
+condensation0.0132596
+time is21
+cover outer -13.8168 rad 35.5264 area 25.4566 temp 274.677 alpha 10.444
+cover inner -7.22024 rad -14.4894 area 25.4566 temp 274.677 alpha 2.60415
+side outer -3.76896 rad 12.9085 area 8 temp 275.424 alpha 6.54813
+side inner -3.18515 rad -5.95434 area 8 temp 275.424 alpha 1.57273
+soil 3.96541 rad 21.0346 area 19.8 temp 279.217 alpha 2.24434
+RH cover0.999993
+transpriatio0.01482
+humidity_ratio_next0.00426032
+RH 0.824076
+condensation0.0133404
+time is22
+cover outer -13.9811 rad 35.4871 area 25.4566 temp 274.661 alpha 10.444
+cover inner -7.06184 rad -14.4442 area 25.4566 temp 274.661 alpha 2.58985
+side outer -3.86606 rad 12.8669 area 8 temp 275.41 alpha 6.54813
+side inner -3.08773 rad -5.91314 area 8 temp 275.41 alpha 1.56066
+soil 4.0401 rad 20.9599 area 19.8 temp 279.18 alpha 2.25476
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00425573
+RH 0.826588
+condensation0.0134171
+time is23
+cover outer -14.1369 rad 35.4498 area 25.4566 temp 274.646 alpha 10.444
+cover inner -6.9117 rad -14.4011 area 25.4566 temp 274.646 alpha 2.57608
+side outer -3.95814 rad 12.8275 area 8 temp 275.396 alpha 6.54813
+side inner -2.99556 rad -5.8738 area 8 temp 275.396 alpha 1.54897
+soil 4.11141 rad 20.8886 area 19.8 temp 279.145 alpha 2.26457
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00425137
+RH 0.828992
+condensation0.01349
+time is24
+cover outer -14.2849 rad 35.4143 area 25.4566 temp 274.632 alpha 10.444
+cover inner -6.76935 rad -14.36 area 25.4566 temp 274.632 alpha 2.56281
+side outer -4.04547 rad 12.7901 area 8 temp 275.382 alpha 6.54813
+side inner -2.90835 rad -5.83624 area 8 temp 275.382 alpha 1.53765
+soil 4.17948 rad 20.8205 area 19.8 temp 279.112 alpha 2.27381
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00424724
+RH 0.83129
+condensation0.0135593
+time is25
+cover outer -14.4255 rad 35.3805 area 25.4566 temp 274.619 alpha 10.444
+cover inner -6.63435 rad -14.3207 area 25.4566 temp 274.619 alpha 2.55004
+side outer -4.12832 rad 12.7545 area 8 temp 275.37 alpha 6.54813
+side inner -2.8258 rad -5.80036 area 8 temp 275.37 alpha 1.52671
+soil 4.24447 rad 20.7555 area 19.8 temp 279.08 alpha 2.28253
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00424332
+RH 0.833489
+condensation0.0136252
+time is26
+cover outer -14.559 rad 35.3485 area 25.4566 temp 274.606 alpha 10.444
+cover inner -6.50628 rad -14.2832 area 25.4566 temp 274.606 alpha 2.53773
+side outer -4.20693 rad 12.7207 area 8 temp 275.358 alpha 6.54813
+side inner -2.74764 rad -5.76611 area 8 temp 275.358 alpha 1.51612
+soil 4.30651 rad 20.6935 area 19.8 temp 279.05 alpha 2.29077
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.0042396
+RH 0.835592
+condensation0.0136879
+time is27
+cover outer -14.6858 rad 35.318 area 25.4566 temp 274.594 alpha 10.444
+cover inner -6.38476 rad -14.2474 area 25.4566 temp 274.594 alpha 2.52589
+side outer -4.28155 rad 12.6886 area 8 temp 275.346 alpha 6.54813
+side inner -2.67361 rad -5.73341 area 8 temp 275.346 alpha 1.50588
+soil 4.36573 rad 20.6343 area 19.8 temp 279.021 alpha 2.29854
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00423607
+RH 0.837602
+condensation0.0137475
+time is28
+cover outer -14.8062 rad 35.2889 area 25.4566 temp 274.582 alpha 10.444
+cover inner -6.26943 rad -14.2133 area 25.4566 temp 274.582 alpha 2.51449
+side outer -4.35238 rad 12.658 area 8 temp 275.335 alpha 6.54813
+side inner -2.60349 rad -5.70218 area 8 temp 275.335 alpha 1.49598
+soil 4.42227 rad 20.5777 area 19.8 temp 278.993 alpha 2.30589
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00423271
+RH 0.839525
+condensation0.0138042
+time is29
+cover outer -14.9208 rad 35.2613 area 25.4566 temp 274.571 alpha 10.444
+cover inner -6.15994 rad -14.1806 area 25.4566 temp 274.571 alpha 2.50352
+side outer -4.41963 rad 12.629 area 8 temp 275.325 alpha 6.54813
+side inner -2.53704 rad -5.67236 area 8 temp 275.325 alpha 1.48641
+soil 4.47624 rad 20.5238 area 19.8 temp 278.967 alpha 2.31284
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00422952
+RH 0.841364
+condensation0.0138581
+time is30
+cover outer -15.0296 rad 35.2351 area 25.4566 temp 274.561 alpha 10.444
+cover inner -6.05598 rad -14.1495 area 25.4566 temp 274.561 alpha 2.49297
+side outer -4.48349 rad 12.6014 area 8 temp 275.315 alpha 6.54813
+side inner -2.47406 rad -5.64388 area 8 temp 275.315 alpha 1.47717
+soil 4.52777 rad 20.4722 area 19.8 temp 278.942 alpha 2.31942
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00422649
+RH 0.843122
+condensation0.0139094
+time is31
+cover outer -15.1331 rad 35.2101 area 25.4566 temp 274.551 alpha 10.444
+cover inner -5.95724 rad -14.1198 area 25.4566 temp 274.551 alpha 2.48282
+side outer -4.54416 rad 12.5752 area 8 temp 275.306 alpha 6.54813
+side inner -2.41435 rad -5.61669 area 8 temp 275.306 alpha 1.46825
+soil 4.57696 rad 20.423 area 19.8 temp 278.918 alpha 2.32565
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00422362
+RH 0.844803
+condensation0.0139582
+time is32
+cover outer -15.2315 rad 35.1863 area 25.4566 temp 274.542 alpha 10.444
+cover inner -5.86343 rad -14.0914 area 25.4566 temp 274.542 alpha 2.47306
+side outer -4.60179 rad 12.5503 area 8 temp 275.297 alpha 6.54813
+side inner -2.35773 rad -5.59073 area 8 temp 275.297 alpha 1.45963
+soil 4.62392 rad 20.3761 area 19.8 temp 278.896 alpha 2.33154
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00422088
+RH 0.84641
+condensation0.0140047
+time is33
+cover outer -15.325 rad 35.1637 area 25.4566 temp 274.533 alpha 10.444
+cover inner -5.77431 rad -14.0644 area 25.4566 temp 274.533 alpha 2.46368
+side outer -4.65656 rad 12.5265 area 8 temp 275.289 alpha 6.54813
+side inner -2.30402 rad -5.56594 area 8 temp 275.289 alpha 1.4513
+soil 4.66875 rad 20.3313 area 19.8 temp 278.874 alpha 2.33713
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00421828
+RH 0.847946
+condensation0.014049
+time is34
+cover outer -15.4141 rad 35.1422 area 25.4566 temp 274.524 alpha 10.444
+cover inner -5.6896 rad -14.0385 area 25.4566 temp 274.524 alpha 2.45467
+side outer -4.70861 rad 12.5039 area 8 temp 275.281 alpha 6.54813
+side inner -2.25306 rad -5.54226 area 8 temp 275.281 alpha 1.44327
+soil 4.71155 rad 20.2884 area 19.8 temp 278.853 alpha 2.34243
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00421581
+RH 0.849415
+condensation0.0140912
+time is35
+cover outer -15.4987 rad 35.1217 area 25.4566 temp 274.516 alpha 10.444
+cover inner -5.60908 rad -14.0138 area 25.4566 temp 274.516 alpha 2.446
+side outer -4.75809 rad 12.4825 area 8 temp 275.273 alpha 6.54813
+side inner -2.20471 rad -5.51965 area 8 temp 275.273 alpha 1.43552
+soil 4.75242 rad 20.2476 area 19.8 temp 278.834 alpha 2.34746
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00421345
+RH 0.850819
+condensation0.0141313
+time is36
+cover outer -15.5793 rad 35.1021 area 25.4566 temp 274.508 alpha 10.444
+cover inner -5.53253 rad -13.9903 area 25.4566 temp 274.508 alpha 2.43767
+side outer -4.80514 rad 12.462 area 8 temp 275.266 alpha 6.54813
+side inner -2.15881 rad -5.49806 area 8 temp 275.266 alpha 1.42805
+soil 4.79143 rad 20.2086 area 19.8 temp 278.815 alpha 2.35222
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00421122
+RH 0.852162
+condensation0.0141695
+time is37
+cover outer -15.656 rad 35.0835 area 25.4566 temp 274.501 alpha 10.444
+cover inner -5.45973 rad -13.9678 area 25.4566 temp 274.501 alpha 2.42968
+side outer -4.84987 rad 12.4425 area 8 temp 275.259 alpha 6.54813
+side inner -2.11523 rad -5.47744 area 8 temp 275.259 alpha 1.42084
+soil 4.82868 rad 20.1713 area 19.8 temp 278.797 alpha 2.35675
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00420909
+RH 0.853445
+condensation0.0142059
+time is38
+cover outer -15.729 rad 35.0658 area 25.4566 temp 274.494 alpha 10.444
+cover inner -5.3905 rad -13.9463 area 25.4566 temp 274.494 alpha 2.422
+side outer -4.89242 rad 12.424 area 8 temp 275.253 alpha 6.54813
+side inner -2.07385 rad -5.45775 area 8 temp 275.253 alpha 1.41389
+soil 4.86425 rad 20.1357 area 19.8 temp 278.78 alpha 2.36104
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00420706
+RH 0.854672
+condensation0.0142406
+time is39
+cover outer -15.7985 rad 35.0489 area 25.4566 temp 274.487 alpha 10.444
+cover inner -5.32463 rad -13.9258 area 25.4566 temp 274.487 alpha 2.41462
+side outer -4.93289 rad 12.4064 area 8 temp 275.247 alpha 6.54813
+side inner -2.03455 rad -5.43894 area 8 temp 275.247 alpha 1.4072
+soil 4.89821 rad 20.1018 area 19.8 temp 278.764 alpha 2.36512
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00420514
+RH 0.855845
+condensation0.0142737
+time is40
+cover outer -15.8647 rad 35.0329 area 25.4566 temp 274.481 alpha 10.444
+cover inner -5.26197 rad -13.9062 area 25.4566 temp 274.481 alpha 2.40754
+side outer -4.97139 rad 12.3896 area 8 temp 275.241 alpha 6.54813
+side inner -1.99721 rad -5.42098 area 8 temp 275.241 alpha 1.40075
+soil 4.93064 rad 20.0694 area 19.8 temp 278.748 alpha 2.369
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.0042033
+RH 0.856966
+condensation0.0143052
+time is41
+cover outer -15.9277 rad 35.0175 area 25.4566 temp 274.475 alpha 10.444
+cover inner -5.20234 rad -13.8875 area 25.4566 temp 274.475 alpha 2.40074
+side outer -5.00803 rad 12.3736 area 8 temp 275.235 alpha 6.54813
+side inner -1.96173 rad -5.40382 area 8 temp 275.235 alpha 1.39453
+soil 4.9616 rad 20.0384 area 19.8 temp 278.733 alpha 2.37268
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00420155
+RH 0.858037
+condensation0.0143352
+time is42
+cover outer -15.9877 rad 35.0029 area 25.4566 temp 274.469 alpha 10.444
+cover inner -5.14559 rad -13.8697 area 25.4566 temp 274.469 alpha 2.39421
+side outer -5.0429 rad 12.3584 area 8 temp 275.23 alpha 6.54813
+side inner -1.92801 rad -5.38744 area 8 temp 275.23 alpha 1.38854
+soil 4.99117 rad 20.0088 area 19.8 temp 278.719 alpha 2.37618
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00419989
+RH 0.859061
+condensation0.0143638
+time is43
+cover outer -16.0448 rad 34.989 area 25.4566 temp 274.464 alpha 10.444
+cover inner -5.09156 rad -13.8526 area 25.4566 temp 274.464 alpha 2.38795
+side outer -5.07609 rad 12.3438 area 8 temp 275.225 alpha 6.54813
+side inner -1.89596 rad -5.37179 area 8 temp 275.225 alpha 1.38278
+soil 5.0194 rad 19.9806 area 19.8 temp 278.705 alpha 2.37951
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00419831
+RH 0.86004
+condensation0.0143911
+time is44
+cover outer -16.0993 rad 34.9758 area 25.4566 temp 274.459 alpha 10.444
+cover inner -5.04013 rad -13.8364 area 25.4566 temp 274.459 alpha 2.38194
+side outer -5.10768 rad 12.33 area 8 temp 275.22 alpha 6.54813
+side inner -1.86548 rad -5.35685 area 8 temp 275.22 alpha 1.37723
+soil 5.04636 rad 19.9536 area 19.8 temp 278.692 alpha 2.38267
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.0041968
+RH 0.860976
+condensation0.0144171
+time is45
+cover outer -16.1512 rad 34.9631 area 25.4566 temp 274.454 alpha 10.444
+cover inner -4.99116 rad -13.8208 area 25.4566 temp 274.454 alpha 2.37618
+side outer -5.13776 rad 12.3168 area 8 temp 275.215 alpha 6.54813
+side inner -1.83651 rad -5.34257 area 8 temp 275.215 alpha 1.37189
+soil 5.07211 rad 19.9279 area 19.8 temp 278.68 alpha 2.38568
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00419536
+RH 0.86187
+condensation0.0144419
+time is46
+cover outer -16.2006 rad 34.9511 area 25.4566 temp 274.449 alpha 10.444
+cover inner -4.94452 rad -13.806 area 25.4566 temp 274.449 alpha 2.37065
+side outer -5.16641 rad 12.3043 area 8 temp 275.211 alpha 6.54813
+side inner -1.80895 rad -5.32894 area 8 temp 275.211 alpha 1.36676
+soil 5.09669 rad 19.9033 area 19.8 temp 278.668 alpha 2.38855
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00419399
+RH 0.862725
+condensation0.0144655
+time is47
+cover outer -16.2477 rad 34.9396 area 25.4566 temp 274.444 alpha 10.444
+cover inner -4.9001 rad -13.7918 area 25.4566 temp 274.444 alpha 2.36535
+side outer -5.19369 rad 12.2923 area 8 temp 275.207 alpha 6.54813
+side inner -1.78273 rad -5.31592 area 8 temp 275.207 alpha 1.36181
+soil 5.12017 rad 19.8798 area 19.8 temp 278.657 alpha 2.39127
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00419269
+RH 0.863542
+condensation0.0144881
+time is48
+cover outer -16.2926 rad 34.9287 area 25.4566 temp 274.44 alpha 10.444
+cover inner -4.85779 rad -13.7783 area 25.4566 temp 274.44 alpha 2.36026
+side outer -5.21967 rad 12.2809 area 8 temp 275.203 alpha 6.54813
+side inner -1.75779 rad -5.30348 area 8 temp 275.203 alpha 1.35706
+soil 5.1426 rad 19.8574 area 19.8 temp 278.646 alpha 2.39387
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00419145
+RH 0.864322
+condensation0.0145096
+time is49
+cover outer -16.3354 rad 34.9182 area 25.4566 temp 274.436 alpha 10.444
+cover inner -4.81748 rad -13.7654 area 25.4566 temp 274.436 alpha 2.35539
+side outer -5.24442 rad 12.2701 area 8 temp 275.199 alpha 6.54813
+side inner -1.73406 rad -5.29159 area 8 temp 275.199 alpha 1.35249
+soil 5.16401 rad 19.836 area 19.8 temp 278.636 alpha 2.39634
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00419026
+RH 0.865069
+condensation0.0145301
+time is50
+cover outer -16.3762 rad 34.9083 area 25.4566 temp 274.432 alpha 10.444
+cover inner -4.77908 rad -13.753 area 25.4566 temp 274.432 alpha 2.35072
+side outer -5.268 rad 12.2597 area 8 temp 275.195 alpha 6.54813
+side inner -1.71147 rad -5.28024 area 8 temp 275.195 alpha 1.3481
+soil 5.18446 rad 19.8155 area 19.8 temp 278.626 alpha 2.39869
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418913
+RH 0.865782
+condensation0.0145496
+time is51
+cover outer -16.415 rad 34.8988 area 25.4566 temp 274.428 alpha 10.444
+cover inner -4.74248 rad -13.7412 area 25.4566 temp 274.428 alpha 2.34624
+side outer -5.29046 rad 12.2498 area 8 temp 275.192 alpha 6.54813
+side inner -1.68997 rad -5.2694 area 8 temp 275.192 alpha 1.34388
+soil 5.204 rad 19.796 area 19.8 temp 278.617 alpha 2.40093
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418806
+RH 0.866463
+condensation0.0145683
+time is52
+cover outer -16.4521 rad 34.8897 area 25.4566 temp 274.425 alpha 10.444
+cover inner -4.7076 rad -13.73 area 25.4566 temp 274.425 alpha 2.34194
+side outer -5.31187 rad 12.2404 area 8 temp 275.189 alpha 6.54813
+side inner -1.66951 rad -5.25905 area 8 temp 275.189 alpha 1.33982
+soil 5.22265 rad 19.7773 area 19.8 temp 278.608 alpha 2.40306
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418703
+RH 0.867115
+condensation0.0145861
+time is53
+cover outer -16.4875 rad 34.8811 area 25.4566 temp 274.421 alpha 10.444
+cover inner -4.67436 rad -13.7192 area 25.4566 temp 274.421 alpha 2.33783
+side outer -5.33227 rad 12.2314 area 8 temp 275.186 alpha 6.54813
+side inner -1.65002 rad -5.24915 area 8 temp 275.186 alpha 1.33592
+soil 5.24047 rad 19.7595 area 19.8 temp 278.6 alpha 2.40509
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418605
+RH 0.867737
+condensation0.0146031
+time is54
+cover outer -16.5212 rad 34.8728 area 25.4566 temp 274.418 alpha 10.444
+cover inner -4.64267 rad -13.709 area 25.4566 temp 274.418 alpha 2.33389
+side outer -5.35172 rad 12.2229 area 8 temp 275.183 alpha 6.54813
+side inner -1.63147 rad -5.2397 area 8 temp 275.183 alpha 1.33218
+soil 5.25749 rad 19.7425 area 19.8 temp 278.592 alpha 2.40703
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418512
+RH 0.868332
+condensation0.0146193
+time is55
+cover outer -16.5533 rad 34.8649 area 25.4566 temp 274.415 alpha 10.444
+cover inner -4.61246 rad -13.6992 area 25.4566 temp 274.415 alpha 2.33011
+side outer -5.37025 rad 12.2147 area 8 temp 275.18 alpha 6.54813
+side inner -1.61379 rad -5.23068 area 8 temp 275.18 alpha 1.32859
+soil 5.27374 rad 19.7263 area 19.8 temp 278.584 alpha 2.40887
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418423
+RH 0.868901
+condensation0.0146347
+time is56
+cover outer -16.584 rad 34.8574 area 25.4566 temp 274.412 alpha 10.444
+cover inner -4.58366 rad -13.6898 area 25.4566 temp 274.412 alpha 2.32649
+side outer -5.38792 rad 12.2069 area 8 temp 275.177 alpha 6.54813
+side inner -1.59696 rad -5.22205 area 8 temp 275.177 alpha 1.32513
+soil 5.28927 rad 19.7107 area 19.8 temp 278.576 alpha 2.41063
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418338
+RH 0.869444
+condensation0.0146495
+time is57
+cover outer -16.6132 rad 34.8503 area 25.4566 temp 274.409 alpha 10.444
+cover inner -4.5562 rad -13.6809 area 25.4566 temp 274.409 alpha 2.32303
+side outer -5.40477 rad 12.1995 area 8 temp 275.175 alpha 6.54813
+side inner -1.58093 rad -5.21382 area 8 temp 275.175 alpha 1.32182
+soil 5.30409 rad 19.6959 area 19.8 temp 278.569 alpha 2.4123
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418257
+RH 0.869963
+condensation0.0146635
+time is58
+cover outer -16.6411 rad 34.8435 area 25.4566 temp 274.407 alpha 10.444
+cover inner -4.53002 rad -13.6723 area 25.4566 temp 274.407 alpha 2.31971
+side outer -5.42083 rad 12.1924 area 8 temp 275.172 alpha 6.54813
+side inner -1.56565 rad -5.20595 area 8 temp 275.172 alpha 1.31864
+soil 5.31826 rad 19.6817 area 19.8 temp 278.563 alpha 2.4139
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.0041818
+RH 0.87046
+condensation0.014677
+time is59
+cover outer -16.6677 rad 34.8369 area 25.4566 temp 274.404 alpha 10.444
+cover inner -4.50504 rad -13.6641 area 25.4566 temp 274.404 alpha 2.31653
+side outer -5.43614 rad 12.1857 area 8 temp 275.17 alpha 6.54813
+side inner -1.5511 rad -5.19843 area 8 temp 275.17 alpha 1.31559
+soil 5.33179 rad 19.6682 area 19.8 temp 278.556 alpha 2.41542
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418107
+RH 0.870934
+condensation0.0146898
+time is60
+cover outer -16.6931 rad 34.8307 area 25.4566 temp 274.402 alpha 10.444
+cover inner -4.48123 rad -13.6564 area 25.4566 temp 274.402 alpha 2.31348
+side outer -5.45075 rad 12.1792 area 8 temp 275.168 alpha 6.54813
+side inner -1.53723 rad -5.19124 area 8 temp 275.168 alpha 1.31266
+soil 5.34471 rad 19.6553 area 19.8 temp 278.55 alpha 2.41687
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00418037
+RH 0.871387
+condensation0.014702
+time is61
+cover outer -16.7174 rad 34.8248 area 25.4566 temp 274.399 alpha 10.444
+cover inner -4.45851 rad -13.6489 area 25.4566 temp 274.399 alpha 2.31057
+side outer -5.46468 rad 12.1731 area 8 temp 275.165 alpha 6.54813
+side inner -1.52401 rad -5.18438 area 8 temp 275.165 alpha 1.30985
+soil 5.35706 rad 19.6429 area 19.8 temp 278.544 alpha 2.41826
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.0041797
+RH 0.87182
+condensation0.0147137
+time is62
+cover outer -16.7405 rad 34.8191 area 25.4566 temp 274.397 alpha 10.444
+cover inner -4.43684 rad -13.6418 area 25.4566 temp 274.397 alpha 2.30777
+side outer -5.47796 rad 12.1672 area 8 temp 275.163 alpha 6.54813
+side inner -1.51141 rad -5.17783 area 8 temp 275.163 alpha 1.30715
+soil 5.36885 rad 19.6312 area 19.8 temp 278.539 alpha 2.41958
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417906
+RH 0.872234
+condensation0.0147248
+time is63
+cover outer -16.7625 rad 34.8137 area 25.4566 temp 274.395 alpha 10.444
+cover inner -4.41617 rad -13.635 area 25.4566 temp 274.395 alpha 2.3051
+side outer -5.49064 rad 12.1616 area 8 temp 275.161 alpha 6.54813
+side inner -1.4994 rad -5.17157 area 8 temp 275.161 alpha 1.30457
+soil 5.38011 rad 19.6199 area 19.8 temp 278.533 alpha 2.42084
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417845
+RH 0.87263
+condensation0.0147355
+time is64
+cover outer -16.7836 rad 34.8085 area 25.4566 temp 274.393 alpha 10.444
+cover inner -4.39645 rad -13.6285 area 25.4566 temp 274.393 alpha 2.30254
+side outer -5.50273 rad 12.1563 area 8 temp 275.16 alpha 6.54813
+side inner -1.48795 rad -5.16558 area 8 temp 275.16 alpha 1.30209
+soil 5.39088 rad 19.6091 area 19.8 temp 278.528 alpha 2.42204
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417787
+RH 0.873008
+condensation0.0147456
+time is65
+cover outer -16.8037 rad 34.8036 area 25.4566 temp 274.391 alpha 10.444
+cover inner -4.37763 rad -13.6223 area 25.4566 temp 274.391 alpha 2.30009
+side outer -5.51426 rad 12.1512 area 8 temp 275.158 alpha 6.54813
+side inner -1.47703 rad -5.15987 area 8 temp 275.158 alpha 1.29971
+soil 5.40115 rad 19.5988 area 19.8 temp 278.523 alpha 2.42318
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417731
+RH 0.873369
+condensation0.0147553
+time is66
+cover outer -16.8228 rad 34.7989 area 25.4566 temp 274.389 alpha 10.444
+cover inner -4.35968 rad -13.6164 area 25.4566 temp 274.389 alpha 2.29775
+side outer -5.52526 rad 12.1463 area 8 temp 275.156 alpha 6.54813
+side inner -1.46662 rad -5.15441 area 8 temp 275.156 alpha 1.29743
+soil 5.41097 rad 19.589 area 19.8 temp 278.519 alpha 2.42427
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417678
+RH 0.873714
+condensation0.0147646
+time is67
+cover outer -16.8411 rad 34.7944 area 25.4566 temp 274.387 alpha 10.444
+cover inner -4.34255 rad -13.6107 area 25.4566 temp 274.387 alpha 2.29551
+side outer -5.53576 rad 12.1416 area 8 temp 275.155 alpha 6.54813
+side inner -1.45669 rad -5.14919 area 8 temp 275.155 alpha 1.29525
+soil 5.42036 rad 19.5796 area 19.8 temp 278.514 alpha 2.42532
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417627
+RH 0.874044
+condensation0.0147734
+time is68
+cover outer -16.8586 rad 34.7901 area 25.4566 temp 274.386 alpha 10.444
+cover inner -4.3262 rad -13.6053 area 25.4566 temp 274.386 alpha 2.29336
+side outer -5.54578 rad 12.1372 area 8 temp 275.153 alpha 6.54813
+side inner -1.44723 rad -5.1442 area 8 temp 275.153 alpha 1.29315
+soil 5.42932 rad 19.5707 area 19.8 temp 278.51 alpha 2.42631
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417579
+RH 0.874359
+condensation0.0147819
+time is69
+cover outer -16.8753 rad 34.786 area 25.4566 temp 274.384 alpha 10.444
+cover inner -4.3106 rad -13.6002 area 25.4566 temp 274.384 alpha 2.29131
+side outer -5.55533 rad 12.133 area 8 temp 275.152 alpha 6.54813
+side inner -1.4382 rad -5.13944 area 8 temp 275.152 alpha 1.29115
+soil 5.43788 rad 19.5621 area 19.8 temp 278.506 alpha 2.42726
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417533
+RH 0.874661
+condensation0.0147899
+time is70
+cover outer -16.8912 rad 34.7821 area 25.4566 temp 274.383 alpha 10.444
+cover inner -4.29571 rad -13.5952 area 25.4566 temp 274.383 alpha 2.28934
+side outer -5.56446 rad 12.1289 area 8 temp 275.15 alpha 6.54813
+side inner -1.42959 rad -5.13489 area 8 temp 275.15 alpha 1.28923
+soil 5.44606 rad 19.5539 area 19.8 temp 278.502 alpha 2.42817
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417489
+RH 0.874949
+condensation0.0147976
+time is71
+cover outer -16.9064 rad 34.7784 area 25.4566 temp 274.381 alpha 10.444
+cover inner -4.2815 rad -13.5905 area 25.4566 temp 274.381 alpha 2.28746
+side outer -5.57316 rad 12.1251 area 8 temp 275.149 alpha 6.54813
+side inner -1.42137 rad -5.13054 area 8 temp 275.149 alpha 1.28738
+soil 5.45387 rad 19.5461 area 19.8 temp 278.498 alpha 2.42903
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417447
+RH 0.875224
+condensation0.014805
+time is72
+cover outer -16.9209 rad 34.7748 area 25.4566 temp 274.38 alpha 10.444
+cover inner -4.26794 rad -13.586 area 25.4566 temp 274.38 alpha 2.28566
+side outer -5.58147 rad 12.1214 area 8 temp 275.148 alpha 6.54813
+side inner -1.41354 rad -5.12639 area 8 temp 275.148 alpha 1.28562
+soil 5.46133 rad 19.5387 area 19.8 temp 278.495 alpha 2.42985
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417407
+RH 0.875487
+condensation0.014812
+time is73
+cover outer -16.9347 rad 34.7714 area 25.4566 temp 274.379 alpha 10.444
+cover inner -4.25499 rad -13.5817 area 25.4566 temp 274.379 alpha 2.28394
+side outer -5.5894 rad 12.1179 area 8 temp 275.146 alpha 6.54813
+side inner -1.40606 rad -5.12242 area 8 temp 275.146 alpha 1.28393
+soil 5.46846 rad 19.5315 area 19.8 temp 278.491 alpha 2.43064
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417369
+RH 0.875738
+condensation0.0148187
+time is74
+cover outer -16.9479 rad 34.7682 area 25.4566 temp 274.377 alpha 10.444
+cover inner -4.24263 rad -13.5776 area 25.4566 temp 274.377 alpha 2.28229
+side outer -5.59697 rad 12.1145 area 8 temp 275.145 alpha 6.54813
+side inner -1.39893 rad -5.11863 area 8 temp 275.145 alpha 1.28231
+soil 5.47528 rad 19.5247 area 19.8 temp 278.488 alpha 2.43139
+RH cover0.999992
+transpriatio0.01482
+humidity_ratio_next0.00417332
+RH 0.875978
+condensation0.0148251
+time is75
+cover outer -16.9606 rad 34.7651 area 25.4566 temp 274.376 alpha 10.444
+cover inner -4.23084 rad -13.5737 area 25.4566 temp 274.376 alpha 2.28071
+side outer -5.60419 rad 12.1113 area 8 temp 275.144 alpha 6.54813
+side inner -1.39212 rad -5.11501 area 8 temp 275.144 alpha 1.28076
+soil 5.48179 rad 19.5182 area 19.8 temp 278.485 alpha 2.43211
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417298
+RH 0.876207
+condensation0.0148312
+time is76
+cover outer -16.9726 rad 34.7621 area 25.4566 temp 274.375 alpha 10.444
+cover inner -4.21957 rad -13.5699 area 25.4566 temp 274.375 alpha 2.2792
+side outer -5.61109 rad 12.1083 area 8 temp 275.143 alpha 6.54813
+side inner -1.38563 rad -5.11155 area 8 temp 275.143 alpha 1.27927
+soil 5.488 rad 19.512 area 19.8 temp 278.482 alpha 2.43279
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417264
+RH 0.876426
+condensation0.014837
+time is77
+cover outer -16.9841 rad 34.7593 area 25.4566 temp 274.374 alpha 10.444
+cover inner -4.20882 rad -13.5664 area 25.4566 temp 274.374 alpha 2.27776
+side outer -5.61767 rad 12.1053 area 8 temp 275.142 alpha 6.54813
+side inner -1.37943 rad -5.10824 area 8 temp 275.142 alpha 1.27785
+soil 5.49394 rad 19.5061 area 19.8 temp 278.479 alpha 2.43345
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417233
+RH 0.876636
+condensation0.0148426
+time is78
+cover outer -16.9951 rad 34.7566 area 25.4566 temp 274.373 alpha 10.444
+cover inner -4.19856 rad -13.5629 area 25.4566 temp 274.373 alpha 2.27638
+side outer -5.62395 rad 12.1026 area 8 temp 275.141 alpha 6.54813
+side inner -1.37352 rad -5.10508 area 8 temp 275.141 alpha 1.27649
+soil 5.49962 rad 19.5004 area 19.8 temp 278.477 alpha 2.43407
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417202
+RH 0.876836
+condensation0.0148479
+time is79
+cover outer -17.0056 rad 34.754 area 25.4566 temp 274.372 alpha 10.444
+cover inner -4.18876 rad -13.5597 area 25.4566 temp 274.372 alpha 2.27506
+side outer -5.62995 rad 12.0999 area 8 temp 275.14 alpha 6.54813
+side inner -1.36787 rad -5.10206 area 8 temp 275.14 alpha 1.27519
+soil 5.50504 rad 19.495 area 19.8 temp 278.474 alpha 2.43466
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417173
+RH 0.877027
+condensation0.014853
+time is80
+cover outer -17.0156 rad 34.7516 area 25.4566 temp 274.371 alpha 10.444
+cover inner -4.1794 rad -13.5566 area 25.4566 temp 274.371 alpha 2.2738
+side outer -5.63568 rad 12.0973 area 8 temp 275.139 alpha 6.54813
+side inner -1.36249 rad -5.09918 area 8 temp 275.139 alpha 1.27394
+soil 5.51022 rad 19.4898 area 19.8 temp 278.472 alpha 2.43523
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417146
+RH 0.87721
+condensation0.0148578
+time is81
+cover outer -17.0252 rad 34.7492 area 25.4566 temp 274.37 alpha 10.444
+cover inner -4.17047 rad -13.5536 area 25.4566 temp 274.37 alpha 2.27259
+side outer -5.64115 rad 12.0949 area 8 temp 275.139 alpha 6.54813
+side inner -1.35735 rad -5.09642 area 8 temp 275.139 alpha 1.27274
+soil 5.51517 rad 19.4848 area 19.8 temp 278.469 alpha 2.43578
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417119
+RH 0.877385
+condensation0.0148625
+time is82
+cover outer -17.0343 rad 34.747 area 25.4566 temp 274.369 alpha 10.444
+cover inner -4.16194 rad -13.5507 area 25.4566 temp 274.369 alpha 2.27144
+side outer -5.64637 rad 12.0926 area 8 temp 275.138 alpha 6.54813
+side inner -1.35244 rad -5.09379 area 8 temp 275.138 alpha 1.2716
+soil 5.5199 rad 19.4801 area 19.8 temp 278.467 alpha 2.43629
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417094
+RH 0.877552
+condensation0.0148669
+time is83
+cover outer -17.043 rad 34.7448 area 25.4566 temp 274.368 alpha 10.444
+cover inner -4.15379 rad -13.548 area 25.4566 temp 274.368 alpha 2.27034
+side outer -5.65136 rad 12.0904 area 8 temp 275.137 alpha 6.54813
+side inner -1.34775 rad -5.09128 area 8 temp 275.137 alpha 1.27051
+soil 5.52442 rad 19.4756 area 19.8 temp 278.465 alpha 2.43679
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041707
+RH 0.877711
+condensation0.0148711
+time is84
+cover outer -17.0514 rad 34.7428 area 25.4566 temp 274.367 alpha 10.444
+cover inner -4.14601 rad -13.5454 area 25.4566 temp 274.367 alpha 2.26928
+side outer -5.65612 rad 12.0883 area 8 temp 275.136 alpha 6.54813
+side inner -1.34328 rad -5.08887 area 8 temp 275.136 alpha 1.26946
+soil 5.52874 rad 19.4713 area 19.8 temp 278.463 alpha 2.43726
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417047
+RH 0.877864
+condensation0.0148752
+time is85
+cover outer -17.0593 rad 34.7408 area 25.4566 temp 274.367 alpha 10.444
+cover inner -4.13858 rad -13.5429 area 25.4566 temp 274.367 alpha 2.26827
+side outer -5.66066 rad 12.0863 area 8 temp 275.136 alpha 6.54813
+side inner -1.33901 rad -5.08658 area 8 temp 275.136 alpha 1.26846
+soil 5.53286 rad 19.4671 area 19.8 temp 278.461 alpha 2.43771
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417025
+RH 0.878009
+condensation0.014879
+time is86
+cover outer -17.0669 rad 34.739 area 25.4566 temp 274.366 alpha 10.444
+cover inner -4.13149 rad -13.5405 area 25.4566 temp 274.366 alpha 2.2673
+side outer -5.66501 rad 12.0843 area 8 temp 275.135 alpha 6.54813
+side inner -1.33494 rad -5.08438 area 8 temp 275.135 alpha 1.2675
+soil 5.5368 rad 19.4632 area 19.8 temp 278.459 alpha 2.43814
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00417004
+RH 0.878148
+condensation0.0148827
+time is87
+cover outer -17.0742 rad 34.7372 area 25.4566 temp 274.365 alpha 10.444
+cover inner -4.12471 rad -13.5383 area 25.4566 temp 274.365 alpha 2.26638
+side outer -5.66915 rad 12.0825 area 8 temp 275.134 alpha 6.54813
+side inner -1.33105 rad -5.08228 area 8 temp 275.134 alpha 1.26658
+soil 5.54057 rad 19.4594 area 19.8 temp 278.457 alpha 2.43855
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416984
+RH 0.878281
+condensation0.0148862
+time is88
+cover outer -17.0811 rad 34.7355 area 25.4566 temp 274.365 alpha 10.444
+cover inner -4.11824 rad -13.5361 area 25.4566 temp 274.365 alpha 2.2655
+side outer -5.67311 rad 12.0807 area 8 temp 275.134 alpha 6.54813
+side inner -1.32733 rad -5.08028 area 8 temp 275.134 alpha 1.2657
+soil 5.54416 rad 19.4558 area 19.8 temp 278.456 alpha 2.43895
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416965
+RH 0.878408
+condensation0.0148896
+time is89
+cover outer -17.0877 rad 34.7338 area 25.4566 temp 274.364 alpha 10.444
+cover inner -4.11207 rad -13.534 area 25.4566 temp 274.364 alpha 2.26466
+side outer -5.67689 rad 12.079 area 8 temp 275.133 alpha 6.54813
+side inner -1.32379 rad -5.07837 area 8 temp 275.133 alpha 1.26486
+soil 5.5476 rad 19.4524 area 19.8 temp 278.454 alpha 2.43932
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416946
+RH 0.87853
+condensation0.0148928
+time is90
+cover outer -17.0941 rad 34.7323 area 25.4566 temp 274.363 alpha 10.444
+cover inner -4.10616 rad -13.532 area 25.4566 temp 274.363 alpha 2.26385
+side outer -5.6805 rad 12.0774 area 8 temp 275.133 alpha 6.54813
+side inner -1.3204 rad -5.07654 area 8 temp 275.133 alpha 1.26406
+soil 5.55088 rad 19.4491 area 19.8 temp 278.452 alpha 2.43968
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416929
+RH 0.878646
+condensation0.0148959
+time is91
+cover outer -17.1001 rad 34.7308 area 25.4566 temp 274.363 alpha 10.444
+cover inner -4.10053 rad -13.5302 area 25.4566 temp 274.363 alpha 2.26308
+side outer -5.68395 rad 12.0759 area 8 temp 275.132 alpha 6.54813
+side inner -1.31716 rad -5.07479 area 8 temp 275.132 alpha 1.26329
+soil 5.55402 rad 19.446 area 19.8 temp 278.451 alpha 2.44002
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416912
+RH 0.878757
+condensation0.0148988
+time is92
+cover outer -17.1059 rad 34.7294 area 25.4566 temp 274.362 alpha 10.444
+cover inner -4.09515 rad -13.5283 area 25.4566 temp 274.362 alpha 2.26234
+side outer -5.68724 rad 12.0744 area 8 temp 275.131 alpha 6.54813
+side inner -1.31408 rad -5.07312 area 8 temp 275.131 alpha 1.26256
+soil 5.55702 rad 19.443 area 19.8 temp 278.449 alpha 2.44035
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416896
+RH 0.878863
+condensation0.0149016
+time is93
+cover outer -17.1114 rad 34.728 area 25.4566 temp 274.362 alpha 10.444
+cover inner -4.09 rad -13.5266 area 25.4566 temp 274.362 alpha 2.26163
+side outer -5.69039 rad 12.073 area 8 temp 275.131 alpha 6.54813
+side inner -1.31113 rad -5.07152 area 8 temp 275.131 alpha 1.26185
+soil 5.55988 rad 19.4401 area 19.8 temp 278.448 alpha 2.44066
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416881
+RH 0.878964
+condensation0.0149043
+time is94
+cover outer -17.1167 rad 34.7267 area 25.4566 temp 274.361 alpha 10.444
+cover inner -4.08509 rad -13.525 area 25.4566 temp 274.361 alpha 2.26096
+side outer -5.69339 rad 12.0717 area 8 temp 275.131 alpha 6.54813
+side inner -1.30831 rad -5.07 area 8 temp 275.131 alpha 1.26118
+soil 5.56262 rad 19.4374 area 19.8 temp 278.447 alpha 2.44096
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416867
+RH 0.879061
+condensation0.0149068
+time is95
+cover outer -17.1217 rad 34.7255 area 25.4566 temp 274.361 alpha 10.444
+cover inner -4.0804 rad -13.5234 area 25.4566 temp 274.361 alpha 2.26032
+side outer -5.69626 rad 12.0704 area 8 temp 275.13 alpha 6.54813
+side inner -1.30562 rad -5.06854 area 8 temp 275.13 alpha 1.26053
+soil 5.56524 rad 19.4348 area 19.8 temp 278.446 alpha 2.44124
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416853
+RH 0.879153
+condensation0.0149093
+time is96
+cover outer -17.1265 rad 34.7243 area 25.4566 temp 274.36 alpha 10.444
+cover inner -4.07592 rad -13.5219 area 25.4566 temp 274.36 alpha 2.2597
+side outer -5.699 rad 12.0692 area 8 temp 275.13 alpha 6.54813
+side inner -1.30306 rad -5.06715 area 8 temp 275.13 alpha 1.25992
+soil 5.56773 rad 19.4323 area 19.8 temp 278.444 alpha 2.44151
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416839
+RH 0.879241
+condensation0.0149116
+time is97
+cover outer -17.1311 rad 34.7232 area 25.4566 temp 274.36 alpha 10.444
+cover inner -4.07164 rad -13.5204 area 25.4566 temp 274.36 alpha 2.25911
+side outer -5.70162 rad 12.068 area 8 temp 275.129 alpha 6.54813
+side inner -1.3006 rad -5.06582 area 8 temp 275.129 alpha 1.25933
+soil 5.57012 rad 19.4299 area 19.8 temp 278.443 alpha 2.44177
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416827
+RH 0.879326
+condensation0.0149138
+time is98
+cover outer -17.1355 rad 34.7221 area 25.4566 temp 274.359 alpha 10.444
+cover inner -4.06755 rad -13.5191 area 25.4566 temp 274.359 alpha 2.25855
+side outer -5.70412 rad 12.0669 area 8 temp 275.129 alpha 6.54813
+side inner -1.29826 rad -5.06455 area 8 temp 275.129 alpha 1.25877
+soil 5.5724 rad 19.4276 area 19.8 temp 278.442 alpha 2.44202
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416815
+RH 0.879407
+condensation0.014916
+time is99
+cover outer -17.1396 rad 34.7211 area 25.4566 temp 274.359 alpha 10.444
+cover inner -4.06365 rad -13.5178 area 25.4566 temp 274.359 alpha 2.25801
+side outer -5.70651 rad 12.0659 area 8 temp 275.129 alpha 6.54813
+side inner -1.29603 rad -5.06334 area 8 temp 275.129 alpha 1.25823
+soil 5.57458 rad 19.4254 area 19.8 temp 278.441 alpha 2.44226
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416803
+RH 0.879484
+condensation0.014918
+time is100
+cover outer -17.1436 rad 34.7201 area 25.4566 temp 274.359 alpha 10.444
+cover inner -4.05992 rad -13.5165 area 25.4566 temp 274.359 alpha 2.2575
+side outer -5.70879 rad 12.0649 area 8 temp 275.128 alpha 6.54813
+side inner -1.29389 rad -5.06218 area 8 temp 275.128 alpha 1.25771
+soil 5.57666 rad 19.4233 area 19.8 temp 278.44 alpha 2.44249
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416792
+RH 0.879557
+condensation0.0149199
+time is101
+cover outer -17.1475 rad 34.7191 area 25.4566 temp 274.358 alpha 10.444
+cover inner -4.05636 rad -13.5153 area 25.4566 temp 274.358 alpha 2.257
+side outer -5.71097 rad 12.0639 area 8 temp 275.128 alpha 6.54813
+side inner -1.29185 rad -5.06107 area 8 temp 275.128 alpha 1.25722
+soil 5.57865 rad 19.4213 area 19.8 temp 278.439 alpha 2.4427
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416781
+RH 0.879628
+condensation0.0149218
+time is102
+cover outer -17.1511 rad 34.7182 area 25.4566 temp 274.358 alpha 10.444
+cover inner -4.05295 rad -13.5142 area 25.4566 temp 274.358 alpha 2.25653
+side outer -5.71305 rad 12.063 area 8 temp 275.128 alpha 6.54813
+side inner -1.2899 rad -5.06001 area 8 temp 275.128 alpha 1.25675
+soil 5.58056 rad 19.4194 area 19.8 temp 278.438 alpha 2.44291
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416771
+RH 0.879695
+condensation0.0149236
+time is103
+cover outer -17.1546 rad 34.7174 area 25.4566 temp 274.357 alpha 10.444
+cover inner -4.0497 rad -13.5131 area 25.4566 temp 274.357 alpha 2.25608
+side outer -5.71504 rad 12.0621 area 8 temp 275.127 alpha 6.54813
+side inner -1.28804 rad -5.059 area 8 temp 275.127 alpha 1.2563
+soil 5.58237 rad 19.4176 area 19.8 temp 278.437 alpha 2.44311
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416762
+RH 0.879759
+condensation0.0149253
+time is104
+cover outer -17.1579 rad 34.7166 area 25.4566 temp 274.357 alpha 10.444
+cover inner -4.04659 rad -13.512 area 25.4566 temp 274.357 alpha 2.25565
+side outer -5.71694 rad 12.0612 area 8 temp 275.127 alpha 6.54813
+side inner -1.28626 rad -5.05803 area 8 temp 275.127 alpha 1.25587
+soil 5.58411 rad 19.4159 area 19.8 temp 278.437 alpha 2.44329
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416753
+RH 0.879821
+condensation0.0149269
+time is105
+cover outer -17.1611 rad 34.7158 area 25.4566 temp 274.357 alpha 10.444
+cover inner -4.04363 rad -13.511 area 25.4566 temp 274.357 alpha 2.25524
+side outer -5.71875 rad 12.0604 area 8 temp 275.127 alpha 6.54813
+side inner -1.28456 rad -5.0571 area 8 temp 275.127 alpha 1.25546
+soil 5.58577 rad 19.4142 area 19.8 temp 278.436 alpha 2.44347
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416744
+RH 0.879879
+condensation0.0149284
+time is106
+cover outer -17.1642 rad 34.715 area 25.4566 temp 274.357 alpha 10.444
+cover inner -4.04079 rad -13.5101 area 25.4566 temp 274.357 alpha 2.25485
+side outer -5.72049 rad 12.0596 area 8 temp 275.126 alpha 6.54813
+side inner -1.28294 rad -5.05622 area 8 temp 275.126 alpha 1.25507
+soil 5.58735 rad 19.4126 area 19.8 temp 278.435 alpha 2.44365
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416735
+RH 0.879935
+condensation0.0149299
+time is107
+cover outer -17.1671 rad 34.7143 area 25.4566 temp 274.356 alpha 10.444
+cover inner -4.03808 rad -13.5092 area 25.4566 temp 274.356 alpha 2.25448
+side outer -5.72214 rad 12.0589 area 8 temp 275.126 alpha 6.54813
+side inner -1.28139 rad -5.05538 area 8 temp 275.126 alpha 1.25469
+soil 5.58887 rad 19.4111 area 19.8 temp 278.434 alpha 2.44381
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416727
+RH 0.879989
+condensation0.0149313
+time is108
+cover outer -17.1698 rad 34.7136 area 25.4566 temp 274.356 alpha 10.444
+cover inner -4.0355 rad -13.5083 area 25.4566 temp 274.356 alpha 2.25412
+side outer -5.72372 rad 12.0582 area 8 temp 275.126 alpha 6.54813
+side inner -1.27991 rad -5.05457 area 8 temp 275.126 alpha 1.25433
+soil 5.59031 rad 19.4097 area 19.8 temp 278.434 alpha 2.44397
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041672
+RH 0.88004
+condensation0.0149327
+time is109
+cover outer -17.1725 rad 34.713 area 25.4566 temp 274.356 alpha 10.444
+cover inner -4.03303 rad -13.5074 area 25.4566 temp 274.356 alpha 2.25378
+side outer -5.72524 rad 12.0575 area 8 temp 275.126 alpha 6.54813
+side inner -1.2785 rad -5.0538 area 8 temp 275.126 alpha 1.25399
+soil 5.59169 rad 19.4083 area 19.8 temp 278.433 alpha 2.44412
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416712
+RH 0.880089
+condensation0.014934
+time is110
+cover outer -17.175 rad 34.7123 area 25.4566 temp 274.356 alpha 10.444
+cover inner -4.03066 rad -13.5066 area 25.4566 temp 274.356 alpha 2.25345
+side outer -5.72668 rad 12.0569 area 8 temp 275.125 alpha 6.54813
+side inner -1.27715 rad -5.05306 area 8 temp 275.125 alpha 1.25366
+soil 5.59302 rad 19.407 area 19.8 temp 278.432 alpha 2.44426
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416705
+RH 0.880136
+condensation0.0149352
+time is111
+cover outer -17.1775 rad 34.7117 area 25.4566 temp 274.355 alpha 10.444
+cover inner -4.02841 rad -13.5059 area 25.4566 temp 274.355 alpha 2.25314
+side outer -5.72806 rad 12.0563 area 8 temp 275.125 alpha 6.54813
+side inner -1.27586 rad -5.05236 area 8 temp 275.125 alpha 1.25334
+soil 5.59428 rad 19.4057 area 19.8 temp 278.432 alpha 2.4444
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416699
+RH 0.88018
+condensation0.0149364
+time is112
+cover outer -17.1798 rad 34.7112 area 25.4566 temp 274.355 alpha 10.444
+cover inner -4.02625 rad -13.5052 area 25.4566 temp 274.355 alpha 2.25284
+side outer -5.72938 rad 12.0557 area 8 temp 275.125 alpha 6.54813
+side inner -1.27462 rad -5.05169 area 8 temp 275.125 alpha 1.25304
+soil 5.59548 rad 19.4045 area 19.8 temp 278.431 alpha 2.44453
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416692
+RH 0.880223
+condensation0.0149375
+time is113
+cover outer -17.182 rad 34.7106 area 25.4566 temp 274.355 alpha 10.444
+cover inner -4.02419 rad -13.5045 area 25.4566 temp 274.355 alpha 2.25255
+side outer -5.73064 rad 12.0551 area 8 temp 275.125 alpha 6.54813
+side inner -1.27345 rad -5.05105 area 8 temp 275.125 alpha 1.25275
+soil 5.59664 rad 19.4034 area 19.8 temp 278.431 alpha 2.44465
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416686
+RH 0.880264
+condensation0.0149386
+time is114
+cover outer -17.1841 rad 34.7101 area 25.4566 temp 274.355 alpha 10.444
+cover inner -4.02223 rad -13.5038 area 25.4566 temp 274.355 alpha 2.25228
+side outer -5.73184 rad 12.0546 area 8 temp 275.125 alpha 6.54813
+side inner -1.27232 rad -5.05043 area 8 temp 275.125 alpha 1.25248
+soil 5.59774 rad 19.4023 area 19.8 temp 278.43 alpha 2.44477
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041668
+RH 0.880303
+condensation0.0149396
+time is115
+cover outer -17.1861 rad 34.7096 area 25.4566 temp 274.354 alpha 10.444
+cover inner -4.02035 rad -13.5032 area 25.4566 temp 274.354 alpha 2.25202
+side outer -5.73299 rad 12.0541 area 8 temp 275.124 alpha 6.54813
+side inner -1.27125 rad -5.04985 area 8 temp 275.124 alpha 1.25222
+soil 5.59879 rad 19.4012 area 19.8 temp 278.43 alpha 2.44489
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416675
+RH 0.88034
+condensation0.0149406
+time is116
+cover outer -17.188 rad 34.7091 area 25.4566 temp 274.354 alpha 10.444
+cover inner -4.01855 rad -13.5026 area 25.4566 temp 274.354 alpha 2.25177
+side outer -5.73409 rad 12.0536 area 8 temp 275.124 alpha 6.54813
+side inner -1.27022 rad -5.04929 area 8 temp 275.124 alpha 1.25197
+soil 5.59979 rad 19.4002 area 19.8 temp 278.429 alpha 2.445
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041667
+RH 0.880376
+condensation0.0149415
+time is117
+cover outer -17.1899 rad 34.7087 area 25.4566 temp 274.354 alpha 10.444
+cover inner -4.01684 rad -13.502 area 25.4566 temp 274.354 alpha 2.25153
+side outer -5.73513 rad 12.0531 area 8 temp 275.124 alpha 6.54813
+side inner -1.26924 rad -5.04875 area 8 temp 275.124 alpha 1.25173
+soil 5.60076 rad 19.3992 area 19.8 temp 278.429 alpha 2.4451
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416664
+RH 0.88041
+condensation0.0149424
+time is118
+cover outer -17.1916 rad 34.7083 area 25.4566 temp 274.354 alpha 10.444
+cover inner -4.0152 rad -13.5014 area 25.4566 temp 274.354 alpha 2.2513
+side outer -5.73614 rad 12.0527 area 8 temp 275.124 alpha 6.54813
+side inner -1.2683 rad -5.04824 area 8 temp 275.124 alpha 1.2515
+soil 5.60167 rad 19.3983 area 19.8 temp 278.428 alpha 2.4452
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041666
+RH 0.880442
+condensation0.0149433
+time is119
+cover outer -17.1933 rad 34.7078 area 25.4566 temp 274.354 alpha 10.444
+cover inner -4.01363 rad -13.5009 area 25.4566 temp 274.354 alpha 2.25108
+side outer -5.73709 rad 12.0523 area 8 temp 275.124 alpha 6.54813
+side inner -1.26741 rad -5.04775 area 8 temp 275.124 alpha 1.25128
+soil 5.60255 rad 19.3974 area 19.8 temp 278.428 alpha 2.44529
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416655
+RH 0.880473
+condensation0.0149441
+time is120
+cover outer -17.1949 rad 34.7074 area 25.4566 temp 274.354 alpha 10.444
+cover inner -4.01214 rad -13.5004 area 25.4566 temp 274.354 alpha 2.25087
+side outer -5.73801 rad 12.0518 area 8 temp 275.124 alpha 6.54813
+side inner -1.26655 rad -5.04728 area 8 temp 275.124 alpha 1.25107
+soil 5.60339 rad 19.3966 area 19.8 temp 278.428 alpha 2.44538
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416651
+RH 0.880503
+condensation0.0149449
+time is121
+cover outer -17.1964 rad 34.7071 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.01071 rad -13.4999 area 25.4566 temp 274.353 alpha 2.25067
+side outer -5.73888 rad 12.0515 area 8 temp 275.124 alpha 6.54813
+side inner -1.26574 rad -5.04684 area 8 temp 275.124 alpha 1.25087
+soil 5.60419 rad 19.3958 area 19.8 temp 278.427 alpha 2.44547
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416646
+RH 0.880531
+condensation0.0149456
+time is122
+cover outer -17.1979 rad 34.7067 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.00934 rad -13.4995 area 25.4566 temp 274.353 alpha 2.25048
+side outer -5.73972 rad 12.0511 area 8 temp 275.123 alpha 6.54813
+side inner -1.26496 rad -5.04641 area 8 temp 275.123 alpha 1.25068
+soil 5.60495 rad 19.395 area 19.8 temp 278.427 alpha 2.44555
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416642
+RH 0.880558
+condensation0.0149463
+time is123
+cover outer -17.1993 rad 34.7064 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.00804 rad -13.499 area 25.4566 temp 274.353 alpha 2.2503
+side outer -5.74051 rad 12.0507 area 8 temp 275.123 alpha 6.54813
+side inner -1.26421 rad -5.046 area 8 temp 275.123 alpha 1.25049
+soil 5.60569 rad 19.3943 area 19.8 temp 278.426 alpha 2.44563
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416638
+RH 0.880584
+condensation0.014947
+time is124
+cover outer -17.2007 rad 34.706 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.00679 rad -13.4986 area 25.4566 temp 274.353 alpha 2.25013
+side outer -5.74128 rad 12.0504 area 8 temp 275.123 alpha 6.54813
+side inner -1.2635 rad -5.04561 area 8 temp 275.123 alpha 1.25032
+soil 5.60638 rad 19.3936 area 19.8 temp 278.426 alpha 2.44571
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416635
+RH 0.880609
+condensation0.0149476
+time is125
+cover outer -17.2019 rad 34.7057 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.0056 rad -13.4982 area 25.4566 temp 274.353 alpha 2.24996
+side outer -5.742 rad 12.0501 area 8 temp 275.123 alpha 6.54813
+side inner -1.26282 rad -5.04524 area 8 temp 275.123 alpha 1.25015
+soil 5.60705 rad 19.3929 area 19.8 temp 278.426 alpha 2.44578
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416631
+RH 0.880633
+condensation0.0149483
+time is126
+cover outer -17.2032 rad 34.7054 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.00446 rad -13.4978 area 25.4566 temp 274.353 alpha 2.2498
+side outer -5.7427 rad 12.0498 area 8 temp 275.123 alpha 6.54813
+side inner -1.26217 rad -5.04489 area 8 temp 275.123 alpha 1.24999
+soil 5.60769 rad 19.3923 area 19.8 temp 278.425 alpha 2.44585
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416628
+RH 0.880655
+condensation0.0149489
+time is127
+cover outer -17.2043 rad 34.7051 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.00337 rad -13.4974 area 25.4566 temp 274.353 alpha 2.24965
+side outer -5.74337 rad 12.0495 area 8 temp 275.123 alpha 6.54813
+side inner -1.26155 rad -5.04455 area 8 temp 275.123 alpha 1.24984
+soil 5.6083 rad 19.3917 area 19.8 temp 278.425 alpha 2.44592
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416625
+RH 0.880677
+condensation0.0149494
+time is128
+cover outer -17.2054 rad 34.7049 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.00233 rad -13.4971 area 25.4566 temp 274.353 alpha 2.24951
+side outer -5.744 rad 12.0492 area 8 temp 275.123 alpha 6.54813
+side inner -1.26095 rad -5.04422 area 8 temp 275.123 alpha 1.24969
+soil 5.60888 rad 19.3911 area 19.8 temp 278.425 alpha 2.44598
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416621
+RH 0.880697
+condensation0.01495
+time is129
+cover outer -17.2065 rad 34.7046 area 25.4566 temp 274.353 alpha 10.444
+cover inner -4.00134 rad -13.4968 area 25.4566 temp 274.353 alpha 2.24937
+side outer -5.74461 rad 12.0489 area 8 temp 275.123 alpha 6.54813
+side inner -1.26039 rad -5.04391 area 8 temp 275.123 alpha 1.24955
+soil 5.60944 rad 19.3906 area 19.8 temp 278.425 alpha 2.44604
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416619
+RH 0.880717
+condensation0.0149505
+time is130
+cover outer -17.2075 rad 34.7043 area 25.4566 temp 274.352 alpha 10.444
+cover inner -4.00039 rad -13.4964 area 25.4566 temp 274.352 alpha 2.24924
+side outer -5.74519 rad 12.0486 area 8 temp 275.123 alpha 6.54813
+side inner -1.25985 rad -5.04362 area 8 temp 275.123 alpha 1.24942
+soil 5.60997 rad 19.39 area 19.8 temp 278.424 alpha 2.4461
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416616
+RH 0.880736
+condensation0.014951
+time is131
+cover outer -17.2085 rad 34.7041 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99949 rad -13.4961 area 25.4566 temp 274.352 alpha 2.24911
+side outer -5.74574 rad 12.0484 area 8 temp 275.123 alpha 6.54813
+side inner -1.25933 rad -5.04333 area 8 temp 275.123 alpha 1.24929
+soil 5.61048 rad 19.3895 area 19.8 temp 278.424 alpha 2.44615
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416613
+RH 0.880754
+condensation0.0149515
+time is132
+cover outer -17.2094 rad 34.7039 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99862 rad -13.4958 area 25.4566 temp 274.352 alpha 2.24899
+side outer -5.74627 rad 12.0482 area 8 temp 275.122 alpha 6.54813
+side inner -1.25883 rad -5.04306 area 8 temp 275.122 alpha 1.24917
+soil 5.61096 rad 19.389 area 19.8 temp 278.424 alpha 2.4462
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041661
+RH 0.880771
+condensation0.0149519
+time is133
+cover outer -17.2103 rad 34.7037 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99779 rad -13.4956 area 25.4566 temp 274.352 alpha 2.24887
+side outer -5.74678 rad 12.0479 area 8 temp 275.122 alpha 6.54813
+side inner -1.25836 rad -5.0428 area 8 temp 275.122 alpha 1.24906
+soil 5.61143 rad 19.3886 area 19.8 temp 278.424 alpha 2.44625
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416608
+RH 0.880788
+condensation0.0149523
+time is134
+cover outer -17.2112 rad 34.7034 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.997 rad -13.4953 area 25.4566 temp 274.352 alpha 2.24876
+side outer -5.74726 rad 12.0477 area 8 temp 275.122 alpha 6.54813
+side inner -1.25791 rad -5.04256 area 8 temp 275.122 alpha 1.24894
+soil 5.61187 rad 19.3881 area 19.8 temp 278.424 alpha 2.4463
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416606
+RH 0.880803
+condensation0.0149528
+time is135
+cover outer -17.212 rad 34.7032 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99625 rad -13.495 area 25.4566 temp 274.352 alpha 2.24866
+side outer -5.74772 rad 12.0475 area 8 temp 275.122 alpha 6.54813
+side inner -1.25748 rad -5.04232 area 8 temp 275.122 alpha 1.24884
+soil 5.61229 rad 19.3877 area 19.8 temp 278.423 alpha 2.44635
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416603
+RH 0.880818
+condensation0.0149531
+time is136
+cover outer -17.2127 rad 34.7031 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99553 rad -13.4948 area 25.4566 temp 274.352 alpha 2.24856
+side outer -5.74816 rad 12.0473 area 8 temp 275.122 alpha 6.54813
+side inner -1.25707 rad -5.04209 area 8 temp 275.122 alpha 1.24874
+soil 5.6127 rad 19.3873 area 19.8 temp 278.423 alpha 2.44639
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416601
+RH 0.880833
+condensation0.0149535
+time is137
+cover outer -17.2135 rad 34.7029 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99484 rad -13.4946 area 25.4566 temp 274.352 alpha 2.24846
+side outer -5.74858 rad 12.0471 area 8 temp 275.122 alpha 6.54813
+side inner -1.25667 rad -5.04188 area 8 temp 275.122 alpha 1.24864
+soil 5.61309 rad 19.3869 area 19.8 temp 278.423 alpha 2.44643
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416599
+RH 0.880846
+condensation0.0149539
+time is138
+cover outer -17.2142 rad 34.7027 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99418 rad -13.4943 area 25.4566 temp 274.352 alpha 2.24837
+side outer -5.74899 rad 12.047 area 8 temp 275.122 alpha 6.54813
+side inner -1.2563 rad -5.04167 area 8 temp 275.122 alpha 1.24855
+soil 5.61346 rad 19.3865 area 19.8 temp 278.423 alpha 2.44647
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416597
+RH 0.880859
+condensation0.0149542
+time is139
+cover outer -17.2149 rad 34.7025 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99355 rad -13.4941 area 25.4566 temp 274.352 alpha 2.24828
+side outer -5.74937 rad 12.0468 area 8 temp 275.122 alpha 6.54813
+side inner -1.25594 rad -5.04148 area 8 temp 275.122 alpha 1.24846
+soil 5.61381 rad 19.3862 area 19.8 temp 278.423 alpha 2.44651
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416595
+RH 0.880872
+condensation0.0149546
+time is140
+cover outer -17.2155 rad 34.7024 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99295 rad -13.4939 area 25.4566 temp 274.352 alpha 2.2482
+side outer -5.74974 rad 12.0466 area 8 temp 275.122 alpha 6.54813
+side inner -1.25559 rad -5.04129 area 8 temp 275.122 alpha 1.24837
+soil 5.61415 rad 19.3859 area 19.8 temp 278.422 alpha 2.44655
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416594
+RH 0.880884
+condensation0.0149549
+time is141
+cover outer -17.2161 rad 34.7022 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99237 rad -13.4937 area 25.4566 temp 274.352 alpha 2.24812
+side outer -5.75009 rad 12.0465 area 8 temp 275.122 alpha 6.54813
+side inner -1.25526 rad -5.04111 area 8 temp 275.122 alpha 1.24829
+soil 5.61447 rad 19.3855 area 19.8 temp 278.422 alpha 2.44658
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416592
+RH 0.880895
+condensation0.0149552
+time is142
+cover outer -17.2167 rad 34.7021 area 25.4566 temp 274.352 alpha 10.444
+cover inner -3.99182 rad -13.4935 area 25.4566 temp 274.352 alpha 2.24804
+side outer -5.75043 rad 12.0463 area 8 temp 275.122 alpha 6.54813
+side inner -1.25495 rad -5.04094 area 8 temp 275.122 alpha 1.24821
+soil 5.61478 rad 19.3852 area 19.8 temp 278.422 alpha 2.44662
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041659
+RH 0.880906
+condensation0.0149555
+time is143
+cover outer -17.2173 rad 34.7019 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.9913 rad -13.4934 area 25.4566 temp 274.351 alpha 2.24797
+side outer -5.75075 rad 12.0462 area 8 temp 275.122 alpha 6.54813
+side inner -1.25465 rad -5.04077 area 8 temp 275.122 alpha 1.24814
+soil 5.61507 rad 19.3849 area 19.8 temp 278.422 alpha 2.44665
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416589
+RH 0.880917
+condensation0.0149557
+time is144
+cover outer -17.2178 rad 34.7018 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.9908 rad -13.4932 area 25.4566 temp 274.351 alpha 2.2479
+side outer -5.75105 rad 12.046 area 8 temp 275.122 alpha 6.54813
+side inner -1.25437 rad -5.04062 area 8 temp 275.122 alpha 1.24807
+soil 5.61535 rad 19.3846 area 19.8 temp 278.422 alpha 2.44668
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416587
+RH 0.880927
+condensation0.014956
+time is145
+cover outer -17.2183 rad 34.7017 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.99032 rad -13.493 area 25.4566 temp 274.351 alpha 2.24783
+side outer -5.75135 rad 12.0459 area 8 temp 275.122 alpha 6.54813
+side inner -1.25409 rad -5.04047 area 8 temp 275.122 alpha 1.248
+soil 5.61562 rad 19.3844 area 19.8 temp 278.422 alpha 2.44671
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416586
+RH 0.880936
+condensation0.0149562
+time is146
+cover outer -17.2188 rad 34.7016 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98986 rad -13.4929 area 25.4566 temp 274.351 alpha 2.24777
+side outer -5.75163 rad 12.0458 area 8 temp 275.122 alpha 6.54813
+side inner -1.25383 rad -5.04032 area 8 temp 275.122 alpha 1.24794
+soil 5.61588 rad 19.3841 area 19.8 temp 278.422 alpha 2.44674
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416585
+RH 0.880945
+condensation0.0149565
+time is147
+cover outer -17.2193 rad 34.7014 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98942 rad -13.4927 area 25.4566 temp 274.351 alpha 2.2477
+side outer -5.75189 rad 12.0457 area 8 temp 275.122 alpha 6.54813
+side inner -1.25358 rad -5.04019 area 8 temp 275.122 alpha 1.24788
+soil 5.61612 rad 19.3839 area 19.8 temp 278.421 alpha 2.44676
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416583
+RH 0.880954
+condensation0.0149567
+time is148
+cover outer -17.2197 rad 34.7013 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.989 rad -13.4926 area 25.4566 temp 274.351 alpha 2.24765
+side outer -5.75215 rad 12.0455 area 8 temp 275.122 alpha 6.54813
+side inner -1.25334 rad -5.04006 area 8 temp 275.122 alpha 1.24782
+soil 5.61636 rad 19.3836 area 19.8 temp 278.421 alpha 2.44679
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416582
+RH 0.880962
+condensation0.0149569
+time is149
+cover outer -17.2202 rad 34.7012 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.9886 rad -13.4924 area 25.4566 temp 274.351 alpha 2.24759
+side outer -5.75239 rad 12.0454 area 8 temp 275.122 alpha 6.54813
+side inner -1.25311 rad -5.03993 area 8 temp 275.122 alpha 1.24776
+soil 5.61658 rad 19.3834 area 19.8 temp 278.421 alpha 2.44681
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416581
+RH 0.88097
+condensation0.0149571
+time is150
+cover outer -17.2206 rad 34.7011 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98822 rad -13.4923 area 25.4566 temp 274.351 alpha 2.24754
+side outer -5.75263 rad 12.0453 area 8 temp 275.121 alpha 6.54813
+side inner -1.2529 rad -5.03981 area 8 temp 275.121 alpha 1.24771
+soil 5.6168 rad 19.3832 area 19.8 temp 278.421 alpha 2.44683
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041658
+RH 0.880978
+condensation0.0149573
+time is151
+cover outer -17.221 rad 34.701 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98786 rad -13.4922 area 25.4566 temp 274.351 alpha 2.24749
+side outer -5.75285 rad 12.0452 area 8 temp 275.121 alpha 6.54813
+side inner -1.25269 rad -5.0397 area 8 temp 275.121 alpha 1.24766
+soil 5.617 rad 19.383 area 19.8 temp 278.421 alpha 2.44686
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416579
+RH 0.880985
+condensation0.0149575
+time is152
+cover outer -17.2213 rad 34.7009 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98751 rad -13.4921 area 25.4566 temp 274.351 alpha 2.24744
+side outer -5.75306 rad 12.0451 area 8 temp 275.121 alpha 6.54813
+side inner -1.25249 rad -5.03959 area 8 temp 275.121 alpha 1.24761
+soil 5.6172 rad 19.3828 area 19.8 temp 278.421 alpha 2.44688
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416578
+RH 0.880992
+condensation0.0149577
+time is153
+cover outer -17.2217 rad 34.7008 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98718 rad -13.492 area 25.4566 temp 274.351 alpha 2.24739
+side outer -5.75327 rad 12.045 area 8 temp 275.121 alpha 6.54813
+side inner -1.2523 rad -5.03948 area 8 temp 275.121 alpha 1.24756
+soil 5.61738 rad 19.3826 area 19.8 temp 278.421 alpha 2.4469
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416577
+RH 0.880999
+condensation0.0149579
+time is154
+cover outer -17.222 rad 34.7008 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98686 rad -13.4919 area 25.4566 temp 274.351 alpha 2.24735
+side outer -5.75346 rad 12.045 area 8 temp 275.121 alpha 6.54813
+side inner -1.25212 rad -5.03938 area 8 temp 275.121 alpha 1.24752
+soil 5.61756 rad 19.3824 area 19.8 temp 278.421 alpha 2.44692
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416576
+RH 0.881005
+condensation0.014958
+time is155
+cover outer -17.2224 rad 34.7007 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98655 rad -13.4918 area 25.4566 temp 274.351 alpha 2.2473
+side outer -5.75365 rad 12.0449 area 8 temp 275.121 alpha 6.54813
+side inner -1.25194 rad -5.03929 area 8 temp 275.121 alpha 1.24747
+soil 5.61773 rad 19.3823 area 19.8 temp 278.421 alpha 2.44694
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416575
+RH 0.881011
+condensation0.0149582
+time is156
+cover outer -17.2227 rad 34.7006 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98626 rad -13.4917 area 25.4566 temp 274.351 alpha 2.24726
+side outer -5.75382 rad 12.0448 area 8 temp 275.121 alpha 6.54813
+side inner -1.25178 rad -5.0392 area 8 temp 275.121 alpha 1.24743
+soil 5.61789 rad 19.3821 area 19.8 temp 278.421 alpha 2.44695
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416574
+RH 0.881017
+condensation0.0149584
+time is157
+cover outer -17.223 rad 34.7005 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98599 rad -13.4916 area 25.4566 temp 274.351 alpha 2.24722
+side outer -5.75399 rad 12.0447 area 8 temp 275.121 alpha 6.54813
+side inner -1.25162 rad -5.03911 area 8 temp 275.121 alpha 1.24739
+soil 5.61805 rad 19.3819 area 19.8 temp 278.421 alpha 2.44697
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416573
+RH 0.881022
+condensation0.0149585
+time is158
+cover outer -17.2233 rad 34.7005 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98572 rad -13.4915 area 25.4566 temp 274.351 alpha 2.24719
+side outer -5.75416 rad 12.0447 area 8 temp 275.121 alpha 6.54813
+side inner -1.25147 rad -5.03903 area 8 temp 275.121 alpha 1.24735
+soil 5.6182 rad 19.3818 area 19.8 temp 278.421 alpha 2.44699
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416572
+RH 0.881027
+condensation0.0149586
+time is159
+cover outer -17.2235 rad 34.7004 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98547 rad -13.4914 area 25.4566 temp 274.351 alpha 2.24715
+side outer -5.75431 rad 12.0446 area 8 temp 275.121 alpha 6.54813
+side inner -1.25132 rad -5.03895 area 8 temp 275.121 alpha 1.24732
+soil 5.61834 rad 19.3817 area 19.8 temp 278.42 alpha 2.447
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416572
+RH 0.881033
+condensation0.0149588
+time is160
+cover outer -17.2238 rad 34.7003 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98523 rad -13.4913 area 25.4566 temp 274.351 alpha 2.24712
+side outer -5.75446 rad 12.0445 area 8 temp 275.121 alpha 6.54813
+side inner -1.25119 rad -5.03887 area 8 temp 275.121 alpha 1.24728
+soil 5.61848 rad 19.3815 area 19.8 temp 278.42 alpha 2.44702
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416571
+RH 0.881037
+condensation0.0149589
+time is161
+cover outer -17.224 rad 34.7003 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98499 rad -13.4912 area 25.4566 temp 274.351 alpha 2.24709
+side outer -5.7546 rad 12.0445 area 8 temp 275.121 alpha 6.54813
+side inner -1.25105 rad -5.0388 area 8 temp 275.121 alpha 1.24725
+soil 5.61861 rad 19.3814 area 19.8 temp 278.42 alpha 2.44703
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041657
+RH 0.881042
+condensation0.014959
+time is162
+cover outer -17.2243 rad 34.7002 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98477 rad -13.4912 area 25.4566 temp 274.351 alpha 2.24705
+side outer -5.75473 rad 12.0444 area 8 temp 275.121 alpha 6.54813
+side inner -1.25093 rad -5.03873 area 8 temp 275.121 alpha 1.24722
+soil 5.61873 rad 19.3813 area 19.8 temp 278.42 alpha 2.44704
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416569
+RH 0.881046
+condensation0.0149591
+time is163
+cover outer -17.2245 rad 34.7002 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98456 rad -13.4911 area 25.4566 temp 274.351 alpha 2.24703
+side outer -5.75486 rad 12.0443 area 8 temp 275.121 alpha 6.54813
+side inner -1.25081 rad -5.03867 area 8 temp 275.121 alpha 1.24719
+soil 5.61885 rad 19.3811 area 19.8 temp 278.42 alpha 2.44706
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416569
+RH 0.881051
+condensation0.0149592
+time is164
+cover outer -17.2247 rad 34.7001 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98436 rad -13.491 area 25.4566 temp 274.351 alpha 2.247
+side outer -5.75499 rad 12.0443 area 8 temp 275.121 alpha 6.54813
+side inner -1.25069 rad -5.0386 area 8 temp 275.121 alpha 1.24716
+soil 5.61896 rad 19.381 area 19.8 temp 278.42 alpha 2.44707
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416568
+RH 0.881055
+condensation0.0149594
+time is165
+cover outer -17.2249 rad 34.7001 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98417 rad -13.4909 area 25.4566 temp 274.351 alpha 2.24697
+side outer -5.7551 rad 12.0442 area 8 temp 275.121 alpha 6.54813
+side inner -1.25058 rad -5.03854 area 8 temp 275.121 alpha 1.24714
+soil 5.61907 rad 19.3809 area 19.8 temp 278.42 alpha 2.44708
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416568
+RH 0.881058
+condensation0.0149595
+time is166
+cover outer -17.2251 rad 34.7 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98398 rad -13.4909 area 25.4566 temp 274.351 alpha 2.24694
+side outer -5.75522 rad 12.0442 area 8 temp 275.121 alpha 6.54813
+side inner -1.25048 rad -5.03848 area 8 temp 275.121 alpha 1.24711
+soil 5.61918 rad 19.3808 area 19.8 temp 278.42 alpha 2.44709
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416567
+RH 0.881062
+condensation0.0149595
+time is167
+cover outer -17.2253 rad 34.7 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98381 rad -13.4908 area 25.4566 temp 274.351 alpha 2.24692
+side outer -5.75533 rad 12.0441 area 8 temp 275.121 alpha 6.54813
+side inner -1.25038 rad -5.03843 area 8 temp 275.121 alpha 1.24708
+soil 5.61927 rad 19.3807 area 19.8 temp 278.42 alpha 2.4471
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416567
+RH 0.881066
+condensation0.0149596
+time is168
+cover outer -17.2255 rad 34.6999 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98364 rad -13.4908 area 25.4566 temp 274.351 alpha 2.2469
+side outer -5.75543 rad 12.0441 area 8 temp 275.121 alpha 6.54813
+side inner -1.25028 rad -5.03838 area 8 temp 275.121 alpha 1.24706
+soil 5.61937 rad 19.3806 area 19.8 temp 278.42 alpha 2.44711
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416566
+RH 0.881069
+condensation0.0149597
+time is169
+cover outer -17.2257 rad 34.6999 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98348 rad -13.4907 area 25.4566 temp 274.351 alpha 2.24687
+side outer -5.75553 rad 12.044 area 8 temp 275.121 alpha 6.54813
+side inner -1.25019 rad -5.03833 area 8 temp 275.121 alpha 1.24704
+soil 5.61946 rad 19.3805 area 19.8 temp 278.42 alpha 2.44712
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416566
+RH 0.881072
+condensation0.0149598
+time is170
+cover outer -17.2258 rad 34.6998 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98332 rad -13.4907 area 25.4566 temp 274.351 alpha 2.24685
+side outer -5.75562 rad 12.044 area 8 temp 275.121 alpha 6.54813
+side inner -1.2501 rad -5.03828 area 8 temp 275.121 alpha 1.24702
+soil 5.61954 rad 19.3805 area 19.8 temp 278.42 alpha 2.44713
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416565
+RH 0.881075
+condensation0.0149599
+time is171
+cover outer -17.226 rad 34.6998 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98318 rad -13.4906 area 25.4566 temp 274.351 alpha 2.24683
+side outer -5.75571 rad 12.044 area 8 temp 275.121 alpha 6.54813
+side inner -1.25002 rad -5.03823 area 8 temp 275.121 alpha 1.247
+soil 5.61963 rad 19.3804 area 19.8 temp 278.42 alpha 2.44714
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416565
+RH 0.881078
+condensation0.01496
+time is172
+cover outer -17.2261 rad 34.6998 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98304 rad -13.4906 area 25.4566 temp 274.351 alpha 2.24681
+side outer -5.7558 rad 12.0439 area 8 temp 275.121 alpha 6.54813
+side inner -1.24994 rad -5.03819 area 8 temp 275.121 alpha 1.24698
+soil 5.61971 rad 19.3803 area 19.8 temp 278.42 alpha 2.44715
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416564
+RH 0.881081
+condensation0.01496
+time is173
+cover outer -17.2263 rad 34.6997 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.9829 rad -13.4905 area 25.4566 temp 274.351 alpha 2.24679
+side outer -5.75588 rad 12.0439 area 8 temp 275.121 alpha 6.54813
+side inner -1.24986 rad -5.03815 area 8 temp 275.121 alpha 1.24696
+soil 5.61978 rad 19.3802 area 19.8 temp 278.42 alpha 2.44716
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416564
+RH 0.881084
+condensation0.0149601
+time is174
+cover outer -17.2264 rad 34.6997 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98278 rad -13.4905 area 25.4566 temp 274.351 alpha 2.24678
+side outer -5.75596 rad 12.0438 area 8 temp 275.121 alpha 6.54813
+side inner -1.24979 rad -5.03811 area 8 temp 275.121 alpha 1.24694
+soil 5.61985 rad 19.3801 area 19.8 temp 278.42 alpha 2.44717
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416564
+RH 0.881086
+condensation0.0149602
+time is175
+cover outer -17.2266 rad 34.6996 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98265 rad -13.4904 area 25.4566 temp 274.351 alpha 2.24676
+side outer -5.75603 rad 12.0438 area 8 temp 275.121 alpha 6.54813
+side inner -1.24972 rad -5.03807 area 8 temp 275.121 alpha 1.24692
+soil 5.61992 rad 19.3801 area 19.8 temp 278.42 alpha 2.44717
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416563
+RH 0.881088
+condensation0.0149602
+time is176
+cover outer -17.2267 rad 34.6996 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98254 rad -13.4904 area 25.4566 temp 274.351 alpha 2.24674
+side outer -5.7561 rad 12.0438 area 8 temp 275.121 alpha 6.54813
+side inner -1.24965 rad -5.03803 area 8 temp 275.121 alpha 1.2469
+soil 5.61999 rad 19.38 area 19.8 temp 278.42 alpha 2.44718
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416563
+RH 0.881091
+condensation0.0149603
+time is177
+cover outer -17.2268 rad 34.6996 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98242 rad -13.4904 area 25.4566 temp 274.351 alpha 2.24673
+side outer -5.75617 rad 12.0438 area 8 temp 275.121 alpha 6.54813
+side inner -1.24959 rad -5.038 area 8 temp 275.121 alpha 1.24689
+soil 5.62005 rad 19.3799 area 19.8 temp 278.42 alpha 2.44719
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416563
+RH 0.881093
+condensation0.0149604
+time is178
+cover outer -17.2269 rad 34.6996 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98232 rad -13.4903 area 25.4566 temp 274.351 alpha 2.24671
+side outer -5.75624 rad 12.0437 area 8 temp 275.121 alpha 6.54813
+side inner -1.24953 rad -5.03796 area 8 temp 275.121 alpha 1.24687
+soil 5.62011 rad 19.3799 area 19.8 temp 278.42 alpha 2.44719
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416562
+RH 0.881095
+condensation0.0149604
+time is179
+cover outer -17.227 rad 34.6995 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98222 rad -13.4903 area 25.4566 temp 274.351 alpha 2.2467
+side outer -5.7563 rad 12.0437 area 8 temp 275.121 alpha 6.54813
+side inner -1.24947 rad -5.03793 area 8 temp 275.121 alpha 1.24686
+soil 5.62017 rad 19.3798 area 19.8 temp 278.42 alpha 2.4472
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416562
+RH 0.881097
+condensation0.0149605
+time is180
+cover outer -17.2271 rad 34.6995 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98212 rad -13.4903 area 25.4566 temp 274.351 alpha 2.24668
+side outer -5.75636 rad 12.0437 area 8 temp 275.121 alpha 6.54813
+side inner -1.24941 rad -5.0379 area 8 temp 275.121 alpha 1.24685
+soil 5.62022 rad 19.3798 area 19.8 temp 278.42 alpha 2.44721
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416562
+RH 0.881099
+condensation0.0149605
+time is181
+cover outer -17.2272 rad 34.6995 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98202 rad -13.4902 area 25.4566 temp 274.351 alpha 2.24667
+side outer -5.75641 rad 12.0436 area 8 temp 275.121 alpha 6.54813
+side inner -1.24936 rad -5.03787 area 8 temp 275.121 alpha 1.24683
+soil 5.62027 rad 19.3797 area 19.8 temp 278.42 alpha 2.44721
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416561
+RH 0.881101
+condensation0.0149606
+time is182
+cover outer -17.2273 rad 34.6995 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98194 rad -13.4902 area 25.4566 temp 274.351 alpha 2.24666
+side outer -5.75647 rad 12.0436 area 8 temp 275.121 alpha 6.54813
+side inner -1.24931 rad -5.03784 area 8 temp 275.121 alpha 1.24682
+soil 5.62032 rad 19.3797 area 19.8 temp 278.42 alpha 2.44722
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416561
+RH 0.881103
+condensation0.0149606
+time is183
+cover outer -17.2274 rad 34.6994 area 25.4566 temp 274.351 alpha 10.444
+cover inner -3.98185 rad -13.4902 area 25.4566 temp 274.351 alpha 2.24665
+side outer -5.75652 rad 12.0436 area 8 temp 275.121 alpha 6.54813
+side inner -1.24926 rad -5.03782 area 8 temp 275.121 alpha 1.24681
+soil 5.62037 rad 19.3796 area 19.8 temp 278.419 alpha 2.44722
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416561
+RH 0.881104
+condensation0.0149607
+time is184
+cover outer -17.2275 rad 34.6994 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98177 rad -13.4901 area 25.4566 temp 274.35 alpha 2.24663
+side outer -5.75657 rad 12.0436 area 8 temp 275.121 alpha 6.54813
+side inner -1.24921 rad -5.03779 area 8 temp 275.121 alpha 1.2468
+soil 5.62042 rad 19.3796 area 19.8 temp 278.419 alpha 2.44723
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416561
+RH 0.881106
+condensation0.0149607
+time is185
+cover outer -17.2276 rad 34.6994 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98169 rad -13.4901 area 25.4566 temp 274.35 alpha 2.24662
+side outer -5.75662 rad 12.0436 area 8 temp 275.121 alpha 6.54813
+side inner -1.24917 rad -5.03777 area 8 temp 275.121 alpha 1.24679
+soil 5.62046 rad 19.3795 area 19.8 temp 278.419 alpha 2.44723
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041656
+RH 0.881108
+condensation0.0149607
+time is186
+cover outer -17.2277 rad 34.6994 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98162 rad -13.4901 area 25.4566 temp 274.35 alpha 2.24661
+side outer -5.75666 rad 12.0435 area 8 temp 275.121 alpha 6.54813
+side inner -1.24913 rad -5.03774 area 8 temp 275.121 alpha 1.24678
+soil 5.6205 rad 19.3795 area 19.8 temp 278.419 alpha 2.44724
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041656
+RH 0.881109
+condensation0.0149608
+time is187
+cover outer -17.2277 rad 34.6994 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98155 rad -13.4901 area 25.4566 temp 274.35 alpha 2.2466
+side outer -5.75671 rad 12.0435 area 8 temp 275.121 alpha 6.54813
+side inner -1.24909 rad -5.03772 area 8 temp 275.121 alpha 1.24677
+soil 5.62054 rad 19.3795 area 19.8 temp 278.419 alpha 2.44724
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041656
+RH 0.88111
+condensation0.0149608
+time is188
+cover outer -17.2278 rad 34.6993 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98148 rad -13.49 area 25.4566 temp 274.35 alpha 2.24659
+side outer -5.75675 rad 12.0435 area 8 temp 275.121 alpha 6.54813
+side inner -1.24905 rad -5.0377 area 8 temp 275.121 alpha 1.24676
+soil 5.62058 rad 19.3794 area 19.8 temp 278.419 alpha 2.44724
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041656
+RH 0.881112
+condensation0.0149609
+time is189
+cover outer -17.2279 rad 34.6993 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98141 rad -13.49 area 25.4566 temp 274.35 alpha 2.24658
+side outer -5.75679 rad 12.0435 area 8 temp 275.121 alpha 6.54813
+side inner -1.24901 rad -5.03768 area 8 temp 275.121 alpha 1.24675
+soil 5.62062 rad 19.3794 area 19.8 temp 278.419 alpha 2.44725
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.0041656
+RH 0.881113
+condensation0.0149609
+time is190
+cover outer -17.228 rad 34.6993 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98135 rad -13.49 area 25.4566 temp 274.35 alpha 2.24658
+side outer -5.75683 rad 12.0435 area 8 temp 275.121 alpha 6.54813
+side inner -1.24898 rad -5.03766 area 8 temp 275.121 alpha 1.24674
+soil 5.62065 rad 19.3793 area 19.8 temp 278.419 alpha 2.44725
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416559
+RH 0.881114
+condensation0.0149609
+time is191
+cover outer -17.228 rad 34.6993 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98129 rad -13.49 area 25.4566 temp 274.35 alpha 2.24657
+side outer -5.75686 rad 12.0434 area 8 temp 275.121 alpha 6.54813
+side inner -1.24894 rad -5.03764 area 8 temp 275.121 alpha 1.24673
+soil 5.62069 rad 19.3793 area 19.8 temp 278.419 alpha 2.44726
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416559
+RH 0.881116
+condensation0.014961
+time is192
+cover outer -17.2281 rad 34.6993 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98124 rad -13.49 area 25.4566 temp 274.35 alpha 2.24656
+side outer -5.7569 rad 12.0434 area 8 temp 275.121 alpha 6.54813
+side inner -1.24891 rad -5.03763 area 8 temp 275.121 alpha 1.24672
+soil 5.62072 rad 19.3793 area 19.8 temp 278.419 alpha 2.44726
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416559
+RH 0.881117
+condensation0.014961
+time is193
+cover outer -17.2281 rad 34.6993 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98118 rad -13.4899 area 25.4566 temp 274.35 alpha 2.24655
+side outer -5.75693 rad 12.0434 area 8 temp 275.121 alpha 6.54813
+side inner -1.24888 rad -5.03761 area 8 temp 275.121 alpha 1.24671
+soil 5.62075 rad 19.3793 area 19.8 temp 278.419 alpha 2.44726
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416559
+RH 0.881118
+condensation0.014961
+time is194
+cover outer -17.2282 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98113 rad -13.4899 area 25.4566 temp 274.35 alpha 2.24654
+side outer -5.75696 rad 12.0434 area 8 temp 275.121 alpha 6.54813
+side inner -1.24885 rad -5.03759 area 8 temp 275.121 alpha 1.24671
+soil 5.62078 rad 19.3792 area 19.8 temp 278.419 alpha 2.44726
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416559
+RH 0.881119
+condensation0.014961
+time is195
+cover outer -17.2282 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98108 rad -13.4899 area 25.4566 temp 274.35 alpha 2.24654
+side outer -5.75699 rad 12.0434 area 8 temp 275.121 alpha 6.54813
+side inner -1.24882 rad -5.03758 area 8 temp 275.121 alpha 1.2467
+soil 5.6208 rad 19.3792 area 19.8 temp 278.419 alpha 2.44727
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416559
+RH 0.88112
+condensation0.0149611
+time is196
+cover outer -17.2283 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98103 rad -13.4899 area 25.4566 temp 274.35 alpha 2.24653
+side outer -5.75702 rad 12.0434 area 8 temp 275.121 alpha 6.54813
+side inner -1.24879 rad -5.03756 area 8 temp 275.121 alpha 1.24669
+soil 5.62083 rad 19.3792 area 19.8 temp 278.419 alpha 2.44727
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416558
+RH 0.881121
+condensation0.0149611
+time is197
+cover outer -17.2283 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98099 rad -13.4899 area 25.4566 temp 274.35 alpha 2.24653
+side outer -5.75705 rad 12.0434 area 8 temp 275.121 alpha 6.54813
+side inner -1.24877 rad -5.03755 area 8 temp 275.121 alpha 1.24669
+soil 5.62086 rad 19.3791 area 19.8 temp 278.419 alpha 2.44727
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416558
+RH 0.881122
+condensation0.0149611
+time is198
+cover outer -17.2284 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98095 rad -13.4899 area 25.4566 temp 274.35 alpha 2.24652
+side outer -5.75707 rad 12.0434 area 8 temp 275.121 alpha 6.54813
+side inner -1.24874 rad -5.03753 area 8 temp 275.121 alpha 1.24668
+soil 5.62088 rad 19.3791 area 19.8 temp 278.419 alpha 2.44728
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416558
+RH 0.881122
+condensation0.0149611
+time is199
+cover outer -17.2284 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98091 rad -13.4898 area 25.4566 temp 274.35 alpha 2.24651
+side outer -5.7571 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24872 rad -5.03752 area 8 temp 275.121 alpha 1.24667
+soil 5.6209 rad 19.3791 area 19.8 temp 278.419 alpha 2.44728
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416558
+RH 0.881123
+condensation0.0149612
+time is200
+cover outer -17.2285 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98087 rad -13.4898 area 25.4566 temp 274.35 alpha 2.24651
+side outer -5.75712 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.2487 rad -5.03751 area 8 temp 275.121 alpha 1.24667
+soil 5.62092 rad 19.3791 area 19.8 temp 278.419 alpha 2.44728
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416558
+RH 0.881124
+condensation0.0149612
+time is201
+cover outer -17.2285 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98083 rad -13.4898 area 25.4566 temp 274.35 alpha 2.2465
+side outer -5.75715 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24868 rad -5.0375 area 8 temp 275.121 alpha 1.24666
+soil 5.62095 rad 19.3791 area 19.8 temp 278.419 alpha 2.44728
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416558
+RH 0.881125
+condensation0.0149612
+time is202
+cover outer -17.2286 rad 34.6992 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98079 rad -13.4898 area 25.4566 temp 274.35 alpha 2.2465
+side outer -5.75717 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24866 rad -5.03749 area 8 temp 275.121 alpha 1.24666
+soil 5.62097 rad 19.379 area 19.8 temp 278.419 alpha 2.44729
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416558
+RH 0.881125
+condensation0.0149612
+time is203
+cover outer -17.2286 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98076 rad -13.4898 area 25.4566 temp 274.35 alpha 2.24649
+side outer -5.75719 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24864 rad -5.03748 area 8 temp 275.121 alpha 1.24665
+soil 5.62099 rad 19.379 area 19.8 temp 278.419 alpha 2.44729
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416558
+RH 0.881126
+condensation0.0149612
+time is204
+cover outer -17.2286 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98073 rad -13.4898 area 25.4566 temp 274.35 alpha 2.24649
+side outer -5.75721 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24862 rad -5.03747 area 8 temp 275.121 alpha 1.24665
+soil 5.621 rad 19.379 area 19.8 temp 278.419 alpha 2.44729
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881127
+condensation0.0149612
+time is205
+cover outer -17.2287 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98069 rad -13.4898 area 25.4566 temp 274.35 alpha 2.24648
+side outer -5.75723 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.2486 rad -5.03746 area 8 temp 275.121 alpha 1.24664
+soil 5.62102 rad 19.379 area 19.8 temp 278.419 alpha 2.44729
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881127
+condensation0.0149613
+time is206
+cover outer -17.2287 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98066 rad -13.4898 area 25.4566 temp 274.35 alpha 2.24648
+side outer -5.75725 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24858 rad -5.03745 area 8 temp 275.121 alpha 1.24664
+soil 5.62104 rad 19.379 area 19.8 temp 278.419 alpha 2.44729
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881128
+condensation0.0149613
+time is207
+cover outer -17.2287 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98064 rad -13.4898 area 25.4566 temp 274.35 alpha 2.24648
+side outer -5.75726 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24857 rad -5.03744 area 8 temp 275.121 alpha 1.24664
+soil 5.62105 rad 19.3789 area 19.8 temp 278.419 alpha 2.44729
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881129
+condensation0.0149613
+time is208
+cover outer -17.2288 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98061 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24647
+side outer -5.75728 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24855 rad -5.03743 area 8 temp 275.121 alpha 1.24663
+soil 5.62107 rad 19.3789 area 19.8 temp 278.419 alpha 2.4473
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881129
+condensation0.0149613
+time is209
+cover outer -17.2288 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98058 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24647
+side outer -5.7573 rad 12.0433 area 8 temp 275.121 alpha 6.54813
+side inner -1.24854 rad -5.03742 area 8 temp 275.121 alpha 1.24663
+soil 5.62108 rad 19.3789 area 19.8 temp 278.419 alpha 2.4473
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.88113
+condensation0.0149613
+time is210
+cover outer -17.2288 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98056 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24646
+side outer -5.75731 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24852 rad -5.03741 area 8 temp 275.121 alpha 1.24663
+soil 5.6211 rad 19.3789 area 19.8 temp 278.419 alpha 2.4473
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.88113
+condensation0.0149613
+time is211
+cover outer -17.2288 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98053 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24646
+side outer -5.75733 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24851 rad -5.03741 area 8 temp 275.121 alpha 1.24662
+soil 5.62111 rad 19.3789 area 19.8 temp 278.419 alpha 2.4473
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881131
+condensation0.0149613
+time is212
+cover outer -17.2289 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98051 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24646
+side outer -5.75734 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.2485 rad -5.0374 area 8 temp 275.121 alpha 1.24662
+soil 5.62112 rad 19.3789 area 19.8 temp 278.419 alpha 2.4473
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881131
+condensation0.0149614
+time is213
+cover outer -17.2289 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98049 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24646
+side outer -5.75735 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24848 rad -5.03739 area 8 temp 275.121 alpha 1.24662
+soil 5.62114 rad 19.3789 area 19.8 temp 278.419 alpha 2.4473
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881132
+condensation0.0149614
+time is214
+cover outer -17.2289 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98047 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24645
+side outer -5.75737 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24847 rad -5.03739 area 8 temp 275.121 alpha 1.24661
+soil 5.62115 rad 19.3789 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881132
+condensation0.0149614
+time is215
+cover outer -17.2289 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98045 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24645
+side outer -5.75738 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24846 rad -5.03738 area 8 temp 275.121 alpha 1.24661
+soil 5.62116 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881132
+condensation0.0149614
+time is216
+cover outer -17.2289 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98043 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24645
+side outer -5.75739 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24845 rad -5.03737 area 8 temp 275.121 alpha 1.24661
+soil 5.62117 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881133
+condensation0.0149614
+time is217
+cover outer -17.229 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98041 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24644
+side outer -5.7574 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24844 rad -5.03737 area 8 temp 275.121 alpha 1.2466
+soil 5.62118 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416557
+RH 0.881133
+condensation0.0149614
+time is218
+cover outer -17.229 rad 34.6991 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98039 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24644
+side outer -5.75741 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24843 rad -5.03736 area 8 temp 275.121 alpha 1.2466
+soil 5.62119 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881133
+condensation0.0149614
+time is219
+cover outer -17.229 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98038 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24644
+side outer -5.75742 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24842 rad -5.03736 area 8 temp 275.121 alpha 1.2466
+soil 5.6212 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881134
+condensation0.0149614
+time is220
+cover outer -17.229 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98036 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24644
+side outer -5.75743 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24841 rad -5.03735 area 8 temp 275.121 alpha 1.2466
+soil 5.62121 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881134
+condensation0.0149614
+time is221
+cover outer -17.229 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98035 rad -13.4897 area 25.4566 temp 274.35 alpha 2.24644
+side outer -5.75744 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.2484 rad -5.03735 area 8 temp 275.121 alpha 1.2466
+soil 5.62122 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881134
+condensation0.0149614
+time is222
+cover outer -17.2291 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98033 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24643
+side outer -5.75745 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24839 rad -5.03734 area 8 temp 275.121 alpha 1.24659
+soil 5.62122 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881135
+condensation0.0149615
+time is223
+cover outer -17.2291 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98032 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24643
+side outer -5.75746 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24839 rad -5.03734 area 8 temp 275.121 alpha 1.24659
+soil 5.62123 rad 19.3788 area 19.8 temp 278.419 alpha 2.44731
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881135
+condensation0.0149615
+time is224
+cover outer -17.2291 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98031 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24643
+side outer -5.75747 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24838 rad -5.03733 area 8 temp 275.121 alpha 1.24659
+soil 5.62124 rad 19.3788 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881135
+condensation0.0149615
+time is225
+cover outer -17.2291 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98029 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24643
+side outer -5.75747 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24837 rad -5.03733 area 8 temp 275.121 alpha 1.24659
+soil 5.62125 rad 19.3788 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881135
+condensation0.0149615
+time is226
+cover outer -17.2291 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98028 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24643
+side outer -5.75748 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24836 rad -5.03733 area 8 temp 275.121 alpha 1.24659
+soil 5.62125 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881136
+condensation0.0149615
+time is227
+cover outer -17.2291 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98027 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24642
+side outer -5.75749 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24836 rad -5.03732 area 8 temp 275.121 alpha 1.24658
+soil 5.62126 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881136
+condensation0.0149615
+time is228
+cover outer -17.2291 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98026 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24642
+side outer -5.75749 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24835 rad -5.03732 area 8 temp 275.121 alpha 1.24658
+soil 5.62127 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881136
+condensation0.0149615
+time is229
+cover outer -17.2291 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98025 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24642
+side outer -5.7575 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24835 rad -5.03732 area 8 temp 275.121 alpha 1.24658
+soil 5.62127 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881136
+condensation0.0149615
+time is230
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98024 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24642
+side outer -5.75751 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24834 rad -5.03731 area 8 temp 275.121 alpha 1.24658
+soil 5.62128 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881137
+condensation0.0149615
+time is231
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98023 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24642
+side outer -5.75751 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24833 rad -5.03731 area 8 temp 275.121 alpha 1.24658
+soil 5.62128 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881137
+condensation0.0149615
+time is232
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98022 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24642
+side outer -5.75752 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24833 rad -5.03731 area 8 temp 275.121 alpha 1.24658
+soil 5.62129 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881137
+condensation0.0149615
+time is233
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98021 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24642
+side outer -5.75752 rad 12.0432 area 8 temp 275.121 alpha 6.54813
+side inner -1.24832 rad -5.0373 area 8 temp 275.121 alpha 1.24658
+soil 5.62129 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881137
+condensation0.0149615
+time is234
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.9802 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75753 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24832 rad -5.0373 area 8 temp 275.121 alpha 1.24657
+soil 5.6213 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881137
+condensation0.0149615
+time is235
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98019 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75753 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24831 rad -5.0373 area 8 temp 275.121 alpha 1.24657
+soil 5.6213 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881137
+condensation0.0149615
+time is236
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98019 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75754 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24831 rad -5.0373 area 8 temp 275.121 alpha 1.24657
+soil 5.62131 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881138
+condensation0.0149615
+time is237
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98018 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75754 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24831 rad -5.03729 area 8 temp 275.121 alpha 1.24657
+soil 5.62131 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881138
+condensation0.0149615
+time is238
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98017 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75755 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.2483 rad -5.03729 area 8 temp 275.121 alpha 1.24657
+soil 5.62131 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881138
+condensation0.0149615
+time is239
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98017 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75755 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.2483 rad -5.03729 area 8 temp 275.121 alpha 1.24657
+soil 5.62132 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881138
+condensation0.0149615
+time is240
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98016 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75755 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24829 rad -5.03729 area 8 temp 275.121 alpha 1.24657
+soil 5.62132 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881138
+condensation0.0149615
+time is241
+cover outer -17.2292 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98015 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75756 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24829 rad -5.03729 area 8 temp 275.121 alpha 1.24657
+soil 5.62133 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881138
+condensation0.0149615
+time is242
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98015 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75756 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24829 rad -5.03728 area 8 temp 275.121 alpha 1.24657
+soil 5.62133 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881138
+condensation0.0149616
+time is243
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98014 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75757 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24828 rad -5.03728 area 8 temp 275.121 alpha 1.24657
+soil 5.62133 rad 19.3787 area 19.8 temp 278.419 alpha 2.44732
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881138
+condensation0.0149616
+time is244
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98014 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24641
+side outer -5.75757 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24828 rad -5.03728 area 8 temp 275.121 alpha 1.24657
+soil 5.62133 rad 19.3787 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is245
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98013 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75757 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24828 rad -5.03728 area 8 temp 275.121 alpha 1.24656
+soil 5.62134 rad 19.3787 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is246
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98013 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75757 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24828 rad -5.03728 area 8 temp 275.121 alpha 1.24656
+soil 5.62134 rad 19.3787 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is247
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98012 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75758 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24827 rad -5.03728 area 8 temp 275.121 alpha 1.24656
+soil 5.62134 rad 19.3787 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is248
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98012 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75758 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24827 rad -5.03728 area 8 temp 275.121 alpha 1.24656
+soil 5.62135 rad 19.3787 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is249
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98011 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75758 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24827 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62135 rad 19.3787 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is250
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98011 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75759 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24827 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62135 rad 19.3787 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is251
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98011 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75759 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24826 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62135 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is252
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.9801 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75759 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24826 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62135 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is253
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.9801 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75759 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24826 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62136 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is254
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98009 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75759 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24826 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62136 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is255
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98009 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.7576 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24826 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62136 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is256
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98009 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.7576 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24825 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62136 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.881139
+condensation0.0149616
+time is257
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98009 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.7576 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24825 rad -5.03727 area 8 temp 275.121 alpha 1.24656
+soil 5.62136 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is258
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98008 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.7576 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24825 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62136 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is259
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98008 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.7576 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24825 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62137 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is260
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98008 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.7576 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24825 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62137 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is261
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98008 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75761 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24825 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62137 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is262
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98007 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75761 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24825 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62137 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is263
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98007 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75761 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62137 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is264
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98007 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75761 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62137 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is265
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98007 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75761 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62137 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is266
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98006 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75761 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is267
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98006 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75761 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24656
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is268
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98006 rad -13.4896 area 25.4566 temp 274.35 alpha 2.2464
+side outer -5.75761 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416556
+RH 0.88114
+condensation0.0149616
+time is269
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98006 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is270
+cover outer -17.2293 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98006 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is271
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98006 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24824 rad -5.03726 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is272
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98005 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03726 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is273
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98005 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is274
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98005 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is275
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98005 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is276
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98005 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is277
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98005 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is278
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98005 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62138 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is279
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98005 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is280
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75762 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is281
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is282
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is283
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is284
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is285
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is286
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is287
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4896 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.88114
+condensation0.0149616
+time is288
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24823 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is289
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is290
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is291
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is292
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98004 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is293
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is294
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is295
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is296
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is297
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is298
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is299
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is300
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is301
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is302
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is303
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is304
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is305
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is306
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is307
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.62139 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is308
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is309
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is310
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is311
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75763 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is312
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is313
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is314
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is315
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is316
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is317
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is318
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is319
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is320
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is321
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is322
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is323
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is324
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is325
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is326
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is327
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is328
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98003 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is329
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is330
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is331
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is332
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is333
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is334
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is335
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is336
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is337
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is338
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is339
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is340
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is341
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is342
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is343
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is344
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is345
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is346
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is347
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is348
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is349
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is350
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is351
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is352
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is353
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is354
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is355
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is356
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is357
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is358
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is359
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is360
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is361
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is362
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is363
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is364
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is365
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is366
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is367
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is368
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is369
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is370
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is371
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is372
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is373
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is374
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is375
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is376
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is377
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is378
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is379
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is380
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is381
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is382
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is383
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is384
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is385
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is386
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is387
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is388
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is389
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is390
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is391
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is392
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is393
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is394
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is395
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is396
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is397
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is398
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is399
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is400
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is401
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is402
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is403
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is404
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is405
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is406
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is407
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is408
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is409
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is410
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is411
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is412
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is413
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is414
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is415
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is416
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is417
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is418
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+outer cover heat tr coeff10.444
+outer soil tr coeff4.5388
+outer sidewall heat tr coeff6.54813
+inner cover heat tr coeff2.24639
+inner sidewall heat tr coeff1.24655
+inner soil heat tr coeff2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is419
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733
+RH cover0.999991
+transpriatio0.01482
+humidity_ratio_next0.00416555
+RH 0.881141
+condensation0.0149616
+time is420
+cover outer -17.2294 rad 34.699 area 25.4566 temp 274.35 alpha 10.444
+cover inner -3.98002 rad -13.4895 area 25.4566 temp 274.35 alpha 2.24639
+side outer -5.75764 rad 12.0431 area 8 temp 275.121 alpha 6.54813
+side inner -1.24822 rad -5.03725 area 8 temp 275.121 alpha 1.24655
+soil 5.6214 rad 19.3786 area 19.8 temp 278.419 alpha 2.44733

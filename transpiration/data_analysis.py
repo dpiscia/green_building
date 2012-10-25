@@ -6,9 +6,7 @@ This temporary script file is located here:
 C:\Users\dpiscia\.spyder2\.temp.py
 """
 
-import xlrd
-import sqlite3 as sql
-import data_functions.py
+import os
 
 #'''list variables declaration'''
 #first_column = []  #0
@@ -46,26 +44,11 @@ import data_functions.py
 #       peso_balanca]
        
 excel_file= '22062010.xls'
-book = xlrd.open_workbook(excel_file)
-sheet = book.sheet_by_index(0)
-#for col in range(len(dati)): #number of columns
-#    for row in range(sheet.nrows):    #numbers of rows
-#            dati[col].append(sheet.cell_value(row,col))
-con = sql.connect('greenhouse.db')
-cur = con.cursor()
-for row in range(1,sheet.nrows):
-    cur.execute("INSERT INTO data values(?,?)", (data_functions.set_date_time(sheet.cell_value(row,1),sheet.cell_value(row,2),sheet.cell_value(row,3)), sheet.cell_value(row,4)))
-con.close() 
 
-            
+os.system("ls *.xls >> file_list.txt")
 
+def convert_fie_into_list():
+    ''' get a file, containg a list of file, as input and return a
+python list object'''
+#check function already dvelopped
 
-def create_table():
-    ''' function to create a sqlite table from zero, to be used only once'''
-    ''' use .tables and .schema for getting table and schema info from sqlite shell'''
-    
-    con = sql.connect('greenhouse.db')
-    cur = con.cursor()
-    cur.execute("DROP TABLE IF EXISTS data")
-    cur.execute("CREATE TABLE data(Id INT,date DATETIME, t_rad_ext FLOAT, rad_ext FLOAT,t_rad_int FLOAT,rad_int_sup_solar FLOAT,rad_int_inf_solar FLOAT,rad_int_inf_term FLOAT,rad_int_sup_term FLOAT, temp_1 FLOAT,RH_1 FLOAT,temp_2 FLOAT,RH_2 FLOAT, thermo1 FLOAT,thermo2 FLOAT,SHF FLOAT,t_soil FLOAT,t_ext FLOAT,RH_ext FLOAT,time_balanca FLOAT,peso_balanca FLOAT)")
-    con.close() 

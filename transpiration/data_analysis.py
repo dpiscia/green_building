@@ -6,7 +6,7 @@ This temporary script file is located here:
 C:\Users\dpiscia\.spyder2\.temp.py
 """
 
-import os
+
 
 #'''list variables declaration'''
 #first_column = []  #0
@@ -43,12 +43,21 @@ import os
 #       prog,thermo1,thermo2,SHF,rs_1,rs_2,rs_3,t_soil,t_ext,RH_ext,time_balanca,
 #       peso_balanca]
        
-excel_file= '22062010.xls'
 
-os.system("ls *.xls >> file_list.txt")
+#import os
+#os.system("ls *.xls > file_list.txt")
 
-def convert_fie_into_list():
+def convert_file_into_list():
     ''' get a file, containg a list of file, as input and return a
-python list object'''
+    python list object
+    '''
+    import csv
+    import re
+    lista = []
+    with open('file_list.txt','rb') as csvfile:
+        spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for row in spamreader:
+            lista.append(re.sub("[]''[]","",str(row)))
+    return lista            
 #check function already dvelopped
 

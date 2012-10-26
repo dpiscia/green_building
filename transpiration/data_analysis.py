@@ -57,7 +57,9 @@ def convert_file_into_list(file_name):
     with open(file_name,'rb') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
         for row in spamreader:
-            lista.append(re.sub("[]''[]","",str(row)))
+            lista.append(str(re.sub("[]''[]","",str(row))))
+            print re.sub("[]''[]","",str(row))
     return lista            
-#check function already dvelopped
+
+
 

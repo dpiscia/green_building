@@ -9,6 +9,10 @@ import sqlite3 as sql
 import xlrd
 
 def set_date_time(year,day,minute):
+    ''' receive numbers of days and find mothns and days
+    receive minutes with no format and 
+    return hours and minutes
+    '''
     days_month = [31,28,31,30,31,30,31,31]
     month = 1
     real_day = day
@@ -34,8 +38,10 @@ def set_date_time(year,day,minute):
     return date
 
 def create_table():
-    ''' function to create a sqlite table from zero, to be used only once'''
-    ''' use .tables and .schema for getting table and schema info from sqlite shell'''
+    ''' function to create a sqlite table from zero, to be used 
+    only once use .tables 
+    and .schema for getting table and schema info from sqlite shell
+    '''
     
     con = sql.connect('greenhouse.db')
     cur = con.cursor()
@@ -44,6 +50,11 @@ def create_table():
     con.close() 
     
 def load_data_into_sqlite(excel_file):
+    ''' read an excel sheet and load data directly into a sqlite DB,
+     it can be adapted to other format, but chnges has to be consisten with 
+     function create table. pay special attention to primary key date, which is an 
+     output of function set_date_time
+    '''
     book = xlrd.open_workbook(excel_file)
     sheet = book.sheet_by_index(0)
     #for col in range(len(dati)): #number of columns
@@ -52,13 +63,27 @@ def load_data_into_sqlite(excel_file):
     con = sql.connect('greenhouse.db')
     cur = con.cursor()
     for row in range(1,sheet.nrows):
-        cur.execute("INSERT INTO data values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (set_date_time(int(sheet.cell_value(row,1)),int(sheet.cell_value(row,2)),
-         int(sheet.cell_value(row,3))),float(sheet.cell_value(row,4)),float(sheet.cell_value(row,5))
-        ,float(sheet.cell_value(row,6)),float(sheet.cell_value(row,8)),float(sheet.cell_value(row,9)),float(sheet.cell_value(row,7)),float(sheet.cell_value(row,10)),
-         float(sheet.cell_value(row,11)),float(sheet.cell_value(row,12)),float(sheet.cell_value(row,13)),float(sheet.cell_value(row,14)),
-         float(sheet.cell_value(row,17)),float(sheet.cell_value(row,18)),float(sheet.cell_value(row,19)),float(sheet.cell_value(row,23)),
-         float(sheet.cell_value(row,24)),float(sheet.cell_value(row,25)),float(sheet.cell_value(row,26)),float(sheet.cell_value(row,27))))
+        if check_item_by_date(con,cur,set_date_time(cur,con,int(sheet.cell_value(row,1)),int(sheet.cell_value(row,2)),int(sheet.cell_value(row,3)))):
+             cur.execute("INSERT INTO data values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (set_date_time(int(sheet.cell_value(row,1)),int(sheet.cell_value(row,2)),
+             int(sheet.cell_value(row,3))),float(sheet.cell_value(row,4)),float(sheet.cell_value(row,5))
+            ,float(sheet.cell_value(row,6)),float(sheet.cell_value(row,8)),float(sheet.cell_value(row,9)),float(sheet.cell_value(row,7)),float(sheet.cell_value(row,10)),
+             float(sheet.cell_value(row,11)),float(sheet.cell_value(row,12)),float(sheet.cell_value(row,13)),float(sheet.cell_value(row,14)),
+             float(sheet.cell_value(row,17)),float(sheet.cell_value(row,18)),float(sheet.cell_value(row,19)),float(sheet.cell_value(row,23)),
+             float(sheet.cell_value(row,24)),float(sheet.cell_value(row,25)),float(sheet.cell_value(row,26)),float(sheet.cell_value(row,27))))
          #print data_functions.set_date_time(int(sheet.cell_value(row,1)),int(sheet.cell_value(row,2)),int(sheet.cell_value(row,3)))
         #print int(sheet.cell_value(row,1)), " --- ",int(sheet.cell_value(row,2)) ,"-----", int(sheet.cell_value(row,3))
     con.commit()
     con.close()     
+
+def check_item_by_date(conn,cursor,data):
+    ''' before of inserting new record into DB, 
+    this function will check whether the primary key timeline is
+    already inserted'''
+    cursor.execute ("SELECT date from data where date =:fecha" ,{"fecha":data})
+    conn.commit()
+    row = cursor.fectchone()
+    if (row <> None):
+        return True
+    else:
+        print "Error this daat is already inserted", data
+        return False

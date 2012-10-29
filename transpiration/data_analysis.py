@@ -44,22 +44,12 @@ C:\Users\dpiscia\.spyder2\.temp.py
 #       peso_balanca]
        
 
-#import os
-#os.system("ls *.xls > file_list.txt")
-
-def convert_file_into_list(file_name):
-    ''' get a file, containg a list of file, as input and return a
-    python list object
-    '''
-    import csv
-    import re
-    lista = []
-    with open(file_name,'rb') as csvfile:
-        spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-        for row in spamreader:
-            lista.append(str(re.sub("[]''[]","",str(row))))
-            print re.sub("[]''[]","",str(row))
-    return lista            
-
+import data_functions as df
+list_file = []
+list_file = df.convert_file_into_list('file_list.txt')
+print list_file
+          
+for i in list_file:
+    df.load_data_into_sqlite(i)
 
 

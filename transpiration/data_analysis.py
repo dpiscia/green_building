@@ -68,14 +68,16 @@ def query_db(DB_name,TB_name,begin_date,end_date):
     cursor.execute ("SELECT * from data where date >=:fecha_in and date<=:fecha_fin" ,{"fecha_in":begin_date,"fecha_fin":end_date})
     connection.commit()
     dataframe = __processCursor(cursor, dataframe=False)
+    return dataframe
 #    row = cursor.fetchall()
+#    return row
 #    for i in row:
 #        print i
 
 
 import numpy as np
 import pandas
-import decimal
+
         
 def __processCursor(cur, dataframe=False, index=None):
     '''
@@ -88,28 +90,15 @@ def __processCursor(cur, dataframe=False, index=None):
                 if true, return a pandas dataframe
     index - list of column(s) to use as index in a pandas dataframe
     '''
-    datatypes = []
-    colinfo = cur.description
-    for col in colinfo:
-        print "col 2," ,col[1]
-        if col[1] == unicode:
-            datatypes.append((col[0], 'U%d' % col[3]))
-        elif col[1] == str:
-            datatypes.append((col[0], 'S%d' % col[3]))
-        elif col[1] in [float, decimal.Decimal]:
-            datatypes.append((col[0], 'f4'))
-        elif col[1] == datetime:
-            datatypes.append((col[0], 'O4'))
-        elif col[1] == int:
-            datatypes.append((col[0], 'i4'))
+    dt = np.dtype([('data', 'datetime64'), ('t_rad_ext', 'float32'),("rad_ext", 'float32'),('t_rad_int', 'float32'),('rad_int_sup_solar', 'float32'),('rad_int_inf_solar', 'float32'),('rad_int_inf_term', 'float32'),('rad_int_sup_term', 'float32'),('temp_1', 'float32'),('RH_1', 'float32'),('temp_2', 'float32'),('RH_2', 'float32'),('thermo1', 'float32'),('thermo2', 'float32'),('SHF', 'float32'),('t_soil', 'float32'),('t_ext', 'float32'),('RH_ext', 'float32'),('time_balanca', 'float32'),('peso_balanca', 'float32')])
 
     data = []
     for row in cur:
         
         data.append(tuple(row))
-        #print data
-        print datatypes
-    array = np.array(data, dtype=datatypes)
+        
+        
+    array = np.array(data, dtype=dt)
     if dataframe:
         output = pandas.DataFrame.from_records(array)
 
@@ -121,8 +110,8 @@ def __processCursor(cur, dataframe=False, index=None):
 
     return output    
 data = datetime(2010,6,30,5,25,0)
-data_fin = datetime(2010,6,30,5,25,0)
-query_db('greenhouse.db',data,data,data_fin)
+data_fin = datetime(2010,6,30,5,30,0)
+davide = query_db('greenhouse.db',data,data,data_fin)
 
 #problem when cosntructing the dataframe from description,whihc is none:
     #possible solution use sqlalchemy or use pyodbc with sqlite

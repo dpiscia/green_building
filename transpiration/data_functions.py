@@ -9,7 +9,40 @@ import sqlite3 as sql
 import xlrd
 import csv
 import re
+import numpy as np
+import pandas
 
+
+def __processCursor(cur, dataframe=False, index=None):
+    '''
+    Processes a database cursor with data on it into either
+    a structured numpy array or a pandas dataframe.
+
+    input:
+    cur - a sql cursor that has just received data
+    dataframe - bool. if false, a numpy record array is returned
+                if true, return a pandas dataframe
+    index - list of column(s) to use as index in a pandas dataframe
+    '''
+    dt = np.dtype([('data', 'M8'), ('t_rad_ext', 'float32'),("rad_ext", 'float32'),('t_rad_int', 'float32'),('rad_int_sup_solar', 'float32'),('rad_int_inf_solar', 'float32'),('rad_int_inf_term', 'float32'),('rad_int_sup_term', 'float32'),('temp_1', 'float32'),('RH_1', 'float32'),('temp_2', 'float32'),('RH_2', 'float32'),('thermo1', 'float32'),('thermo2', 'float32'),('SHF', 'float32'),('t_soil', 'float32'),('t_ext', 'float32'),('RH_ext', 'float32'),('time_balanca', 'float32'),('peso_balanca', 'float32')])
+
+    data = []
+    for row in cur:
+        
+        data.append(tuple(row))
+        
+        
+    array = np.array(data, dtype=dt)
+    if dataframe:
+        output = pandas.DataFrame.from_records(array)
+
+        if index is not None:
+            output = output.set_index(index)
+
+    else:
+        output = array
+
+    return output    
 def check_item_by_date(conn,cursor,data):
     ''' before of inserting new record into DB, 
     this function will check whether the primary key timeline is
@@ -23,6 +56,7 @@ def check_item_by_date(conn,cursor,data):
     else:
         print "OK data record will be inserted", data
         return False
+        
 def convert_file_into_list(file_name):
     ''' get a file, containg a list of file, as input and return a
     python list object
@@ -76,6 +110,19 @@ def load_data_into_sqlite(excel_file):
         #print int(sheet.cell_value(row,1)), " --- ",int(sheet.cell_value(row,2)) ,"-----", int(sheet.cell_value(row,3))
     con.commit()
     con.close()  
+
+def query_db(DB_name,TB_name,begin_date,end_date):
+    ''' qeury a DB based on datetime range, can be further abstracted top be used in diff
+    scenarios'''
+    try:
+        connection = sql.connect(DB_name)
+    except:
+        print "DB connection problem", DB_name
+    cursor = connection.cursor()
+    cursor.execute ("SELECT * from data where date >=:fecha_in and date<=:fecha_fin" ,{"fecha_in":begin_date,"fecha_fin":end_date})
+    connection.commit()
+    dataframe = __processCursor(cursor, dataframe=False)
+    return dataframe
    
 def set_date_time(year,day,minute):
     ''' receive numbers of days and find mothns and days

@@ -16,6 +16,21 @@ def central_difference(function,point,delta):
     delta= float(delta)    
     derivative = (function(point+delta/2)-function(point-delta/2))/(delta)
     return derivative
+
+def gradient_saturation(T):
+    ''' derivative of saturation pressure curve at point T'''
+    return central_difference(saturated_pressure,T,0.1)
+
+def net_solar_ration(Is,Rs,K,LAI):
+    ''' return the net solar radiation as function of these inputs:
+        -
+        -
+        -
+        '''
+    Rn = 0
+    Rn = (Is-Rs)*(1-math.exp(-K*LAI))
+        
+    return Rn
     
 def saturated_pressure(T):
     ''' return the water vapour saturation pressure [Pa]
@@ -37,12 +52,13 @@ def saturated_pressure(T):
     return pws
 
 
+
 def transpiration_P_M():
     ''' apply the transpiration model of Pennman-Monteith (put reference
     to input data
     input data are:
-        Rn net solar radiation
-        delta gradient of the water saturation vapour pressure curve (kPa K−1)
+        Rn net solar radiation corresponding to function net_solar_radiatio(..)
+        delta gradient of the water saturation vapour pressure curve (kPa K−1) corresponding to gradient_saturation(T) 
         rho density of air (kg m−3)
         cp  specific heat of air (J kg−1 K−1)
         ra  canopy external, or aerodynamic resistance (s m−1)

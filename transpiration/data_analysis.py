@@ -19,3 +19,16 @@ C:\Users\dpiscia\.spyder2\.temp.py
 # check results
 
 
+from datetime import datetime
+import data_functions as df
+import model_functions as mf
+data_in = datetime(2010,6,17,6,0,0)
+data_fin = datetime(2010,6,18,5,55,0)
+dati = df.query_db('greenhouse.db','data',data_in,data_fin)
+Rn = mf.net_solar_ration(dati['rad_int_sup_solar'],dati['rad_int_inf_solar'],0.64,2.96)
+Rn_b = mf.net_solar_ration(dati['rad_int_sup_solar'],0,0.64,2.96)
+
+#check order - create uni test against one record file from excel
+
+#import data_functions as df
+#df.load_data_list('file_list.txt')

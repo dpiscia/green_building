@@ -43,6 +43,17 @@ def __processCursor(cur, dataframe=False, index=None):
         output = array
 
     return output    
+    
+def K_LAI(month):
+    K_LAI = (0.0,0.0)
+    if (month == 6):
+        K_LAI = (0.64,2.96)
+    else :
+        K_LAI = (0.64,3.98)
+    return K_LAI
+    
+        
+    
 def check_item_by_date(conn,cursor,data):
     ''' before of inserting new record into DB, 
     this function will check whether the primary key timeline is
@@ -81,6 +92,13 @@ def create_table():
     cur.execute("CREATE TABLE data(date timestamp PRIMARY KEY, t_rad_ext FLOAT, rad_ext FLOAT,t_rad_int FLOAT,rad_int_sup_solar FLOAT,rad_int_inf_solar FLOAT,rad_int_inf_term FLOAT,rad_int_sup_term FLOAT, temp_1 FLOAT,RH_1 FLOAT,temp_2 FLOAT,RH_2 FLOAT, thermo1 FLOAT,thermo2 FLOAT,SHF FLOAT,t_soil FLOAT,t_ext FLOAT,RH_ext FLOAT,time_balanca FLOAT,peso_balanca FLOAT)")
     con.close()     
    
+def load_data_list(file_name):
+    ''' get file with a list of name a load data'''
+    
+    list_file = convert_file_into_list(file_name)
+    for i in list_file:
+        load_data_into_sqlite(i)
+        
 def load_data_into_sqlite(excel_file):
     ''' read an excel sheet and load data directly into a sqlite DB,
      it can be adapted to other format, but chnges has to be consisten with 
@@ -100,7 +118,7 @@ def load_data_into_sqlite(excel_file):
              try:
                  cur.execute("INSERT INTO data values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (set_date_time(int(sheet.cell_value(row,1)),int(sheet.cell_value(row,2)),
                  int(sheet.cell_value(row,3))),float(sheet.cell_value(row,4)),float(sheet.cell_value(row,5))
-                 ,float(sheet.cell_value(row,6)),float(sheet.cell_value(row,8)),float(sheet.cell_value(row,9)),float(sheet.cell_value(row,7)),float(sheet.cell_value(row,10)),
+                 ,float(sheet.cell_value(row,6)),float(sheet.cell_value(row,7)),float(sheet.cell_value(row,8)),float(sheet.cell_value(row,9)),float(sheet.cell_value(row,10)),
                  float(sheet.cell_value(row,11)),float(sheet.cell_value(row,12)),float(sheet.cell_value(row,13)),float(sheet.cell_value(row,14)),
                  float(sheet.cell_value(row,17)),float(sheet.cell_value(row,18)),float(sheet.cell_value(row,19)),float(sheet.cell_value(row,23)),
                  float(sheet.cell_value(row,24)),float(sheet.cell_value(row,25)),float(sheet.cell_value(row,26)),float(sheet.cell_value(row,27))))
@@ -110,6 +128,9 @@ def load_data_into_sqlite(excel_file):
         #print int(sheet.cell_value(row,1)), " --- ",int(sheet.cell_value(row,2)) ,"-----", int(sheet.cell_value(row,3))
     con.commit()
     con.close()  
+
+#def plot_one_variable(x_time,y_value):
+    
 
 def query_db(DB_name,TB_name,begin_date,end_date):
     ''' qeury a DB based on datetime range, can be further abstracted top be used in diff
@@ -154,7 +175,7 @@ def set_date_time(year,day,minute):
     return date
 
 
-    
+
    
 
 

@@ -28,6 +28,7 @@ dati = df.query_db('greenhouse.db','data',data_in,data_fin)
 Rn = mf.net_solar_ration(dati['rad_int_sup_solar'],dati['rad_int_inf_solar'],0.64,2.96)
 Rn_b = mf.net_solar_ration(dati['rad_int_sup_solar'],0,0.64,2.96)
 
+tra = mf.transpiration_P_M(dati['rad_int_sup_solar'],dati['rad_int_inf_solar'],0.64,2.96,((dati['temp_1']+dati['temp_2'])/2)+273.15,(dati['RH_1']+dati['RH_2'])/200)
 #check order - create uni test against one record file from excel
 
 #import data_functions as df

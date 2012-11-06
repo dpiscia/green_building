@@ -44,13 +44,7 @@ def __processCursor(cur, dataframe=False, index=None):
 
     return output    
     
-def K_LAI(month):
-    K_LAI = (0.0,0.0)
-    if (month == 6):
-        K_LAI = (0.64,2.96)
-    else :
-        K_LAI = (0.64,3.98)
-    return K_LAI
+
     
         
     

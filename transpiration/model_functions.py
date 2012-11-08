@@ -214,12 +214,15 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     __transpiration__= (Rn*delta+(rho*cp/ra)*(ea_sat-ea))/(delta+lambda_value*(1+rc/ra))  
     return __transpiration__
     
-def transpiration_from_balance():
+def transpiration_from_balance(weight,time_diff,L):
     ''' based on weight lost, the function gives the approxmiate transpiration
     rate of the plant.
     inputs are:
-        -
-        -
+        -weight (kg)
+        -time_diff (s)
+        -L evaporization enthalpy (J kg^-1)
         '''
-    transpiration = 1
-    return transpiration
+        
+    __transpiration__ = 0
+    __transpiration__ = np.diff(weight)*L/time_diff
+    return __transpiration__

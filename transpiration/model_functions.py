@@ -80,6 +80,7 @@ def Gr(l,vi,T0,Ta):
     Beta = 1.0/T0
     __Gr__ = 0
     __Gr__ = g*Beta*pow(l,3)*abs(T0-Ta)/pow(vi,2)
+  
     return __Gr__
 
 
@@ -92,19 +93,20 @@ def heat_conductivity(T):
     __k__ = 7.8*pow(10,-5)*T+2.69*pow(10,-3)
     return __k__
     
-def internal_resistance(T,DPV,LAI):
+def internal_resistance(T,DPV,LAI,I_sol):
     ''' internal resistance:
     based on ri0 of ficus benjamina formula
     rint = r(T)*r(DPV)*ri/LAI stanghellini(1987,pag33)
     '''
     __rint__ = 0
-    Iq = 1400 #(microE m^-2  s^-1)
-    ri0 = 46 + 54500/(55+Iq)
+    #Iq = 1400 #(microE m^-2  s^-1)
+    ri0 = 46 + 54500/(55+I_sol/0.463)
     r_T = (5*np.exp(-0.15*(T-270)))+(1.7/(314-T))+(0.85)
     r_DPV = 0.005*np.exp(1.1*DPV/1000)+1
     print r_DPV
-    __rint__ = r_T*r_DPV*ri0/LAI
-    #__rint__ = ri0/LAI
+    print "ri0 ", ri0
+    #__rint__ = r_T*r_DPV*ri0/LAI
+    __rint__ = ri0/LAI
     return __rint__
     
 def lambda_constant(T):
@@ -186,25 +188,28 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     '''
     u = 0.5
     l = 0.05
-    T0 = 280
-    vi = pow(10,-6)
+    T0 = T-2
+    vi = 1.51*pow(10,-5)
     Rn = net_solar_radiation(Is,Rs,K,LAI)
     delta = gradient_saturation(T)
     rho = density_regression(T)
     cp = specific_heat_capacity_air()
-    ra = external_resistance(rho,cp,LAI,convective_coeff(heat_conductivity(T),l,Gr(l,u,T0,T),Re(u,l,vi),0,3))
+    ra = external_resistance(rho,cp,LAI,convective_coeff(heat_conductivity(T),l,Gr(l,vi,T0,T),Re(u,l,vi),0,3))
     ea_sat = saturated_pressure(T)
     ea = saturated_pressure(T)*RH    
-    lambda_value = lambda_constant(T)
-    rc = internal_resistance(T,DPV(T,RH),LAI)
+    lambda_value = 66.27 #lambda_constant(T)
+    rc = internal_resistance(T,DPV(T,RH),LAI,Is)
     print "radiation", Rn
     print "delta", delta
-    print "rc", rc
-    print "ra" , ra
+    print "rc internal", rc
+    print "ra external" , ra
     print "convective_coeff(heat_conductivity(T),l,Gr(l,u,T0,T)", convective_coeff(heat_conductivity(T),l,Gr(l,vi,T0,T),Re(u,l,vi),0,3)
     print "heat_conductivity(T)", heat_conductivity(T)
     print "Gr(l,u,T0,T)", Gr(l,vi,T0,T)
     print "Re(u,l,vi)", Re(u,l,vi)
+    print "ea sat", ea_sat
+    print "ea", ea
+    print "lambda_value", lambda_value
     __transpiration__ = 0
     __transpiration__= (Rn*delta+(rho*cp/ra)*(ea_sat-ea))/(delta+lambda_value*(1+rc/ra))  
     return __transpiration__

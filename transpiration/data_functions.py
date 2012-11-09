@@ -45,7 +45,27 @@ def __processCursor(cur, dataframe=False, index=None):
     return output    
     
 
-    
+def avg(data,lista_fin,time_avg):
+    ''' average half hour,
+    inputs:
+        -data
+        -time items
+        -6 average of half-hour
+        -12 hour average'''
+    iterator = 0
+    value_avg = []
+    time_list = []
+    avg = 0
+    for i in range(len(lista_fin)-1):
+        iterator = iterator +1
+        avg = avg + data[i]
+        if (lista_fin[i]-lista_fin[i+1] > 1 or iterator == time_avg):
+            print "end cycle"
+            value_avg.append(avg/iterator)
+            time_list.append(lista_fin[i])
+            iterator = 0
+            avg = 0
+    return value_avg,time_list    
         
     
 def check_item_by_date(conn,cursor,data):

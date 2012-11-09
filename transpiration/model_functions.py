@@ -66,6 +66,8 @@ def external_resistance(rho,cp,LAI,h):
     '''
     __ra__ = 0
     __ra__ = rho*cp/(2*LAI*h)
+    print "__ra__", __ra__
+    print "h" , h
     return __ra__
     
 def find_irrigation_point(delta_peso,tempo):
@@ -122,9 +124,9 @@ def internal_resistance(T,DPV,LAI,I_sol):
     ri0 = 46 + 54500/(55+I_sol/0.463)
     r_T = (5*np.exp(-0.15*(T-270)))+(1.7/(314-T))+(0.85)
     r_DPV = 0.005*np.exp(1.1*DPV/1000)+1
-#    print r_DPV
-#    print "ri0 ", ri0
-    #__rint__ = r_T*r_DPV*ri0/LAI
+
+    print "__rint__ with formulas", r_T*r_DPV*ri0/LAI
+    print "__rint__ no formulas", ri0/LAI
     __rint__ = ri0/LAI
     return __rint__
     
@@ -214,7 +216,7 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
         rc internal resistance of the leaf canopy to the transfer of water vapour (s m−1) corr. to internal_resistance(T,DPV,LAI)
         -
     '''
-    u = 0.5
+    u = 0.2
     l = 0.05
     T0 = T-2
     vi = 1.51*pow(10,-5)
@@ -227,14 +229,15 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     ea = saturated_pressure(T)*RH    
     lambda_value = 66.27 #lambda_constant(T)
     rc = internal_resistance(T,DPV(T,RH),LAI,Is)
+    rc = 216
 #    print "radiation", Rn
 #    print "delta", delta
 #    print "rc internal", rc
 #    print "ra external" , ra
 #    print "convective_coeff(heat_conductivity(T),l,Gr(l,u,T0,T)", convective_coeff(heat_conductivity(T),l,Gr(l,vi,T0,T),Re(u,l,vi),0,3)
 #    print "heat_conductivity(T)", heat_conductivity(T)
-#    print "Gr(l,u,T0,T)", Gr(l,vi,T0,T)
-#    print "Re(u,l,vi)", Re(u,l,vi)
+    print "Gr(l,u,T0,T)", Gr(l,vi,T0,T)
+    print "Re(u,l,vi)", Re(u,l,vi)
 #    print "ea sat", ea_sat
 #    print "ea", ea
 #    print "lambda_value", lambda_value

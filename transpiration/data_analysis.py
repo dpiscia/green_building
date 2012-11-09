@@ -24,8 +24,8 @@ import data_functions as df
 import model_functions as mf
 import data_plot
 import numpy as np
-data_in = datetime(2010,6,22,6,00,0)
-data_fin = datetime(2010,6,25,6,00,0)
+data_in = datetime(2010,6,22,10,00,0)
+data_fin = datetime(2010,6,22,10,05,0)
 dati = df.query_db('greenhouse.db','data',data_in,data_fin)
 #Rn = mf.net_solar_ration(dati['rad_int_sup_solar'],dati['rad_int_inf_solar'],0.64,2.96)
 #Rn_b = mf.net_solar_ration(dati['rad_int_sup_solar'],0,0.64,2.96)
@@ -45,28 +45,8 @@ tran_weight = mf.transpiration_from_balance_irr(dati['peso_balanca'],300,2260000
 lista_fin = mf.lista_mod(lista,lista_in)
 #data_plot.plot_time_data_2_y_axis(dati['data'][lista_fin],tra_P_M[lista_fin],'tra Penman',tran_weight,'trans weight')
 
-def avg(data,lista_fin,time_avg):
-    ''' average half hour,
-    inputs:
-        -data
-        -time items
-        -6 average of half-hour
-        -12 hour average'''
-    iterator = 0
-    value_avg = []
-    time_list = []
-    avg = 0
-    for i in range(len(lista_fin)-1):
-        iterator = iterator +1
-        avg = avg + data[i]
-        if (lista_fin[i]-lista_fin[i+1] > 1 or iterator == time_avg):
-            print "end cycle"
-            value_avg.append(avg/iterator)
-            time_list.append(lista_fin[i])
-            iterator = 0
-            avg = 0
-    return value_avg,time_list
+
     
-tra_P_M_avg,time_P_M = avg(tra_P_M[lista_fin],lista_fin,12)
-tra_weigh_avg,time_weight = avg(tran_weight,lista_fin,12)
-data_plot.plot_time_data_2_y_same_axis(dati['data'][time_P_M],tra_P_M_avg,'tra Penman',tra_weigh_avg,'trans weight')
+tra_P_M_avg,time_P_M = df.avg(tra_P_M[lista_fin],lista_fin,12)
+tra_weigh_avg,time_weight = df.avg(tran_weight,lista_fin,12)
+#data_plot.plot_time_data_2_y_same_axis(dati['data'][time_P_M],tra_P_M_avg,'tra Penman',tra_weigh_avg,'trans weight')

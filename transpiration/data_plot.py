@@ -78,3 +78,25 @@ def plot_time_data_2_y_axis(data,data_y1,label1,data_y2,label2):
     ax2.set_ylabel(label2, color='r')
     fig.autofmt_xdate()
     show()
+
+def plot_time_data_2_y_same_axis(data,data_y1,label1,data_y2,label2):
+    ''' plot 2 variables data series against detetime values, provide all datetime array
+    '''
+
+    print "date", data
+    date = data.astype(object)
+    dates= date2num(date)
+    fig = figure()
+    ax = fig.add_subplot(111)
+    ax.plot_date(dates, data_y1[0:len(dates)],'b-')
+    ax.set_xlim( dates[0], dates[-1] )
+    ax.xaxis.set_major_locator( DayLocator() )
+    ax.xaxis.set_minor_locator( MaxNLocator(nbins = 20, prune = 'lower'))
+    ax.xaxis.set_minor_formatter( DateFormatter('%H') )
+    ax.xaxis.set_major_formatter( DateFormatter('%Y-%m-%d') )
+    ax.set_ylabel(label1, color='b')
+    ax.fmt_xdata = DateFormatter('%Y-%m-%d %H:%M')
+    ax.plot_date(dates, data_y2[0:len(dates)],'r-')
+    
+    fig.autofmt_xdate()
+    show()

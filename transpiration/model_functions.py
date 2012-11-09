@@ -67,6 +67,25 @@ def external_resistance(rho,cp,LAI,h):
     __ra__ = 0
     __ra__ = rho*cp/(2*LAI*h)
     return __ra__
+    
+def find_irrigation_point(delta_peso,tempo):
+    ''' find irrigation point and drenage point by analazing delta weight'''
+    irr_dre_points = np.array([],dtype='datetime64')
+    lista = []
+    lista_in = []
+    for i in range(len(delta_peso)):
+        if (delta_peso[i] >= 0.1 ):
+            print "irrigation point", tempo[i], "delta is ", delta_peso[i]
+            #print "irrigation duration is"
+            irr_dre_points = np.append(irr_dre_points,tempo[i])
+            lista.append(i)
+        elif (delta_peso[i] <= -0.2):
+            print "drenage point", tempo[i] , "delta is ", delta_peso[i]
+            irr_dre_points = np.append(irr_dre_points,tempo[i])
+            lista.append(i)
+        else :
+            lista_in.append(i)
+    return irr_dre_points  , lista     , lista_in 
 
 def gradient_saturation(T):
     ''' derivative of saturation pressure curve at point T (K)'''
@@ -103,8 +122,8 @@ def internal_resistance(T,DPV,LAI,I_sol):
     ri0 = 46 + 54500/(55+I_sol/0.463)
     r_T = (5*np.exp(-0.15*(T-270)))+(1.7/(314-T))+(0.85)
     r_DPV = 0.005*np.exp(1.1*DPV/1000)+1
-    print r_DPV
-    print "ri0 ", ri0
+#    print r_DPV
+#    print "ri0 ", ri0
     #__rint__ = r_T*r_DPV*ri0/LAI
     __rint__ = ri0/LAI
     return __rint__
@@ -115,7 +134,16 @@ def lambda_constant(T):
     __lambda__ = 0
     __lambda__ = 0.646 + 0.00064*T
     return __lambda__
+
+def lista_mod(lista,lista_in):
+    ''' remove item preceding an irrigation point'''
+    lista_final = []
+    for i in (lista_in):
+        if not(i+1 in lista):
+            lista_final.append(i)
     
+    return lista_final
+   
 def K_LAI(month):
     K_LAI = (0.0,0.0)
     if (month == 6):
@@ -199,17 +227,17 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     ea = saturated_pressure(T)*RH    
     lambda_value = 66.27 #lambda_constant(T)
     rc = internal_resistance(T,DPV(T,RH),LAI,Is)
-    print "radiation", Rn
-    print "delta", delta
-    print "rc internal", rc
-    print "ra external" , ra
-    print "convective_coeff(heat_conductivity(T),l,Gr(l,u,T0,T)", convective_coeff(heat_conductivity(T),l,Gr(l,vi,T0,T),Re(u,l,vi),0,3)
-    print "heat_conductivity(T)", heat_conductivity(T)
-    print "Gr(l,u,T0,T)", Gr(l,vi,T0,T)
-    print "Re(u,l,vi)", Re(u,l,vi)
-    print "ea sat", ea_sat
-    print "ea", ea
-    print "lambda_value", lambda_value
+#    print "radiation", Rn
+#    print "delta", delta
+#    print "rc internal", rc
+#    print "ra external" , ra
+#    print "convective_coeff(heat_conductivity(T),l,Gr(l,u,T0,T)", convective_coeff(heat_conductivity(T),l,Gr(l,vi,T0,T),Re(u,l,vi),0,3)
+#    print "heat_conductivity(T)", heat_conductivity(T)
+#    print "Gr(l,u,T0,T)", Gr(l,vi,T0,T)
+#    print "Re(u,l,vi)", Re(u,l,vi)
+#    print "ea sat", ea_sat
+#    print "ea", ea
+#    print "lambda_value", lambda_value
     __transpiration__ = 0
     __transpiration__= (Rn*delta+(rho*cp/ra)*(ea_sat-ea))/(delta+lambda_value*(1+rc/ra))  
     return __transpiration__
@@ -226,3 +254,22 @@ def transpiration_from_balance(weight,time_diff,L):
     __transpiration__ = 0
     __transpiration__ = np.diff(weight)*L/time_diff
     return __transpiration__
+def transpiration_from_balance_irr(weight,time_diff,L,irrigation_list):
+    ''' based on weight lost, the function gives the approxmiate transpiration
+    rate of the plant.
+    inputs are:
+        -weight (kg)
+        -time_diff (s)
+        -L evaporization enthalpy (J kg^-1)
+        '''
+        
+
+    tran = []
+    #__transpiration__ = np.diff(weight)*L/time_diff
+    for i in range(len(weight)-1):
+        if ((i+1 in irrigation_list) or (i in irrigation_list) ):
+            print "irrigation point or drenage"
+        else:
+            tran.append((weight[i]-weight[i+1])*L/time_diff)
+    return tran
+    

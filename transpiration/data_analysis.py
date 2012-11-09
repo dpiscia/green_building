@@ -22,8 +22,10 @@ C:\Users\dpiscia\.spyder2\.temp.py
 from datetime import datetime
 import data_functions as df
 import model_functions as mf
-data_in = datetime(2010,6,18,10,40,0)
-data_fin = datetime(2010,6,18,18,00,0)
+import data_plot
+import numpy as np
+data_in = datetime(2010,6,22,6,00,0)
+data_fin = datetime(2010,6,23,6,00,0)
 dati = df.query_db('greenhouse.db','data',data_in,data_fin)
 #Rn = mf.net_solar_ration(dati['rad_int_sup_solar'],dati['rad_int_inf_solar'],0.64,2.96)
 #Rn_b = mf.net_solar_ration(dati['rad_int_sup_solar'],0,0.64,2.96)
@@ -32,5 +34,34 @@ tra_P_M = mf.transpiration_P_M(dati['rad_int_sup_solar'],dati['rad_int_inf_solar
 tra_weight = mf.transpiration_from_balance(dati['peso_balanca'],300,2260000)
 #check order - create uni test against one record file from excel
 
-#import data_functions as df
-#df.load_data_list('file_list.txt')
+#data_plot.plot_time_data_2(dati['data'],dati['peso_balanca'],'peso balanza')
+#data_plot.plot_time_data_2_y_axis(dati['data'],dati['peso_balanca'],'peso balanza',tra_P_M,'trans Penman')
+#data_plot.plot_time_data_2_y_axis(dati['data'][0:len(tra_weight)],-tra_weight,'trans weight',tra_P_M[0:len(tra_weight)],'trans Penman')
+#data_plot.plot_time_data_2_y_axis(dati['data'][0:len(tra_weight)],np.diff(dati['peso_balanca']),'delta weight',dati['peso_balanca'],'peso balanza')
+
+delta_peso = np.diff(dati['peso_balanca'])
+fr,lista,lista_in = mf.find_irrigation_point(delta_peso,dati['data'])
+tran_weight = mf.transpiration_from_balance_irr(dati['peso_balanca'],300,2260000,lista)   
+lista_fin = mf.lista_mod(lista,lista_in)
+#data_plot.plot_time_data_2_y_axis(dati['data'][lista_fin],tra_P_M[lista_fin],'tra Penman',tran_weight,'trans weight')
+
+def avg(data,lista_fin):
+    ''' average half hour'''
+    iterator = 0
+    value_avg = []
+    time_list = []
+    avg = 0
+    for i in range(len(lista_fin)-1):
+        iterator = iterator +1
+        avg = avg + data[i]
+        if (lista_fin[i]-lista_fin[i+1] > 1 or iterator == 6):
+            print "end cycle"
+            value_avg.append(avg/iterator)
+            time_list.append(lista_fin[i])
+            iterator = 0
+            avg = 0
+    return value_avg,time_list
+    
+tra_P_M_avg,time_P_M = avg(tra_P_M[lista_fin],lista_fin)
+tra_weigh_avg,time_weight = avg(tran_weight,lista_fin)
+data_plot.plot_time_data_2_y_axis(dati['data'][time_P_M],tra_P_M_avg,'tra Penman',tra_weigh_avg,'trans weight')

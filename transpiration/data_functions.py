@@ -56,7 +56,7 @@ def check_item_by_date(conn,cursor,data):
     conn.commit()
     row = cursor.fetchone()
     if (row <> None):
-        print "Error this daat is already inserted", data
+        print "Error this date is already inserted", data
         return True
     else:
         print "OK data record will be inserted", data

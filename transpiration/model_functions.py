@@ -129,7 +129,18 @@ def internal_resistance(T,DPV,LAI,I_sol):
     print "__rint__ no formulas", ri0/LAI
     __rint__ = ri0/LAI
     return __rint__
-    
+
+def internal_resistance_2(Sg,Ta,LAI):
+    ''' internal resistance based on work of Pollet(1999)
+    cited by Boulard and Wang(2002)
+    inputs:
+        Greenhouse solar radiation (W m-2)
+        Ta iar temperature (C)
+    '''
+    __rint__ = 0
+    __rint__=200*(31+Sg)*(1+0.016*pow((Ta-273.15)-16.4,2))/(6.7+Sg)
+    return __rint__/LAI
+
 def lambda_constant(T):
     ''' return psychometric constant as functionof T (K) 
     '''
@@ -164,6 +175,14 @@ def net_solar_radiation(Is,Rs,K,LAI):
     Rn = (Is-Rs)*(1-math.exp(-K*LAI))
         
     return Rn
+    
+def remove_no_solar_point(Is):
+    __lista__ = []
+    for i in range(len(Is)):
+        if Is[i] <=0:
+            __lista__.append(i)
+    return __lista__
+        
 def Re(u,l,vi):
     ''' 
     return Reynolds number, 
@@ -228,8 +247,8 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     ea_sat = saturated_pressure(T)
     ea = saturated_pressure(T)*RH    
     lambda_value = 66.27 #lambda_constant(T)
-    rc = internal_resistance(T,DPV(T,RH),LAI,Is)
-    rc = 216
+    #rc = internal_resistance(T,DPV(T,RH),LAI,Is)
+    rc = internal_resistance_2(Is,T,LAI)
 #    print "radiation", Rn
 #    print "delta", delta
 #    print "rc internal", rc
@@ -238,6 +257,7 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
 #    print "heat_conductivity(T)", heat_conductivity(T)
     print "Gr(l,u,T0,T)", Gr(l,vi,T0,T)
     print "Re(u,l,vi)", Re(u,l,vi)
+    print "ri", rc
 #    print "ea sat", ea_sat
 #    print "ea", ea
 #    print "lambda_value", lambda_value

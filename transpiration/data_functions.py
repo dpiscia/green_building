@@ -11,7 +11,7 @@ import csv
 import re
 import numpy as np
 import pandas
-
+import math
 
 def __processCursor(cur, dataframe=False, index=None):
     '''
@@ -158,7 +158,12 @@ def query_db(DB_name,TB_name,begin_date,end_date):
     connection.commit()
     dataframe = __processCursor(cursor, dataframe=False)
     return dataframe
-   
+
+def RMSE(x,y):
+    return math.pow(np.average(np.power(np.array(x)-np.array(y),2)),0.5)
+def RRMSE(RMSE,x):
+    return RMSE/np.average(np.array(x))
+    
 def set_date_time(year,day,minute):
     ''' receive numbers of days and find mothns and days
     receive minutes with no format and 

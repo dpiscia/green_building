@@ -148,11 +148,11 @@ def lambda_constant(T):
     __lambda__ = 0.646 + 0.00064*T
     return __lambda__
 
-def lista_mod(lista,lista_in):
-    ''' remove item preceding an irrigation point'''
+def lista_mod(max_value,lista_in):
+    ''' return list with valid point'''
     lista_final = []
-    for i in (lista_in):
-        if not(i+1 in lista):
+    for i in range(0,max_value):
+        if not(i in lista_in):
             lista_final.append(i)
     
     return lista_final
@@ -176,10 +176,10 @@ def net_solar_radiation(Is,Rs,K,LAI):
         
     return Rn
     
-def remove_no_solar_point(Is):
+def remove_no_solar_point(Is,value):
     __lista__ = []
     for i in range(len(Is)):
-        if Is[i] <=0:
+        if Is[i] <= value:
             __lista__.append(i)
     return __lista__
         
@@ -286,13 +286,15 @@ def transpiration_from_balance_irr(weight,time_diff,L,irrigation_list):
         -L evaporization enthalpy (J kg^-1)
         '''
         
-
+    lista = []
     tran = []
     #__transpiration__ = np.diff(weight)*L/time_diff
     for i in range(len(weight)-1):
         if ((i+1 in irrigation_list) or (i in irrigation_list) ):
             print "irrigation point or drenage"
+            tran.append(0)
         else:
             tran.append((weight[i]-weight[i+1])*L/time_diff)
-    return tran
+            lista.append(i)
+    return tran,lista
     

@@ -45,7 +45,7 @@ def __processCursor(cur, dataframe=False, index=None):
     return output    
     
 
-def avg(data,lista_fin,time_avg):
+def avg(data,lista,time_avg):
     ''' average half hour,
     inputs:
         -data
@@ -56,13 +56,20 @@ def avg(data,lista_fin,time_avg):
     value_avg = []
     time_list = []
     avg = 0
-    for i in range(len(lista_fin)-1):
+    for iterat,value  in enumerate(lista[:-1]):
         iterator = iterator +1
-        avg = avg + data[i]
-        if (lista_fin[i]-lista_fin[i+1] > 1 or iterator == time_avg):
-            print "end cycle"
+        
+        avg = avg + data[value]
+        print "avergae", avg
+        print "i ,", iterat
+        print "lista[i+1]", lista[iterat+1]
+        if (lista[iterat+1]-lista[iterat] > 1 or iterator == time_avg ):
+            print "end cycle iterator", iterator
+            
             value_avg.append(avg/iterator)
-            time_list.append(lista_fin[i])
+            time_list.append(value)
+            print "value_Avg", avg/iterator
+            #raw_input("Press Enter to continue...")
             iterator = 0
             avg = 0
     return value_avg,time_list    

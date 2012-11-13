@@ -12,7 +12,7 @@ import re
 import numpy as np
 import pandas
 import math
-
+import matplotlib.pyplot as plt
 def __processCursor(cur, dataframe=False, index=None):
     '''
     Processes a database cursor with data on it into either
@@ -62,7 +62,7 @@ def avg(data,lista,time_avg):
         avg = avg + data[value]
         print "avergae", avg
         print "i ,", iterat
-        print "lista[i+1]", lista[iterat+1]
+        print "lista[i+1]", lista[iterat+1] ,"iterator ", iterator
         if (lista[iterat+1]-lista[iterat] > 1 or iterator == time_avg ):
             print "end cycle iterator", iterator
             
@@ -119,6 +119,20 @@ def load_data_list(file_name):
     list_file = convert_file_into_list(file_name)
     for i in list_file:
         load_data_into_sqlite(i)
+
+def linear_reg(x,y,plot):
+    ''' linera regression of matrix against y
+    y = mx +c
+    y = Ab
+    '''
+    A = np.vstack([x, np.ones(len(x))]).T
+    model, resid = np.linalg.lstsq(A, y)[:2]
+    if plot:
+        plt.plot(x, y, 'o', label='Original data', markersize=5)
+        plt.plot(x, model[0]*x + model[1], 'r', label='Fitted line')
+        plt.legend()
+        plt.show()
+    return model,(1 - resid / (y.size * y.var()))
         
 def load_data_into_sqlite(excel_file):
     ''' read an excel sheet and load data directly into a sqlite DB,

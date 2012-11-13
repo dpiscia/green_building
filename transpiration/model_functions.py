@@ -296,5 +296,5 @@ def transpiration_from_balance_irr(weight,time_diff,L,irrigation_list):
         else:
             tran.append((weight[i]-weight[i+1])*L/time_diff)
             lista.append(i)
-    return tran,lista
+    return np.array(tran),lista
     

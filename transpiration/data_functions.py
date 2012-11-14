@@ -89,6 +89,36 @@ def avg(data,lista,time_avg):
             avg = 0
     return value_avg,time_list    
         
+def avg2(data,lista,time_avg):
+    ''' average half hour,
+    inputs:
+        -data
+        -time items
+        -6 average of half-hour
+        -12 hour average'''
+    iterator = 0
+    value_avg = []
+    time_list = []
+    avg = 0
+    for iterat,value  in enumerate(lista[:-1]):
+        iterator = iterator +1
+        
+        avg = avg + data[value]
+        print "avergae", avg
+        print "i ,", iterat , "data value ", data[value]
+        print "lista[i+1]", lista[iterat+1] ,"iterator ", iterator
+        if (lista[iterat+1]-lista[iterat] > 1 or iterator == time_avg ):
+            print "end cycle iterator", iterator
+            if (iterator == time_avg):
+                value_avg.append(avg/iterator)
+                time_list.append(value)
+                print "value_Avg", avg/iterator 
+                print " "
+                
+            iterator = 0
+            avg = 0
+            #raw_input("Press Enter to continue...")
+    return value_avg,time_list    
     
 def check_item_by_date(conn,cursor,data):
     ''' before of inserting new record into DB, 

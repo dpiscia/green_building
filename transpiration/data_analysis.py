@@ -26,7 +26,7 @@ import data_plot
 import numpy as np
 
 data_in = datetime(2010,6,24,8,00,0)
-data_fin = datetime(2010,6,24,18,00,0)
+data_fin = datetime(2010,6,24,19,00,0)
 dati = df.query_db('greenhouse.db','data',data_in,data_fin)
 
 
@@ -43,16 +43,15 @@ lista_no = list(set(lista_irr+ lista_night))
 
 tran_weight,lista_yes = mf.transpiration_from_balance_irr(dati['peso_balanca'],300,2260000,lista_no) 
 min_avg = 6 
-tra_weigh_avg,time_weight = df.avg(tran_weight,lista_yes,min_avg)
-tra_P_M_avg,time_P_M = df.avg(tra_P_M,lista_yes,min_avg)
+tra_weigh_avg,time_weight = df.avg2(tran_weight,lista_yes,min_avg)
+tra_P_M_avg,time_P_M = df.avg2(tra_P_M,lista_yes,min_avg)
 
 data_plot.plot_time_data_2_y_same_axis(dati['data'][time_P_M],tra_P_M_avg,'tra Penman',tra_weigh_avg,'trans weight')
 RMSE = df.RMSE(tra_P_M_avg,tra_weigh_avg)
 print "RMSE is", RMSE
 print "RRMSE is", df.RRMSE(RMSE,tra_weigh_avg)
 
-data_plot.plot_time_data_2(dati['data'],dati['peso_balanca'],'peso')
-data_plot.plot_time_data_2(dati['data'],dati['peso_balanca'],'peso')
+
 #def work_2():
 #    data_in = datetime(2010,6,21,8,00,0)
 #    data_fin = datetime(2010,6,26,8,00,0)

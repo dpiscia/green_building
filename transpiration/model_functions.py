@@ -76,7 +76,7 @@ def find_irrigation_point(delta_peso,tempo):
     lista = []
     lista_in = []
     for i in range(len(delta_peso)):
-        if (delta_peso[i] >= 0.1 ):
+        if (delta_peso[i] >= 0 ):
             print "irrigation point", tempo[i], "delta is ", delta_peso[i]
             #print "irrigation duration is"
             irr_dre_points = np.append(irr_dre_points,tempo[i])
@@ -290,7 +290,7 @@ def transpiration_from_balance_irr(weight,time_diff,L,irrigation_list):
     tran = []
     #__transpiration__ = np.diff(weight)*L/time_diff
     for i in range(len(weight)-1):
-        if ((i+1 in irrigation_list) or (i in irrigation_list) ):
+        if ( (i in irrigation_list) ):
             print "irrigation point or drenage"
             tran.append(0)
         else:

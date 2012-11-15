@@ -117,7 +117,7 @@ def avg2(data,lista,time_avg):
                 
             iterator = 0
             avg = 0
-            raw_input("Press Enter to continue...")
+            #raw_input("Press Enter to continue...")
     return value_avg,time_list    
     
 def check_item_by_date(conn,cursor,data):

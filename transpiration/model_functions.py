@@ -141,6 +141,16 @@ def internal_resistance_2(Sg,Ta,LAI):
     __rint__=200*(31+Sg)*(1+0.016*pow((Ta-273.15)-16.4,2))/(6.7+Sg)
     return __rint__/LAI
 
+def internal_resistance_3(Is,LAI):
+    ''' internal resistance according to Flux'''
+    __rint__ = 0
+    g_max= 0.011
+    P = 216
+    f = 0
+    g = (1-f)*g_max/(1+(1-f)*P/(2.02*Is))
+    __rint__ = 1/g
+    return __rint__/LAI
+
 def lambda_constant(T):
     ''' return psychometric constant as functionof T (K) 
     '''
@@ -247,9 +257,11 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     ea_sat = saturated_pressure(T)
     ea = saturated_pressure(T)*RH    
     lambda_value = 66.27 #lambda_constant(T)
-    rc = internal_resistance(T,DPV(T,RH),LAI,Is)*3
-    #rc = internal_resistance_2(Is,T,LAI)
-#    print "radiation", Rn
+    rc = internal_resistance(T,DPV(T,RH),LAI,Is)
+    rc = internal_resistance_3(Is,LAI)
+    print rc
+    raw_input("DD")
+    #    print "radiation", Rn
 #    print "delta", delta
 #    print "rc internal", rc
 #    print "ra external" , ra

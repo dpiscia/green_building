@@ -13,8 +13,9 @@ import data_plot
 import numpy as np
 import pylab
 
-data_in = datetime(2010,6,28,8,00,0)
-data_fin = datetime(2010,6,29,8,00,0)
+data_in = datetime(2010,6,24,8,00,0)
+data_fin = datetime(2010,6,24,22,00,0)
+#np.concatenate((dati,dati2))
 dati = df.query_db('greenhouse.db','data',data_in,data_fin)
 Is = dati['rad_int_sup_solar']
 lista_to_filter = df.smooht_Is(Is)

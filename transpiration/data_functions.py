@@ -117,7 +117,7 @@ def avg2(data,lista,time_avg):
                 
             iterator = 0
             avg = 0
-            #raw_input("Press Enter to continue...")
+            raw_input("Press Enter to continue...")
     return value_avg,time_list    
     
 def check_item_by_date(conn,cursor,data):
@@ -318,6 +318,38 @@ def set_date_time(year,day,minute):
 
 
 
-   
+def smooht_Is(Is):
+    ''' remove the first radiation peak
+    due to the greenhouse frame reflection
+    '''
+    lista = []
+    pass_card = False
+    deltaIs = np.diff(Is)/Is[0:-1]
+    for i,value in enumerate(deltaIs):
+        print "value ",value," pass_Card ", pass_card
+        print "(value <-0.4 and pass_card)", (value <-0.4 and pass_card)
+        if (value <-0.4 and pass_card):
+            lista.append(i)
+            pass_card = not False
+            #print "i", i
+            break
+            #raw_input("ee")
+        if (value>0.5 or pass_card):
+            lista.append(i+1)
+            pass_card = True
+            #print "i", i
+            
+            #raw_input("firs if")
+
+    return list(set(lista))
+    
+def smooth_value(Is,lista):
+    Is_copy = np.copy(Is)
+    delta = (Is_copy[max(lista)+1]-Is_copy[min(lista)-1])/len(lista)
+    print "delta", delta
+    for i,value in enumerate(lista):
+        
+        Is_copy[value] = Is_copy[value-1]+delta
+    return Is_copy
 
 

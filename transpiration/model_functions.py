@@ -247,7 +247,7 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     ea_sat = saturated_pressure(T)
     ea = saturated_pressure(T)*RH    
     lambda_value = 66.27 #lambda_constant(T)
-    rc = internal_resistance(T,DPV(T,RH),LAI,Is)
+    rc = internal_resistance(T,DPV(T,RH),LAI,Is)*3
     #rc = internal_resistance_2(Is,T,LAI)
 #    print "radiation", Rn
 #    print "delta", delta

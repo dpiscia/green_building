@@ -146,7 +146,7 @@ def internal_resistance_3(Is,LAI):
     __rint__ = 0
     g_max= 0.011
     P = 216
-    f = 0
+    f = 0.0
     g = (1-f)*g_max/(1+(1-f)*P/(2.02*Is))
     __rint__ = 1/g
     return __rint__/LAI
@@ -257,7 +257,7 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     ea_sat = saturated_pressure(T)
     ea = saturated_pressure(T)*RH    
     lambda_value = 66.27 #lambda_constant(T)
-    rc = internal_resistance(T,DPV(T,RH),LAI,Is)
+    #rc = internal_resistance(T,DPV(T,RH),LAI,Is)
     rc = internal_resistance_3(Is,LAI)
     print rc
     raw_input("DD")

@@ -58,7 +58,7 @@ def avg_(data,step):
             iterator = 0
         elif (i == len(data)-1):
             lista.append(average/step)
-    return lista
+    return np.array(lista)
 
 def avg(data,lista,time_avg):
     ''' average half hour,
@@ -118,7 +118,7 @@ def avg2(data,lista,time_avg):
             iterator = 0
             avg = 0
             #raw_input("Press Enter to continue...")
-    return value_avg,time_list    
+    return np.array(value_avg),time_list    
     
 def check_item_by_date(conn,cursor,data):
     ''' before of inserting new record into DB, 
@@ -186,6 +186,7 @@ def linear_reg(x,y,plot):
     A = np.vstack([x, np.ones(len(x))]).T
     model, resid = np.linalg.lstsq(A, y)[:2]
     if plot:
+ 
         plt.plot(x, y, 'o', label='Original data', markersize=5)
         plt.plot(x, model[0]*x + model[1], 'r', label='Fitted line')
         plt.legend()
@@ -283,8 +284,10 @@ def query_db(DB_name,TB_name,begin_date,end_date):
     return dataframe
 
 def RMSE(x,y):
+    ''' return root mean square error'''
     return math.pow(np.average(np.power(np.array(x)-np.array(y),2)),0.5)
 def RRMSE(RMSE,x):
+    ''' return relative root mean square error'''
     return RMSE/np.average(np.array(x))
     
 def set_date_time(year,day,minute):
@@ -324,26 +327,27 @@ def smooht_Is(Is):
     '''
     lista = []
     pass_card = False
-    deltaIs = np.diff(Is)/Is[0:-1]
+    deltaIs = np.diff(Is)
     for i,value in enumerate(deltaIs):
         print "value ",value," pass_Card ", pass_card
         print "(value <-0.4 and pass_card)", (value <-0.4 and pass_card)
-        if (value <-0.4 and pass_card):
+        if (value <-250 and pass_card):
             lista.append(i)
-            pass_card = not False
-            #print "i", i
-            break
+            pass_card =  False
+            print "i", i
+            #break
             #raw_input("ee")
-        if (value>0.5 or pass_card):
+        if (value>250 or pass_card):
             lista.append(i+1)
             pass_card = True
-            #print "i", i
+            print "i", i
             
             #raw_input("firs if")
 
-    return list(set(lista))
+    return set(lista)
     
 def smooth_value(Is,lista):
+    ''' smooth point in the list'''
     Is_copy = np.copy(Is)
     delta = (Is_copy[max(lista)+1]-Is_copy[min(lista)-1])/len(lista)
     print "delta", delta

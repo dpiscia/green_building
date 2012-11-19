@@ -15,6 +15,9 @@ class zone:
          print "folder passed is ", folder
          self.folder = folder
          self.geometry = fg.geometry(self.folder)
+         self.elements = fg.dictionary_set()
+         self.view_factor, self.areas = fg.view_factor(self.geometry)
+         
          # geometry instead of being populated by aschii file can be created
          #by chosing from db
          

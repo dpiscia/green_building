@@ -29,7 +29,22 @@ class geometry:
                     print "error with line ", line
      
             f.close()
-            
+
+def dictionary_set():
+    ''' return the dictionary where element names are associated to number
+    i.e. elements['cover_out'] = 4'''
+    elements = {'cover_out':0}
+    elements['sky'] = 1
+    elements['ext_soil'] = 2
+    elements['sidewall_out'] = 3
+    elements['cover_in'] = 4
+    elements['sidewall_in'] = 5
+    elements['soil'] = 6
+    elements['SA*PO'] = 7
+    return elements
+
+def optic
+    
 def view_factor(geometry):
     """ calculate the view factor for given geometry
     calculate the areas of element                  """
@@ -116,6 +131,6 @@ def view_factor(geometry):
     F[0][1] = F[1][0] * area[1]/area[0]
     F[0][0] = 1 - F[0][1] - F[0][2] - F[0][3] - F[0][7]
 
-    return F,area
+    return np.array(F), np.array(area)
 
 #}

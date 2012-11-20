@@ -60,34 +60,7 @@ def avg_(data,step):
             lista.append(average/step)
     return np.array(lista)
 
-def avg(data,lista,time_avg):
-    ''' average half hour,
-    inputs:
-        -data
-        -time items
-        -6 average of half-hour
-        -12 hour average'''
-    iterator = 0
-    value_avg = []
-    time_list = []
-    avg = 0
-    for iterat,value  in enumerate(lista[:-1]):
-        iterator = iterator +1
-        
-        avg = avg + data[value]
-        print "avergae", avg
-        print "i ,", iterat , "data value ", data[value]
-        print "lista[i+1]", lista[iterat+1] ,"iterator ", iterator
-        if (lista[iterat+1]-lista[iterat] > 1 or iterator == time_avg ):
-            print "end cycle iterator", iterator
-            
-            value_avg.append(avg/iterator)
-            time_list.append(value)
-            print "value_Avg", avg/iterator
-            #raw_input("Press Enter to continue...")
-            iterator = 0
-            avg = 0
-    return value_avg,time_list    
+   
         
 def avg2(data,lista,time_avg):
     ''' average half hour,
@@ -215,9 +188,10 @@ def load_data_into_sqlite(excel_file):
                  ,float(sheet.cell_value(row,6)),float(sheet.cell_value(row,7)),float(sheet.cell_value(row,8)),float(sheet.cell_value(row,9)),float(sheet.cell_value(row,10)),
                  float(sheet.cell_value(row,11)),float(sheet.cell_value(row,12)),float(sheet.cell_value(row,13)),float(sheet.cell_value(row,14)),
                  float(sheet.cell_value(row,17)),float(sheet.cell_value(row,18)),float(sheet.cell_value(row,19)),float(sheet.cell_value(row,23)),
-                 float(sheet.cell_value(row,24)),float(sheet.cell_value(row,25)),float(sheet.cell_value(row,27)),float(sheet.cell_value(row,28))))
-             except :
+                 float(sheet.cell_value(row,24)),float(sheet.cell_value(row,25)),float(sheet.cell_value(row,26)),float(sheet.cell_value(row,27))))
+             except Exception, e:
                  print "error mistake in the record insertion  " 
+                 print e
         #print data_functions.set_date_time(int(sheet.cell_value(row,1)),int(sheet.cell_value(row,2)),int(sheet.cell_value(row,3)))
         #print int(sheet.cell_value(row,1)), " --- ",int(sheet.cell_value(row,2)) ,"-----", int(sheet.cell_value(row,3))
     con.commit()

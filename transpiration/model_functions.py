@@ -123,7 +123,7 @@ def internal_resistance(T,DPV,LAI,I_sol):
     #Iq = 1400 #(microE m^-2  s^-1)
     ri0 = 46 + 54500/(55+I_sol/0.463)
     r_T = (5*np.exp(-0.15*(T-270)))+(1.7/(314-T))+(0.85)
-    r_DPV = 0.005*np.exp(1.1*DPV/1000)+1
+    r_DPV = 0.05*np.exp(1.1*DPV/1000)+1
 
     print "__rint__ with formulas", r_T*r_DPV*ri0/LAI
     print "__rint__ no formulas", ri0/LAI
@@ -141,16 +141,58 @@ def internal_resistance_2(Sg,Ta,LAI):
     __rint__=200*(31+Sg)*(1+0.016*pow((Ta-273.15)-16.4,2))/(6.7+Sg)
     return __rint__/LAI
 
-def internal_resistance_3(Is,LAI):
-    ''' internal resistance according to Flux'''
+def internal_resistance_3(Is,LAI,DPV):
+    ''' internal resistance according to Fucs'''
     __rint__ = 0
     g_max= 0.011
     P = 216
     f = 0.0
+    r_DPV = 1
+    #r_DPV = 0.05*np.exp(1.1*DPV/1000)+1
+    print r_DPV
+    raw_input("S")
+
     g = (1-f)*g_max/(1+(1-f)*P/(2.02*Is))
-    __rint__ = 1/g
+    __rint__ = (1/g)*r_DPV
     return __rint__/LAI
 
+def internal_resistance_4(Is,LAI,DPV):
+    ''' internal resistance according to Jolliet bailey'''
+    __rint__ = 0
+
+    
+    #r_DPV = 0.05*np.exp(1.1*DPV/1000)+1
+    
+    raw_input("S")
+
+    g = 0.41*(1-0.66*(200/(Is+200))-0.22*(DPV/1000))
+    print g
+    __rint__ = (1/g)*10
+    print __rint__
+    raw_input("S ins")    
+    return __rint__
+    
+def internal_resistance_5(Is,LAI,gmin,gmax):
+    ''' internal resistance according to Montero Bailey
+    Is has to be converted into micromol m-2 -s / 2
+    gmin is the mimimun stomatal conductance
+    gmax is the maximun stomatal conductance'''
+    __rint__ = 0
+    Ilum = Is * 2
+    __rint__ = 1/(gmin+(gmax-gmin)*(2.27*Ilum)/(Ilum+1888))
+    return __rint__/LAI
+    
+    #r_DPV = 0.05*np.exp(1.1*DPV/1000)+1
+    
+    raw_input("S")
+
+    g = 0.41*(1-0.66*(200/(Is+200))-0.22*(DPV/1000))
+    print g
+    __rint__ = (1/g)*10
+    print __rint__
+    raw_input("S ins")    
+    return __rint__
+    
 def lambda_constant(T):
     ''' return psychometric constant as functionof T (K) 
     '''
@@ -258,8 +300,14 @@ def transpiration_P_M(Is,Rs,K,LAI,T,RH):
     ea = saturated_pressure(T)*RH    
     lambda_value = 66.27 #lambda_constant(T)
     #rc = internal_resistance(T,DPV(T,RH),LAI,Is)
-    rc = internal_resistance_3(Is,LAI)
-    print rc
+#    rc = internal_resistance_4(Is,LAI,DPV(T,RH))
+#    rc2 = internal_resistance_3(Is,LAI,DPV(T,RH))
+    rc = internal_resistance_5(Is,LAI,1/250.0,1/90.0)
+    for i in rc:
+         print i
+    raw_input("rc int")
+        
+    
     raw_input("DD")
     #    print "radiation", Rn
 #    print "delta", delta

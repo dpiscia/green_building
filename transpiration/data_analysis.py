@@ -28,7 +28,7 @@ def work_1():
     
     delta_peso = np.diff(dati['peso_balanca'])
     fr,lista_irr,lista_irr_free = mf.find_irrigation_point(delta_peso,dati['data'])
-    lista_night = mf.remove_no_solar_point(dati['rad_int_sup_solar'],20)
+    lista_night = mf.remove_no_solar_point(dati['rad_int_sup_solar'],50)
     
     
     lista_no = list(set(lista_irr+ lista_night))
@@ -62,12 +62,9 @@ def work_2():
     print R2
     data_plot.plot_time_data_2_y_same_axis(station_dati['data'][:-1],Is_station,'Is_station',Is_green,'greenhouse')
 
-
-
-    
-if (__name__=="__main__"):
+def work_3():
     data_in = datetime(2010,6,16,8,00,0)
-    data_fin = datetime(2010,6,16,22,00,0)  
+    data_fin = datetime(2010,6,16,8,05,0)  
     dati = df.query_db('greenhouse.db','data',data_in,data_fin)
     data_in = datetime(2010,6,18,8,00,0)
     data_fin = datetime(2010,6,18,22,00,0)  
@@ -88,6 +85,28 @@ if (__name__=="__main__"):
     delta_peso = np.diff(dati['peso_balanca'])
     fr,lista_irr,lista_irr_free = mf.find_irrigation_point(delta_peso,dati['data'])
     lista_night = mf.remove_no_solar_point(dati['rad_int_sup_solar'],20)
+    lista_no = list(set(lista_irr+ lista_night))
+    tran_weight,lista_yes = mf.transpiration_from_balance_irr(dati['peso_balanca'],300,2260000,lista_no)
+    min_avg = 6
+    tra_weigh_avg,time_weight = df.avg2(tran_weight,lista_yes,min_avg)
+    tra_P_M_avg,time_P_M = df.avg2(tra_P_M,lista_yes,min_avg)
+    a,r2 = df.linear_reg(tra_weigh_avg,tra_P_M_avg,True)
+    data_plot.plot_time_data_2_y_same_axis(dati['data'][time_P_M],tra_P_M_avg,"penman",tra_weigh_avg,"balancae")
+    print r2
+
+    
+if (__name__=="__main__"):
+    
+    data_in = datetime(2010,6,23,8,00,0)
+    data_fin = datetime(2010,6,24,22,05,0)  
+    dati = df.query_db('greenhouse.db','data',data_in,data_fin)
+    Is = dati['rad_int_sup_solar']
+    lista_to_filter = df.smooht_Is(Is)
+    Is_2 = df.smooth_value(Is,lista_to_filter)
+    tra_P_M = mf.transpiration_P_M(Is_2,dati['rad_int_inf_solar'],0.64,3.96,((dati['temp_1']+dati['temp_2'])/2)+273.15,(dati['RH_1']+dati['RH_2'])/200)
+    delta_peso = np.diff(dati['peso_balanca'])
+    fr,lista_irr,lista_irr_free = mf.find_irrigation_point(delta_peso,dati['data'])
+    lista_night = mf.remove_no_solar_point(dati['rad_int_sup_solar'],50)
     lista_no = list(set(lista_irr+ lista_night))
     tran_weight,lista_yes = mf.transpiration_from_balance_irr(dati['peso_balanca'],300,2260000,lista_no)
     min_avg = 6

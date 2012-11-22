@@ -61,20 +61,14 @@ def radiation_flux(T,qrad,Factor,j,g,e,tr,time):
     qrad[time][4]=j[time][4]-g[time][4]
     qrad[time][5]=j[time][5]-g[time][5]
     qrad[time][6]=j[time][6]-g[time][6]
-    print "rad", qrad[time]
-    print "j emitted", j[time]
-    print "g recibed", g[time]
-    #raw_input("radiaiotn")
+
 def qrad_flux(qrad,A,time):
     
     return np.sum(qrad[time][[4,5,6]]*A[[4,5,6]])
     
 def qconv_flux(qconv,A,alphas,time):
     
-    print "qconv 4", qconv[time][4] ,"Area ", A[4] , "alpha ", alphas[time][4]
-    print "qconv 5", qconv[time][5] ,"Area ", A[5] , "alpha ", alphas[time][5]
-    print "qconv 6", qconv[time][6] ,"Area ", A[6] , "alpha ", alphas[time][6]
-    print "sum",  qconv[time][4]*A[4]+qconv[time][5]*A[5]+qconv[time][6]*A[6]
+
     return np.sum(qconv[time][[4,5,6]]*A[[4,5,6]]) 
 def thermal_gain_air(cp,rho,Vol,T,deltaT,time):
     return cp*rho*Vol*(T[time][8]-T[time-1][8])/deltaT

@@ -6,7 +6,8 @@ This temporary script file is located here:
 /home/dpiscia/.spyder2/.temp.py
 """
 import functions_green as fg
-
+import optical_functions as of
+import geo_functions as gf
 import numpy as np
 
 class zone:
@@ -15,14 +16,14 @@ class zone:
          """ folder represents the folder where DB data files are located"""
          print "folder passed is ", folder
          self.folder = folder
-         self.geometry = fg.geometry(self.folder)
-         self.elements = fg.dictionary_set()
+         self.geometry = gf.geometry(self.folder)
+         self.elements = gf.dictionary_set()
          self.area = np.zeros(shape = (8))
          self.Vol = (self.geometry.properties['span_number']*(self.geometry.properties['span_width']*
                      self.geometry.properties['span_height'] + self.geometry.properties['cover_height']
                      *self.geometry.properties['span_width']/2))
          self.F = np.zeros(shape = (8, 8))
-         fg.view_factor(self.geometry, self.F, self.area, self.Vol)
+         of.view_factor(self.geometry, self.F, self.area, self.Vol)
          tran = [self.geometry.properties['tra_cover_out'],0.0,0.0,
                  self.geometry.properties['tra_sidewall_out'],
                  self.geometry.properties['tra_cover_in'],
@@ -31,7 +32,7 @@ class zone:
                  self.geometry.properties['emi_sidewall_out'],
                  self.geometry.properties['emi_cover_in'],
                  self.geometry.properties['emi_sidewall_in'],1.0,1.0]                 
-         self.tr, self.em, self.re = fg.optictal_prop(tran,emi)
+         self.tr, self.em, self.re = of.optictal_prop(tran,emi)
          if ((self.tr + self.em).any() > 1.0):
              print "error in optical properties"
          self.T = np.zeros(shape = (2,10))

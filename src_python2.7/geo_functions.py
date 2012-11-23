@@ -15,7 +15,7 @@ class geometry:
                    
         """
         try:
-            f = open(folder+'/green_in','r')
+            f = open(folder,'r')
         except IOError as e:
             print "I/O error({0}): {1}".format(e.errno, e.strerror)    
         else:            

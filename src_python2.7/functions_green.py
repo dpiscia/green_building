@@ -4,11 +4,11 @@ Created on Wed Oct 10 12:06:43 2012
 
 @author: dpiscia
 """
-import re
+
 import numpy as np
 import flux_functions as ff
 import math
-
+import ventilation as ve
 
 def set_initial_conditions(T_ins,T_cover,RH_in,T,RH,T_outside,g,sky_temp):
     # 0 inside,1 cover, 2 sidewall, 3 soil
@@ -77,6 +77,11 @@ def fluid_T_solver2(T,qconv,A,Vol,rho,cp,time,deltaT):
     + (rho *cp * Vol * T[time-1][8]/ deltaT) ) / 
     ((rho *cp * Vol / deltaT) ) ) 
 
+def fluid_T_solver3(T,qconv,A,Vol,rho,cp,ventilation,time,deltaT):
+    ''' compute air temperature based on energy loads and sinks'''
+    T[time][8]= (((qconv[time][4]*A[4] + qconv[time][5]*A[5]+qconv[time][6]*A[6])   
+    + (rho *cp * Vol * T[time-1][8]/ deltaT) + rho*cp*ventilation*T[time][9] ) / 
+    ((rho *cp * Vol / deltaT) + rho*cp*ventilation) ) 
 
    
               
@@ -88,11 +93,11 @@ def relax(T,T0,relax_f,time):
     T[time][[0,4,3,5,6,8]] = T0[0][[0,4,3,5,6,8]] + relax_f*(T[time][[0,4,3,5,6,8]]-T0[0][[0,4,3,5,6,8]])
     
 
-def check_convergence(T,T0,time):
+def check_convergence(T,T0,criteria,time):
     err_sum = np.sum(np.abs(T0[0][[4,5,6,8]]-T[time][[4,5,6,8]]))
     T0[0] = T[time]
     converged = False
-    if (err_sum < math.pow(10,-15)):
+    if (err_sum < criteria):
         converged = True
     return err_sum,converged
 
@@ -101,27 +106,28 @@ def increment_row(T,j,g,alphas,qrad,qconv):
             np.vstack((alphas,alphas[-1])), np.vstack((qrad,qrad[-1])), np.vstack((qconv,qconv[-1])))
 
     
-def solver_T(T,qrad,qconv,alphas,j,g,e,tr,u,view_factor,qcond,timestep,nr_timestep,A,rho,cp,Vol,deltaT):
+def solver_T(T,qrad,qconv,alphas,j,g,e,tr,u,view_factor,qcond,timestep,nr_timestep,A,rho,cp,Vol,degree_win,deltaT):
     ''' solver'''
     time_range = range(1,10)
-    
+    max_iter = 200
     T0 = np.zeros( shape=(1,10))
     T0[0] = 280
+    vent_rate = ve.ventilation(u,degree_win)
     for time in time_range:
         print "time is", time
         T[time] = T[time-1]
         
-        for i in range(1,200):
+        for i in range(1,max_iter):
             ff.radiation_flux(T,qrad,view_factor,j,g,e,tr,time)        
             ff.convective_coeff(T,u,alphas,time)
             ff.conv_flux(T,alphas,qconv,time)
             BC_cond_2(6,8,qcond,qrad,alphas,T,time)
             BC_conv_conv_2(4,0,9,8,alphas,qrad,T,time)
             BC_conv_conv_2(5,3,9,8,alphas,qrad,T,time)
-            fluid_T_solver2(T,qconv,A,Vol,rho,cp,time,deltaT)
+            fluid_T_solver3(T,qconv,A,Vol,rho,cp,vent_rate,time,deltaT)
             
             relax(T,T0,0.25,time)
-            sum_error,converged = check_convergence(T,T0,time)
+            sum_error,converged = check_convergence(T,T0,math.pow(10,-15),time)
             #print sum_error
             if converged:
                 if (time <> max(time_range)):

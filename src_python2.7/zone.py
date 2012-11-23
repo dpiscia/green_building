@@ -45,14 +45,16 @@ class zone:
          self.g = np.zeros(shape = (2,8))
          self.alpha = np.zeros(shape = (2,8))
          deltaT = 300
+         RH_in = 0.6
          fg.set_initial_conditions(self.geometry.properties['t_air_inside'],
-                                   278,
-                                   self.geometry.properties['RH_in'],self.T,self.RH , self.geometry.properties['t_air'],self.g,
-                                   self.geometry.properties['sky_temp'])
+         278,
+         RH_in,self.T,self.RH , self.geometry.properties['t_air'],self.g,
+         self.geometry.properties['sky_temp'])
          self.T, self.j, self.g, self.alpha, self.qrad, self.qconv = fg.solver_T(self.T,self.qrad,self.qconv,self.alpha,self.j,self.g,self.em,self.tr,
-                     self.geometry.properties['wind_speed']
-                     ,self.F,self.geometry.properties['heat_flux'],1,1.0,self.area,
-                    self.geometry.properties['rho'],self.geometry.properties['cp'],self.Vol,deltaT)
+         self.geometry.properties['wind_speed'],
+         self.F,self.geometry.properties['heat_flux'],1,1.0,self.area,
+         self.geometry.properties['rho'],self.geometry.properties['cp'],
+         self.Vol,self.geometry.properties['degree_window'],deltaT)
 
 if (__name__=="__main__"):
-    prova = zone('.')
+    prova = zone('.\green_in')

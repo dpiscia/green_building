@@ -34,10 +34,11 @@ def BC_cond_2(element,fluid_element,qcond,qrad,alphas,T,time):
     T[time][element] = ((qcond + alphas[time][element] *T[time][fluid_element] - qrad[time][element])
     /(alphas[time][element]))
     return T[time][element]
+    
 def BC_cond_3(qcond,qrad,alphas,T_fluid):
     from sympy import Eq, Symbol, solve
     Ti = Symbol('Ti')
-    eqn = Eq(qcond-qrad-alphas*(Ti-T_fluid))
+    eqn = Eq(qcond-qrad-alphas*(Ti-T_fluid),Ti)
     Ti = solve(eqn)
     return Ti
     
@@ -83,7 +84,11 @@ def fluid_T_solver3(T,qconv,A,Vol,rho,cp,ventilation,time,deltaT):
     + (rho *cp * Vol * T[time-1][8]/ deltaT) + rho*cp*ventilation*T[time][9] ) / 
     ((rho *cp * Vol / deltaT) + rho*cp*ventilation) ) 
 
-   
+def fluid_hum_solver(T,RH,qconv,A,Vol,rho,cp,ventilation,time,deltaT):
+    ''' compute air humdity based on humidity loads and sinks'''
+    T[time][8]= (((qconv[time][4]*A[4] + qconv[time][5]*A[5]+qconv[time][6]*A[6])   
+    + (rho *cp * Vol * T[time-1][8]/ deltaT) + rho*cp*ventilation*T[time][9] ) / 
+    ((rho *cp * Vol / deltaT) + rho*cp*ventilation) ) 
               
 def relax(T,T0,relax_f,time):
     ''' under relax temperature'''
@@ -136,4 +141,32 @@ def solver_T(T,qrad,qconv,alphas,j,g,e,tr,u,view_factor,qcond,timestep,nr_timest
                 
     return T, j, g, alphas, qrad, qconv
 
-
+def solver_T_hum(T,RH,qrad,qconv,alphas,j,g,e,tr,u,view_factor,qcond,timestep,nr_timestep,A,rho,cp,Vol,degree_win,deltaT):
+    ''' solver'''
+    time_range = range(1,10)
+    max_iter = 200
+    T0 = np.zeros( shape=(1,10))
+    T0[0] = 280
+    vent_rate = ve.ventilation(u,degree_win)
+    for time in time_range:
+        print "time is", time
+        T[time] = T[time-1]
+        
+        for i in range(1,max_iter):
+            ff.radiation_flux(T,qrad,view_factor,j,g,e,tr,time)        
+            ff.convective_coeff(T,u,alphas,time)
+            ff.conv_flux(T,alphas,qconv,time)
+            BC_cond_2(6,8,qcond,qrad,alphas,T,time)
+            BC_conv_conv_2(4,0,9,8,alphas,qrad,T,time)
+            BC_conv_conv_2(5,3,9,8,alphas,qrad,T,time)
+            fluid_T_solver3(T,qconv,A,Vol,rho,cp,vent_rate,time,deltaT)
+            
+            relax(T,T0,0.25,time)
+            sum_error,converged = check_convergence(T,T0,math.pow(10,-15),time)
+            #print sum_error
+            if converged:
+                if (time <> max(time_range)):
+                    T, j, g, alphas, qrad, qconv = increment_row(T, j, g, alphas, qrad, qconv)
+                break
+                
+    return T, j, g, alphas, qrad, qconv
